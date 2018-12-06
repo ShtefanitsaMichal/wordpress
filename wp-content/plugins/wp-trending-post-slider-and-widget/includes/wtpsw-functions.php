@@ -153,9 +153,9 @@ function wtpsw_get_unique() {
  * @package WP Trending Post Slider and Widget
  * @since 1.0.0
  */
-function wtpsw_get_post_excerpt( $post_id = null, $content = '', $word_length = '55', $more = '...' ) {
+function wtpsw_get_post_excerpt( $post_id = null, $content = '', $word_length = '35', $more = '...' ) {
 
-	$word_length = !empty($word_length) ? $word_length : '55';
+	$word_length = !empty($word_length) ? $word_length : '35';
 
 	// If post id is passed
 	if( !empty($post_id) ) {

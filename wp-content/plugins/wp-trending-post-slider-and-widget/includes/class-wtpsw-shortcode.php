@@ -137,6 +137,7 @@ class Wtpsw_Shortcode {
 		// Shortcode attributes
 		extract( shortcode_atts( array(	
 			'limit' 					=> 10,
+			'offset'					=> 1,
 			'post_type'					=> 'post',
 			'view_by'					=> 'views',
 			'order'						=> 'DESC',

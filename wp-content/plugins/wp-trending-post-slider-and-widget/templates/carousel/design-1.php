@@ -49,6 +49,7 @@
 
 	<?php
 		endwhile;
+		
 		wp_reset_postdata();	// Reset WP Query
 	?>
 </div>
