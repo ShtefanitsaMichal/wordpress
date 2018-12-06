@@ -41,7 +41,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
 					<?php } ?>
 
 					<?php if($showreadmore) { ?>
-						<a class="readmorebtn" href="<?php the_permalink(); ?>"><?php _e('Read More', 'wp-responsive-recent-post-slider'); ?></a>
+						<a class="readmorebtn" href="<?php the_permalink(); ?>"><?php _e('Czytaj więcej', 'wp-responsive-recent-post-slider'); ?></a>
 					<?php } ?>
 
 				</div>

@@ -25,14 +25,14 @@
 					<?php if($showdate == 'true' || $showauthor == 'true' || $show_comment_count == 'true') { ?>	
 					<div class="wtpsw-post-stats">
 						<?php if($showauthor == 'true') {
-							$wtpsw_post_stats[] = "<span>".__( 'przez', 'wtpsw' )." <a href='".get_author_posts_url( $post->author )."'>".get_the_author()."</a></span>";
+							$wtpsw_post_stats[] = "<span>".__( 'By', 'wtpsw' )." <a href='".get_author_posts_url( $post->author )."'>".get_the_author()."</a></span>";
 						} ?>
 
 						<?php if($showdate == "true") {
 							$wtpsw_post_stats[] = "<span>".get_the_date()."</span>";
 						} ?>
 
-						<?php if( $show_comment_count == "false" && $comment_text ) {
+						<?php if( $show_comment_count == "true" && $comment_text ) {
 							$wtpsw_post_stats[] = "<span class='wtpsw-post-comment'>".$comment_text."</span>";
 						} ?>
 

@@ -1,16 +1,16 @@
 <?php
 /**
  * Plugin Name: WP Responsive Recent Post Slider
- * Plugin URI: http://www.wponlinesupport.com/
+ * Plugin URI: https://www.wponlinesupport.com/plugins/
  * Text Domain: wp-responsive-recent-post-slider
  * Domain Path: /languages/
- * Description: Easy to add and display Recent Post Slider  
- * Author: WP Online Support
- * Version: 1.5
+ * Description: A quick, easy way to add and display Responsive WordPresss Recent Post Slider on your website with 4 designs using a shortcode. Also work with Gutenberg shortcode block. 
+ * Author: WP OnlineSupport
+ * Version: 2.0
  * Author URI: http://www.wponlinesupport.com/
  *
  * @package WordPress
- * @author WP Online Support
+ * @author WP OnlineSupport
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 if( !defined( 'WPRPS_VERSION' ) ) {
-	define( 'WPRPS_VERSION', '1.5' ); // Version of plugin
+	define( 'WPRPS_VERSION', '2.0' ); // Version of plugin
 }
 if( !defined( 'WPRPS_DIR' ) ) {
 	define( 'WPRPS_DIR', dirname( __FILE__ ) ); // Plugin dir

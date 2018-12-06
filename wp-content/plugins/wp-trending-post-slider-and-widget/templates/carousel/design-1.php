@@ -3,9 +3,7 @@
 	<?php while ($wtpsw_posts->have_posts()) : $wtpsw_posts->the_post();
 		
 		global $post;
-		
-		$post = $post; 
-			
+
 		$wtpsw_post_stats 	= array();
 		$post_id 			= isset($post->ID) ? $post->ID : '';
 		$comment_text 		= wtpsw_get_comments_number( $post->ID, $hide_empty_comment_count );
@@ -13,11 +11,7 @@
 
 	<div class="wtpsw-post-carousel-slides">	
 		<div class="wtpsw-medium-12 wtpswcolumns">
-			
-		<!-- Dodane przejsćie po kliknięciu -->
-			<a class="wtpsw-link-overlay" href="<?php the_permalink(); ?>"></a>
-		<!-- *** -->
-			
+
 			<div class="wtpsw-post-image-bg">
 				<?php the_post_thumbnail(array(500,500)); ?>
 			</div>
@@ -29,14 +23,14 @@
 			<?php if($showdate == 'true' || $showauthor == 'true' || $show_comment_count == 'true') { ?>	
 			<div class="wtpsw-post-stats">
 				<?php if($showauthor == 'true') {
-					$wtpsw_post_stats[] = "<span>".__( 'Przez', 'wtpsw' )." <b>".get_the_author()."</b></span>";
+					$wtpsw_post_stats[] = "<span>".__( 'By', 'wtpsw' )." <a href='".get_author_posts_url( $post->author )."'>".get_the_author()."</a></span>";
 				} ?>
 
 				<?php if($showdate == "true") {
 					$wtpsw_post_stats[] = "<span>".get_the_date()."</span>";
 				} ?>
 
-				<?php if( $show_comment_count == "false" && $comment_text ) {
+				<?php if( $show_comment_count == "true" && $comment_text ) {
 					$wtpsw_post_stats[] = "<span class='wtpsw-post-comment'>".$comment_text."</span>";
 				} ?>
 
