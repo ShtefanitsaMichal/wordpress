@@ -7,6 +7,7 @@
 		$wtpsw_post_stats 	= array();
 		$post_id 			= isset($post->ID) ? $post->ID : '';
 		$comment_text 		= wtpsw_get_comments_number( $post->ID, $hide_empty_comment_count );
+		$categories         = get_the_category();
 	?>
 
 	<div class="wtpsw-post-carousel-slides">	
@@ -16,21 +17,21 @@
 				<?php the_post_thumbnail(array(500,500)); ?>
 			</div>
 
-			<h4 class="wtpsw-post-title">
+			<h6 class="wtpsw-post-title">
 				<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-			</h4>
+			</h6>
 
 			<?php if($showdate == 'true' || $showauthor == 'true' || $show_comment_count == 'true') { ?>	
 			<div class="wtpsw-post-stats">
 				<?php if($showauthor == 'true') {
-					$wtpsw_post_stats[] = "<span>".__( 'By', 'wtpsw' )." <a href='".get_author_posts_url( $post->author )."'>".get_the_author()."</a></span>";
+					$wtpsw_post_stats[] = "<span>".__( 'Przez', 'wtpsw' )." <a href='".get_author_posts_url( $post->author )."'>".get_the_author()."</a> / " . esc_html( $categories[0]->name ) . "</span>";
 				} ?>
 
 				<?php if($showdate == "true") {
 					$wtpsw_post_stats[] = "<span>".get_the_date()."</span>";
 				} ?>
 
-				<?php if( $show_comment_count == "true" && $comment_text ) {
+				<?php if( $show_comment_count == "false" && $comment_text ) {
 					$wtpsw_post_stats[] = "<span class='wtpsw-post-comment'>".$comment_text."</span>";
 				} ?>
 
