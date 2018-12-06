@@ -1,0 +1,877 @@
+# Translation of Plugins - WP GDPR Compliance - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP GDPR Compliance - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-11 13:08:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP GDPR Compliance - Stable (latest release)\n"
+
+#: Includes/Ajax.php:44
+msgid "You're not allowed to manage this setting."
+msgstr "この設定を管理することは許可されていません。"
+
+#: Includes/Ajax.php:40
+msgid "You're not allowed to manage settings."
+msgstr "設定を管理することができません。"
+
+#: Includes/Ajax.php:196
+msgid "Missing token."
+msgstr "トークンがありません。"
+
+#: Includes/Integration.php:181 Includes/Integration.php:216
+msgid "Required message"
+msgstr "必要なメッセージ"
+
+#: Includes/Page.php:582
+msgid "Ticking this checkbox means this Consent will always be triggered so users cannot opt-in or opt-out."
+msgstr "このチェックボックスを選択すると、同意が常にトリガーされるため、ユーザーはオプトインまたはオプトアウトできません。"
+
+#: Includes/Page.php:246
+msgid "We think you might have a mail plugin installed."
+msgstr "メールプラグインがインストールされている可能性があります。"
+
+#: Includes/Integration.php:275
+msgid "You need to accept this checkbox."
+msgstr "このチェックボックスを受け入れる必要があります。"
+
+#: Includes/Page.php:249
+msgid "Do you know where you got your email database from? Did you ask all the people on your newsletter(s) if they consent to receiving it? GDPR requires that all of the people in your email software has given you explicit permission to mail them."
+msgstr "メールのデータベースの取得先を知っていますか？ニュースレターを受け取る人々に、受け取る同意を尋ねましたか？GDPR は、メールソフトに関わる全ての人に対して、メールを送信する明示的な許可が必要です。"
+
+#: Includes/Consent.php:272
+msgid "Do not wrap my code snippet"
+msgstr "コードスニペットをラップしない"
+
+#: Includes/Consent.php:271
+msgid "Wrap my code snippet with <script> tags"
+msgstr "<script> タグでコードスニペットをラップする"
+
+#: Includes/Page.php:530
+msgid "Code Wrap"
+msgstr "コードラップ"
+
+#: Includes/Helper.php:140
+msgid "Consent has been removed successfully."
+msgstr "同意が正常に削除されました。"
+
+#: Includes/Page.php:650
+msgid "Remove"
+msgstr "削除"
+
+#: Includes/Action.php:222
+msgid "Enable"
+msgstr "有効"
+
+#: Includes/Page.php:631 Includes/Action.php:183
+msgid "(no title)"
+msgstr "（タイトルなし）"
+
+#: Includes/Page.php:521
+msgid "Code Snippet"
+msgstr "コードスニペット"
+
+#: Includes/Page.php:516
+msgid "Describe your consent script as thoroughly as possible."
+msgstr "できるだけ徹底的にあなたの同意スクリプトを記述してください。"
+
+#: Includes/Page.php:507
+msgid "e.g. \"Google Analytics\" or \"Advertising\""
+msgstr "例えば 「Googleアナリティクス」または「広告」"
+
+#: Includes/Page.php:430
+msgid "Let your visitors re-access their settings by placing a link to the modal with the shortcode %s or add the \"%s\" class to a menu item."
+msgstr "ショートコード %s のモーダルへのリンクを置くか、メニュー項目に「%s」クラスを追加することで、訪問者を設定に再度アクセスさせることができます。"
+
+#: Includes/Page.php:423
+msgid "Your visitors can give permission to all of the created Consents (scripts) through a Consent bar at the bottom of their screen. There they can also access their personal settings to give or deny permission to individual Consents. Once their settings are saved the bar disappears for 365 days."
+msgstr "訪問者は、作成されたすべての同意（スクリプト）を、画面の下部にある同意バーから許可することができます。 また、個々の設定にアクセスして、同意を許可または拒否することもできます。 設定が保存されると、バーは365日間消えます。"
+
+#: Includes/Page.php:682
+msgid "No consents found."
+msgstr "同意は見つかりませんでした。"
+
+#: Includes/Page.php:645
+msgid "Edit"
+msgstr "編集"
+
+#: Includes/Page.php:614
+msgid "Created at"
+msgstr "作成日"
+
+#: Includes/Page.php:613
+msgid "Modified at"
+msgstr "変更日時"
+
+#: Includes/Page.php:610
+msgid "Consent"
+msgstr "同意"
+
+#: Includes/Page.php:604
+msgctxt "consent"
+msgid "Add New"
+msgstr "新規追加"
+
+#: Includes/Page.php:603
+msgid "Ask your visitors for permission to enable certain scripts for tracking or advertising purposes. Add a Consent for each type of script you are requesting permission for. Scripts will only be activated when permission is given."
+msgstr "トラッキングや広告目的で特定のスクリプトを有効にする許可を訪問者に依頼してください。 権限を要求しているスクリプトの種類ごとに同意を加えます。 スクリプトは、許可が与えられたときにのみアクティブ化されます。"
+
+#: Includes/Page.php:588
+msgid "Back to overview"
+msgstr "概要に戻る"
+
+#: Includes/Page.php:587
+msgid "Add"
+msgstr "追加"
+
+#: Includes/Page.php:587
+msgid "Update"
+msgstr "更新"
+
+#: Includes/Page.php:571
+msgid "Snippet will be added to the FOOTER section."
+msgstr "スニペットはフッターセクションに追加されます。"
+
+#: Includes/Page.php:566
+msgid "Snippet will be added to the HEAD section."
+msgstr "スニペットはヘッダーセクションに追加されます。"
+
+#: Includes/Page.php:547
+msgid "Placement"
+msgstr "配置"
+
+#: Includes/Page.php:525
+msgid "Code snippets for Google Analytics, Facebook Pixel, etc."
+msgstr "Google アナリティクス、Facebook Pixel などのスニペット"
+
+#: Includes/Page.php:512
+msgid "Description"
+msgstr "説明"
+
+#: Includes/Page.php:503 Includes/Page.php:611
+msgid "Title"
+msgstr "タイトル"
+
+#: Includes/Page.php:495
+msgid "Add New Consent"
+msgstr "新しい同意を追加"
+
+#: Includes/Page.php:454
+msgid "Modal: Explanation"
+msgstr "モーダル: 説明"
+
+#: Includes/Page.php:448
+msgid "Modal: Title"
+msgstr "モーダル: タイトル"
+
+#: Includes/Page.php:442
+msgid "Bar: Explanation"
+msgstr "バー: 説明"
+
+#: Includes/Page.php:63 Includes/Page.php:421
+msgid "Consents"
+msgstr "同意"
+
+#: Includes/Page.php:570 Includes/Consent.php:282
+msgid "Footer"
+msgstr "フッター"
+
+#: Includes/Page.php:565 Includes/Consent.php:281
+msgid "Head"
+msgstr "ヘッダー"
+
+#: Includes/Consent.php:55
+msgid "Privacy Settings"
+msgstr "プライバシー設定"
+
+#: Includes/Action.php:238
+msgid "Close modal"
+msgstr "モーダルを閉じる"
+
+#: Includes/Action.php:231
+msgid "Save my settings"
+msgstr "設定を保存する"
+
+#: Includes/Consent.php:81
+msgid "This site uses functional cookies and external scripts to improve your experience."
+msgstr "このサイトでは利便性の向上の為に、機能的なクッキーと外部スクリプトを使用しています。"
+
+#: Includes/Consent.php:68
+msgid "This site uses functional cookies and external scripts to improve your experience. Which cookies and scripts are used and how they impact your visit is specified on the left. You may change your settings at any time. Your choices will not impact your visit."
+msgstr "このサイトでは利便性の向上の為に、機能的なクッキーと外部スクリプトを使用しています。どのクッキーとスクリプトが使用され、どのように訪問に影響を与えるかを左に示します。設定はいつでも変更できます。あなたの選択はサイトへの訪問に悪い影響を与えません。"
+
+#: Includes/Action.php:197
+msgid "These settings will only apply to the browser and device you are currently using."
+msgstr "これらの設定は、現在使用しているブラウザとデバイスにのみ適用されます。"
+
+#: Includes/Action.php:158
+msgid "Accept"
+msgstr "同意します"
+
+#: Includes/Helper.php:144
+msgid "Couldn't find this consent."
+msgstr "この同意を見つけることができませんでした。"
+
+#: Includes/Helper.php:137
+msgid "Consent has been added successfully."
+msgstr "同意が正常に追加されました。"
+
+#: Includes/Page.php:433 Includes/Shortcode.php:160 Includes/Action.php:152
+msgid "My settings"
+msgstr "設定"
+
+#: Includes/Helper.php:134
+msgid "Consent has been updated successfully."
+msgstr "同意が正常に更新されました。"
+
+#: Includes/Shortcode.php:140
+msgid "Send"
+msgstr "送信"
+
+#: Includes/Shortcode.php:126
+msgid "Your Email Address"
+msgstr "メールアドレス"
+
+#: Includes/Page.php:831
+msgid "Status"
+msgstr "状態"
+
+#: Includes/Page.php:497 Includes/Page.php:616 Includes/Page.php:858
+msgid "Active"
+msgstr "アクティブ"
+
+#: Includes/Page.php:153
+msgid "Support forum"
+msgstr "サポートフォーラム"
+
+#: Includes/Page.php:150
+msgid "Support"
+msgstr "サポート"
+
+#: Includes/Shortcode.php:90
+msgid "If needed you can put in a new request after 24 hours here: %s."
+msgstr "必要に応じて、24時間後に新しいリクエストを入力することができます: %s。"
+
+#: Includes/Shortcode.php:88
+msgid "You are only able to view your data when visiting this page on the same device with the same IP and in the same browser session as when you performed your request. This is an extra security measure to keep your data safe."
+msgstr "このページを訪問してリクエストを実行した時、同じIP,ブラウザセッション,デバイスの場合にのみデータを表示できます。"
+
+#: Includes/Page.php:152
+msgid "Need a helping hand? Please ask for help on the %s. Be sure to mention your WordPress version and give as much additional information as possible."
+msgstr "助けが必要ですか? %s でヘルプを依頼してください。WordPressのバージョンに言及し、できるだけ多くの追加情報を提供してください。"
+
+#: Includes/Page.php:145
+msgid "Did %s help you out? Please leave a 5-star review. Thank you!"
+msgstr "%s があなたを助けましたか? 5つ星のレビューをください。ありがとうございました!"
+
+#: Includes/Ajax.php:160
+msgid "This page is available for 24 hours and can only be reached from the same device, IP address and browser session you requested from."
+msgstr "このページは24時間利用可能で、リクエストした同じデバイス,IPアドレス,ブラウザセッションからのみアクセスできます。"
+
+#: Includes/Ajax.php:162
+msgid "If your link is invalid you can fill in a new request after 24 hours: %s."
+msgstr "リンクが無効な場合は、24時間後に新しいリクエストを入力することができます: %s。"
+
+#: Includes/Data.php:178
+msgid "Anonymise selected %s(s)"
+msgstr "匿名化を選択 %s(s)"
+
+#: wp-gdpr-compliance.php:215 wp-gdpr-compliance.php:233 Includes/Page.php:499
+#: Includes/Page.php:580 Includes/Page.php:635 Includes/Page.php:655
+msgid "Yes"
+msgstr "はい"
+
+#: wp-gdpr-compliance.php:216 wp-gdpr-compliance.php:234 Includes/Page.php:635
+#: Includes/Page.php:655
+msgid "No"
+msgstr "いいえ"
+
+#: Includes/Page.php:146
+msgid "Write a review"
+msgstr "レビューを書く"
+
+#: Includes/Page.php:143
+msgid "Rate us"
+msgstr "私たちを評価してください"
+
+#: Includes/DeleteRequest.php:243
+msgid "WooCommerce Order"
+msgstr "WooCommerce の注文"
+
+#: Includes/DeleteRequest.php:240
+msgid "Comment"
+msgstr "コメント"
+
+#: Includes/DeleteRequest.php:237
+msgid "User"
+msgstr "ユーザー"
+
+#: Includes/Ajax.php:413
+msgid "Successfully sent an confirmation mail to the user."
+msgstr "ユーザーに確認メールを送信しました。"
+
+#: Includes/Ajax.php:404
+msgid "The following has been processed:"
+msgstr "以下が処理されました。"
+
+#: Includes/Ajax.php:401
+msgid "We have successfully processed your request and your data has been anonymised on %s."
+msgstr "あなたのリクエストは正常に処理されました。あなたのデータは %s で匿名化されています。"
+
+#: Includes/Ajax.php:396
+msgid "%s - Your request"
+msgstr "%s - あなたのリクエスト"
+
+#: Includes/Ajax.php:295
+msgid "This request doesn't exist."
+msgstr "このリクエストは存在しません。"
+
+#: Includes/Page.php:414
+msgid "Anonymise request explanation"
+msgstr "匿名化リクエストの説明"
+
+#: Includes/Ajax.php:241
+msgid "You have received a new anonymise request on %s."
+msgstr "%s について新しい匿名リクエストを受け取りました。"
+
+#: Includes/Ajax.php:236
+msgid "%s - New anonymise request"
+msgstr "%s - 新規匿名リクエスト"
+
+#: Includes/Ajax.php:245
+msgid "You can manage this request in the admin panel: %s"
+msgstr "管理パネルでこのリクエストを管理できます: %s"
+
+#: Includes/Ajax.php:180
+msgid "Something went wrong while saving the request. Please try again."
+msgstr "リクエストを保存する際に何かが間違ってしまいました。もう一度お試しください。"
+
+#: Includes/Action.php:133
+msgid "Retry"
+msgstr "リトライ"
+
+#: Includes/Action.php:129
+msgid "Couldn't create the required database tables."
+msgstr "必要なデータベーステーブルを作成できませんでした。"
+
+#: Includes/Shortcode.php:106
+msgid "This request is expired or doesn't exist."
+msgstr "このリクエストは期限が切れているか、存在しません。"
+
+#: Includes/Shortcode.php:72
+msgid "No WooCommerce orders found with email address %s."
+msgstr "メールアドレス %s の WooCommerce の注文は見つかりませんでした。"
+
+#: Includes/Shortcode.php:65
+msgid "WooCommerce Orders"
+msgstr "WooCommerce の注文"
+
+#: Includes/Shortcode.php:56
+msgid "No comments found with email address %s."
+msgstr "メールアドレス %s のコメントは見つかりませんでした。"
+
+#: Includes/Shortcode.php:49
+msgid "Comments"
+msgstr "コメント"
+
+#: Includes/Shortcode.php:42
+msgid "No users found with email address %s."
+msgstr "メールアドレス %s のユーザーは見つかりませんでした。"
+
+#: Includes/Shortcode.php:35
+msgid "Users"
+msgstr "ユーザー"
+
+#: Includes/Page.php:795 Includes/Page.php:887
+msgid "No requests found."
+msgstr "リクエストは見つかりませんでした。"
+
+#: Includes/Page.php:850
+msgid "Manage"
+msgstr "管理"
+
+#: Includes/Page.php:858
+msgid "Expired"
+msgstr "期限切れ"
+
+#: Includes/Page.php:827
+msgid "Requests to Process"
+msgstr "リクエスト中"
+
+#: Includes/Page.php:826
+msgid "ID"
+msgstr "ID"
+
+#: Includes/Page.php:678 Includes/Page.php:789 Includes/Page.php:881
+msgid "%d of %d results found"
+msgstr "%d 件中 %d 件の検索結果が見つかりました。"
+
+#: Includes/Page.php:770
+msgid "Anonymise selected request(s)"
+msgstr "選択された匿名化リクエスト"
+
+#: Includes/Page.php:749
+msgid "View"
+msgstr "表示"
+
+#: Includes/Page.php:615 Includes/Page.php:731
+msgid "Action"
+msgstr "アクション"
+
+#: Includes/Page.php:730
+msgid "Processed"
+msgstr "処理されました"
+
+#: Includes/Page.php:729 Includes/Page.php:830
+msgid "Date"
+msgstr "日時"
+
+#: Includes/Page.php:727
+msgid "Type"
+msgstr "タイプ"
+
+#: Includes/Page.php:726
+msgid "Request"
+msgstr "リクエスト"
+
+#: Includes/Page.php:708
+msgid "WordPress Users"
+msgstr "WordPress ユーザー"
+
+#: Includes/Page.php:706
+msgid "Anonymise a request by ticking the checkbox and clicking on the green anonymise button below."
+msgstr "チェックボックスにチェックを入れ、下の緑色の匿名ボタンをクリックすると、リクエストを匿名化できます。"
+
+#: Includes/Page.php:402
+msgid "Click here to edit this page"
+msgstr "このページを編集するにはここをクリック"
+
+#: Includes/Page.php:318 Includes/Page.php:369
+msgid "Activate"
+msgstr "有効化"
+
+#: Includes/Page.php:371
+msgid "Activate page"
+msgstr "ページを有効化する"
+
+#: Includes/Page.php:390
+msgid "Page"
+msgstr "ページ"
+
+#: Includes/Page.php:379
+msgid "Enabling this will create one private page containing the necessary shortcode: %s. You can determine when and how to publish this page yourself."
+msgstr "これを有効にすると、必要なショートコード %s を含む1つのプライベートページが作成されます。このページを自分で公開する時期と方法を決めることができます。"
+
+#: Includes/Page.php:366
+msgid "Allow your site's visitors to request their data stored in the WordPress database (comments, WooCommerce orders etc.). Data found is send to their email address and allows them to put in an additional request to have the data anonymised."
+msgstr "サイトの訪問者が WordPress データベースに保存されているデータ（コメント、WooCommerce の注文など）をリクエストできるようにします。見つかったデータはメールアドレスに送信され、データを匿名化する追加の要求を出すことができます。"
+
+#: Includes/Page.php:364
+msgid "Request User Data"
+msgstr "ユーザーデータのリクエスト"
+
+#: Includes/Page.php:131
+msgid "%s currently supports %s. Please visit %s for frequently asked questions and our development roadmap."
+msgstr "%s は現在 %s をサポートしています。 よくある質問と開発ロードマップについては、%s をご覧ください。"
+
+#: Includes/Page.php:128
+msgid "This plugin assists website and webshop owners to comply with European privacy regulations known as GDPR. By May 25th, 2018 your site or shop has to comply."
+msgstr "このプラグインは、ウェブサイトおよびウェブショップの所有者が GDPR と呼ばれるヨーロッパのプライバシー規制を遵守する事を支援します。2018年5月25日までにサイトまたはショップが準拠しなければなりません。"
+
+#: Includes/Page.php:77 Includes/Ajax.php:232
+msgid "Requests"
+msgstr "リクエスト"
+
+#: Includes/Integration.php:320
+msgid "Below we show you all of the data stored by %s on %s. Select the data you wish the site owner to anonymise so it cannot be linked to your email address any longer. It is the site's owner responsibility to act upon your request. When your data is anonymised you will receive an email confirmation."
+msgstr "以下には、%s が %s に保存したすべてのデータが示されています。サイト所有者に対して匿名化を希望する場合は該当するデータを選択してください。データが匿名化されると、サイト所有者はデータとメールアドレスを関連付けることができなくなります。本リクエストの要求に応じるのはサイト所有者の責任です。データが匿名化されると、確認メールが届きます。"
+
+#: Includes/Data.php:74
+msgid "City"
+msgstr "市"
+
+#: Includes/Data.php:73
+msgid "Postcode / ZIP"
+msgstr "郵便番号"
+
+#: Includes/Data.php:72
+msgid "Address"
+msgstr "住所"
+
+#: Includes/Data.php:71
+msgid "Name"
+msgstr "氏名"
+
+#: Includes/Data.php:69
+msgid "Order"
+msgstr "注文"
+
+#: Includes/Page.php:728 Includes/Page.php:829 Includes/Data.php:64
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: Includes/Data.php:62
+msgid "Content"
+msgstr "コンテンツ"
+
+#: Includes/Data.php:61
+msgid "Author"
+msgstr "作者"
+
+#: Includes/Data.php:56
+msgid "Registered on"
+msgstr "登録者"
+
+#: Includes/Data.php:55
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: Includes/Page.php:828 Includes/Data.php:54 Includes/Data.php:63
+#: Includes/Data.php:70
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: Includes/Data.php:53
+msgid "Display Name"
+msgstr "表示名"
+
+#: Includes/Data.php:52
+msgid "Username"
+msgstr "ユーザー名"
+
+#: Includes/Data.php:28
+msgid "Email Address is required."
+msgstr "メールアドレスは必須です。"
+
+#: Includes/Ajax.php:417
+msgid "This request has already been processed."
+msgstr "この要求は既に処理されています。"
+
+#: Includes/Ajax.php:384
+msgid "You're not allowed to edit WooCommerce orders."
+msgstr "WooCommerce の注文を編集することはできません。"
+
+#: Includes/Ajax.php:340
+msgid "You're not allowed to edit comments."
+msgstr "コメントを編集することはできません。"
+
+#: Includes/Ajax.php:334
+msgid "This comment doesn't exist."
+msgstr "このコメントは存在しません。"
+
+#: Includes/Ajax.php:321
+msgid "You're not allowed to edit users."
+msgstr "ユーザーを編集することはできません。"
+
+#: Includes/Ajax.php:315
+msgid "This user doesn't exist."
+msgstr "このユーザーは存在しません。"
+
+#: Includes/Ajax.php:281
+msgid "The access request functionality is not enabled."
+msgstr "アクセス要求機能が有効になっていません。"
+
+#: Includes/Ajax.php:259
+msgid "No session found."
+msgstr "セッションが見つかりませんでした。"
+
+#: Includes/Ajax.php:256
+msgid "Session doesn't match."
+msgstr "セッションが一致しません。"
+
+#: Includes/Ajax.php:224
+msgid "Something went wrong while saving this request. Please try again."
+msgstr "このリクエストを保存する際に何か問題が発生しました。もう一度お試しください。"
+
+#: Includes/Ajax.php:204
+msgid "No value selected."
+msgstr "値が選択されていません。"
+
+#: Includes/Ajax.php:200
+msgid "Missing or invalid type."
+msgstr "タイプがありません。"
+
+#: Includes/Ajax.php:183
+msgid "You have already requested your data. Please check your mailbox. After 24 hours you can put in a new request."
+msgstr "既にデータをリクエストしています。あなたのメールボックスを確認してください。24時間後に新しいリクエストを入れることができます。"
+
+#: Includes/Ajax.php:176
+msgid "Success. You will receive an email with your data shortly."
+msgstr "成功しました。まもなくあなたのデータを含むメールが届きます。"
+
+#: Includes/Ajax.php:139
+msgid "page"
+msgstr "ページ"
+
+#: Includes/Ajax.php:152
+msgid "You have requested to access your data on %s."
+msgstr "%s のデータにアクセスするようリクエストしました。"
+
+#: Includes/Ajax.php:146
+msgid "%s - Your data request"
+msgstr "%s - あなたのデータリクエスト"
+
+#: Includes/Ajax.php:114
+msgid "You need to accept the privacy checkbox."
+msgstr "プライバシーチェックボックスを受け入れる必要があります。"
+
+#: Includes/Ajax.php:110
+msgid "Missing or incorrect email address."
+msgstr "メールアドレスが見つからないか間違っています。"
+
+#: Includes/Action.php:93
+msgid "Data Access Request"
+msgstr "データアクセスリクエスト"
+
+#: Includes/Ajax.php:156
+msgid "Please visit this %s to view the data linked to the email address %s."
+msgstr "%s にアクセスして、メールアドレス %s にリンクされたデータを表示してください。"
+
+#: Includes/Page.php:578 Includes/Page.php:612
+msgid "Required"
+msgstr "必須"
+
+#: Includes/Helper.php:172
+msgid "Please disable the custom comments form in Jetpack to make your WordPress Comments GDPR compliant."
+msgstr "あなたの WordPress コメント を GDPR に準拠させるために、Jetpack のカスタムコメントフォームを無効にしてください。"
+
+#: Includes/Extensions/WP.php:67
+msgid "GDPR Accepted On"
+msgstr "GDPR 容認"
+
+#: Includes/Page.php:359
+msgid "Link text"
+msgstr "リンクテキスト"
+
+#: Includes/Page.php:350 Includes/Page.php:395
+msgid "Select an option"
+msgstr "オプションを選択"
+
+#: Includes/Page.php:186
+msgid "Enable:"
+msgstr "有効化:"
+
+#: Includes/Page.php:316 Includes/Page.php:345 Includes/Integration.php:286
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: Includes/Helper.php:117
+msgid "No HTML allowed due to plugin limitations."
+msgstr "プラグインの制限により、HTML は許可されません。"
+
+#: Includes/Page.php:245 Includes/Page.php:326 Includes/Page.php:377
+#: Includes/Page.php:428 Includes/Page.php:715 Includes/Page.php:818
+#: Includes/Helper.php:116 Includes/Helper.php:171 Includes/Action.php:196
+msgid "Note"
+msgstr "注意"
+
+#: Includes/Extensions/GForms.php:147
+msgid "Accepted on %s."
+msgstr "%s で容認されました。"
+
+#: Includes/Extensions/CF7.php:188 Includes/Extensions/WC.php:67
+msgid "GDPR accepted on:"
+msgstr "GDPR 容認:"
+
+#: Includes/Extensions/CF7.php:184 Includes/Extensions/WC.php:69
+#: Includes/Extensions/WC.php:96 Includes/Extensions/WP.php:79
+#: Includes/Extensions/GForms.php:113 Includes/Extensions/GForms.php:129
+#: Includes/Extensions/GForms.php:149
+msgid "Not accepted."
+msgstr "受け入れられませんでした。"
+
+#: Includes/Page.php:137
+msgid "Disclaimer: The creators of this plugin do not have a legal background please contact a law firm for rock solid legal advice."
+msgstr "免責事項: このプラグインの作成者は法的な背景を持っていません。"
+
+#: wp-gdpr-compliance.php:206 Includes/Page.php:88
+msgid "Settings"
+msgstr "設定"
+
+#: wp-gdpr-compliance.php:206
+msgid "View WP GDPR Compliance settings"
+msgstr "WP GDPR 準拠設定を表示する"
+
+#: Includes/Helper.php:110
+msgid "You can use: %s"
+msgstr "次を使用できます: %s"
+
+#. Author of the plugin
+msgid "Van Ons"
+msgstr "Van Ons"
+
+#: Includes/Page.php:212
+msgid "This plugin is outdated. %s supports version %s and up."
+msgstr "このプラグインは古くなっています。 %s はバージョン %s 以降をサポートしています。"
+
+#: Includes/Page.php:87
+msgid "Checklist"
+msgstr "チェックリスト"
+
+#: Includes/Integration.php:364
+msgid "When activated the GDPR checkbox will be added automatically just above the submit button."
+msgstr "有効にすると、送信ボタンのすぐ上に GDPR チェックボックスが自動的に追加されます。"
+
+#: Includes/Integration.php:141 Includes/Integration.php:191
+msgid "No forms found."
+msgstr "フォームが見つかりません。"
+
+#: Includes/Integration.php:121 Includes/Integration.php:165
+msgid "Form: %s"
+msgstr "フォーム: %s"
+
+#: Includes/Integration.php:385
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: Includes/Data.php:27 Includes/Shortcode.php:85 Includes/Shortcode.php:105
+#: Includes/Extensions/WP.php:44
+msgid "<strong>ERROR</strong>: %s"
+msgstr "<strong>エラー</strong>: %s"
+
+#: Includes/Extensions/WP.php:47
+msgid "Comment Submission Failure"
+msgstr "コメント投稿の失敗"
+
+#: Includes/Extensions/WC.php:84 Includes/Extensions/GForms.php:58
+#: Includes/Extensions/GForms.php:97
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: Includes/Integration.php:259
+msgid "Please accept the privacy checkbox."
+msgstr "プライバシーチェックボックスに同意してください。"
+
+#: Includes/Helper.php:199
+msgid "Do you provide a forum or message board?"
+msgstr "あなたはフォーラムや掲示板を提供していますか？"
+
+#: Includes/Integration.php:131 Includes/Integration.php:175
+#: Includes/Integration.php:210
+msgid "Error message"
+msgstr "エラーメッセージ"
+
+#: Includes/Page.php:228
+msgid "More plugins will be added in the future."
+msgstr "将来、さらに多くのプラグインが追加される予定です。"
+
+#: Includes/Page.php:221
+msgid "Couldn't find any supported plugins installed."
+msgstr "サポートされているプラグインがインストールされていません。"
+
+#: Includes/Page.php:252
+msgid "Below we ask you what private data you currently collect and provide you with tips to comply."
+msgstr "以下では、現在収集している個人情報を尋ね、遵守のヒントを提供します。"
+
+#: Includes/Integration.php:393
+msgid "The GDPR checkbox will be added automatically at the end of your checkout page."
+msgstr "GDPR チェックボックスは、チェックアウトページの最後に自動的に追加されます。"
+
+#: Includes/Page.php:710 Includes/Integration.php:392
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: Includes/Integration.php:379 Includes/Integration.php:386
+msgid "A GDPR form tag will be automatically added to every form you activate."
+msgstr "GDPR フォームタグは、有効化するすべてのフォームに自動的に追加されます。"
+
+#: Includes/Integration.php:378
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: Includes/Page.php:709 Includes/Integration.php:363
+msgid "WordPress Comments"
+msgstr "WordPress コメント"
+
+#: Includes/Page.php:408 Includes/Integration.php:125
+#: Includes/Integration.php:169 Includes/Integration.php:204
+msgid "Checkbox text"
+msgstr "チェックボックスのテキスト"
+
+#: Includes/Integration.php:122 Includes/Integration.php:166
+msgid "Activate for this form:"
+msgstr "このフォームで有効にする:"
+
+#: Includes/Integration.php:242 Includes/Integration.php:306
+msgid "By using this form you agree with the storage and handling of your data by this website."
+msgstr "このフォームを使用することにより、このウェブサイトによるデータの保管および取り扱いに同意するものとします。"
+
+#: Includes/Ajax.php:48
+msgid "Missing value."
+msgstr "値がありません。"
+
+#: Includes/Ajax.php:36
+msgid "Missing option name."
+msgstr "オプション名がありません。"
+
+#: Includes/Ajax.php:99
+msgid "Missing type."
+msgstr "タイプがありません。"
+
+#: Includes/Ajax.php:26 Includes/Ajax.php:95 Includes/Ajax.php:291
+msgid "Missing data."
+msgstr "データがありません。"
+
+#: Includes/Page.php:62
+msgid "Integrations"
+msgstr "インテグレーション"
+
+#: Includes/Page.php:222
+msgid "The following plugins are supported as of now:"
+msgstr "現在、以下のプラグインがサポートされています:"
+
+#. Author URI of the plugin
+msgid "https://www.van-ons.nl/"
+msgstr "https://www.van-ons.nl/"
+
+#. Description of the plugin
+msgid "This plugin assists website and webshop owners to comply with European privacy regulations known as GDPR. By May 24th, 2018 your website or shop has to comply to avoid large fines."
+msgstr "このプラグインは、ウェブサイトおよびウェブショップの所有者がGDPRと呼ばれるヨーロッパのプライバシー規制を遵守するのを支援します。2018年5月24日までに、あなたのウェブサイトまたはショップは、大きな罰金を避けるために遵守しなければなりません。"
+
+#. Plugin URI of the plugin
+msgid "https://www.wpgdprc.com/"
+msgstr "https://www.wpgdprc.com/"
+
+#: Includes/Helper.php:204
+msgid "Make sure you add a checkbox specifically asking chat users if they consent to you storing and using their personal information and messages. The checkbox must be unchecked by default. We recommend also mentioning for how long you will store chat messages or deleting them all within 24 hours. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "チャットユーザーに、個人情報とメッセージの保存と使用に同意するかどうかを尋ねるチェックボックスを必ず追加してください。 デフォルトでは、チェックボックスをオフにする必要があります。 チャットメッセージを保存する期間や24時間以内にすべて削除することについてもお勧めします。 また、第三者との間でデータを送信または共有するかどうかについても言及してください。"
+
+#: Includes/Helper.php:200
+msgid "Make sure you add a checkbox specifically asking forum / board users if they consent to you storing and using their personal information and messages. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "あなたが個人情報とメッセージを保存して使用することに同意する場合は、特にフォーラム/掲示板ユーザーに質問するチェックボックスを必ず追加してください。デフォルトでは、チェックボックスをオフにする必要があります。また、第三者との間でデータを送信または共有するかどうかについても言及してください。"
+
+#: Includes/Helper.php:196
+msgid "Make sure you add a checkbox specifically asking the user of the form if they consent to you storing and using their personal information to ship the order. This cannot be the same checkbox as the Privacy Policy checkbox you should already have in place. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "注文を発送するために個人情報を保管して使用することに同意する場合は、フォームのユーザーに具体的に尋ねるチェックボックスを必ず追加してください。既に設定されているプライバシーポリシーチェックボックスと同じチェックボックスにすることはできません。デフォルトでは、チェックボックスをオフにする必要があります。また、第三者との間でデータを送信または共有するかどうかについても言及してください。"
+
+#: Includes/Helper.php:195
+msgid "Is there an order form on your website or webshop present?"
+msgstr "あなたのウェブサイトやウェブショップにオーダーフォームがありますか？"
+
+#: Includes/Helper.php:191
+msgid "Can visitors comment anywhere on your website?"
+msgstr "訪問者はあなたのウェブサイトのどこにでもコメントできますか？"
+
+#: Includes/Helper.php:187
+msgid "Do you have a contact form?"
+msgstr "お問い合わせフォームがありますか？"
+
+#: Includes/Helper.php:192
+msgid "Make sure you add a checkbox specifically asking the user of the comment section if they consent to storing their message attached to the e-mail address they've used to comment. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "注釈に使用したメールアドレスに添付されたメッセージを保存することに同意する場合は、ユーザーに具体的に尋ねるチェックボックスをコメントセクションに必ず追加してください。デフォルトでは、チェックボックスをオフにする必要があります。また、第三者との間でデータを送信または共有するかどうかについても言及してください。"
+
+#: Includes/Helper.php:188
+msgid "Make sure you add a checkbox specifically asking the user of the form if they consent to you storing and using their personal information to get back in touch with them. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "個人情報の保管と使用に同意した場合は、フォームのユーザーに具体的に尋ねるチェックボックスを必ず追加してください。デフォルトでは、チェックボックスをオフにする必要があります。また、第三者との間でデータを送信または共有するかどうかについても言及してください。"
+
+#: Includes/Helper.php:203
+msgid "Can visitors chat with your company directly?"
+msgstr "訪問者はあなたの会社と直接チャットできますか?"
+
+#. Plugin Name of the plugin
+msgid "WP GDPR Compliance"
+msgstr "WP GDPR Compliance"

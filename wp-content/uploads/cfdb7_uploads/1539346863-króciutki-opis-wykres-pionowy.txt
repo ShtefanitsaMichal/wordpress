@@ -1,0 +1,5 @@
+wykres s³upkowy, dwie serie to te, które maj¹ byæ liniami, trzecia - jakieœ s³upki byle dodatnie. jako oœ kategorii - odwrotnie posortowane nazwy kategorii.
+
+tym w³aœciwym seriom zmieniamy typ na XY i wskazujemy jako igreki listê malej¹cych wartoœci np. -1; -2 itd
+
+trochê bawimy siê osiami (m. in. sta³e zakresy wartoœci) na koniec s³upki robimy na przezroczyste i bez obwódki oraz usuwamy z legendy

@@ -1,0 +1,863 @@
+# Translation of Plugins - WP GDPR Compliance - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - WP GDPR Compliance - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-06 11:15:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - WP GDPR Compliance - Stable (latest release)\n"
+
+#: Includes/Integration.php:271
+msgid "You need to accept this checkbox."
+msgstr "Du skal acceptere dette afkrydsningsfelt."
+
+#: Includes/Page.php:541
+msgid "Ticking this checkbox means this Consent will always be triggered so users cannot opt-in or opt-out."
+msgstr "Hvis du markerer dette afkrydsningsfelt betyder det, at samtykke altid udløses, så brugerne ikke kan til- eller fravælge det."
+
+#: Includes/Page.php:240
+msgid "Do you know where you got your email database from? Did you ask all the people on your newsletter(s) if they consent to receiving it? GDPR requires that all of the people in your email software has given you explicit permission to mail them."
+msgstr "Ved du hvor du har din e-mail-database fra? Spurgte du alle folk på din nyhedsbrevsliste, om de giver samtykker til at modtage det? GDPR kræver, at alle personer i din e-mail-marketingsoftware har givet dig udtrykkelig tilladelse til at sende til dem."
+
+#: Includes/Page.php:237
+msgid "We think you might have a mail plugin installed."
+msgstr "Vi tror, ​​at du måske har et e-mail-plugin installeret."
+
+#: Includes/Integration.php:177 Includes/Integration.php:212
+msgid "Required message"
+msgstr "Obligatorisk besked"
+
+#: Includes/Page.php:609
+msgid "Remove"
+msgstr "Fjern"
+
+#: Includes/Action.php:183 Includes/Page.php:590
+msgid "(no title)"
+msgstr "(ingen titel)"
+
+#: Includes/Page.php:489
+msgid "Code Wrap"
+msgstr "Kodeindpakning"
+
+#: Includes/Helper.php:140
+msgid "Consent has been removed successfully."
+msgstr "Samtykke er blevet fjernet med succes."
+
+#: Includes/Consent.php:272
+msgid "Do not wrap my code snippet"
+msgstr "Pak ikke min kodestump ind"
+
+#: Includes/Consent.php:271
+msgid "Wrap my code snippet with <script> tags"
+msgstr "Pak min kodestump ind med <script> tags"
+
+#: Includes/Action.php:222
+msgid "Enable"
+msgstr "Aktivér"
+
+#: Includes/Page.php:480
+msgid "Code Snippet"
+msgstr "Kodestump"
+
+#: Includes/Page.php:475
+msgid "Describe your consent script as thoroughly as possible."
+msgstr "Beskriv dit samtykkescript så grundigt som muligt."
+
+#: Includes/Page.php:466
+msgid "e.g. \"Google Analytics\" or \"Advertising\""
+msgstr "fx \"Google Analytics\" eller \"Reklame\""
+
+#: Includes/Page.php:389
+msgid "Let your visitors re-access their settings by placing a link to the modal with the shortcode %s or add the \"%s\" class to a menu item."
+msgstr "Lad dine besøgende genbesøge deres indstillinger ved at placere et link til modalen med shortcoden %s eller tilføje klassen \"%s\" til et menupunkt."
+
+#: Includes/Page.php:382
+msgid "Your visitors can give permission to all of the created Consents (scripts) through a Consent bar at the bottom of their screen. There they can also access their personal settings to give or deny permission to individual Consents. Once their settings are saved the bar disappears for 365 days."
+msgstr "Dine besøgende kan give tilladelse til alle de oprettede samtykker (scripts) gennem en samtykkelinje nederst på skærmen. Der kan de også få adgang til deres personlige indstillinger for at give eller nægte tilladelse til individuelle tilladelser. Når deres indstillinger er gemt, forsvinder linjen i 365 dage."
+
+#: Includes/Page.php:641
+msgid "No consents found."
+msgstr "Ingen samtykker fundet."
+
+#: Includes/Page.php:604
+msgid "Edit"
+msgstr "Rediger"
+
+#: Includes/Page.php:573
+msgid "Created at"
+msgstr "Oprettet den"
+
+#: Includes/Page.php:572
+msgid "Modified at"
+msgstr "Opdateret den"
+
+#: Includes/Page.php:569
+msgid "Consent"
+msgstr "Samtykke"
+
+#: Includes/Page.php:562
+msgid "Ask your visitors for permission to enable certain scripts for tracking or advertising purposes. Add a Consent for each type of script you are requesting permission for. Scripts will only be activated when permission is given."
+msgstr "Spørg dine besøgende om tilladelse til at aktivere bestemte scripts til sporing eller annoncering. Tilføj et samtykke til hver type script, du anmoder om tilladelse til. Scripts vil kun blive aktiveret, når tilladelsen er givet."
+
+#: Includes/Page.php:547
+msgid "Back to overview"
+msgstr "Tilbage til oversigt"
+
+#: Includes/Page.php:546
+msgid "Add"
+msgstr "Tilføj"
+
+#: Includes/Page.php:546
+msgid "Update"
+msgstr "Opdater"
+
+#: Includes/Page.php:530
+msgid "Snippet will be added to the FOOTER section."
+msgstr "Uddrag vil blive tilføjet til FOOTER sektionen."
+
+#: Includes/Page.php:563
+msgctxt "consent"
+msgid "Add New"
+msgstr "Tilføj nyt"
+
+#: Includes/Page.php:525
+msgid "Snippet will be added to the HEAD section."
+msgstr "Uddrag vil blive tilføjet til HEAD sektionen."
+
+#: Includes/Page.php:506
+msgid "Placement"
+msgstr "Placering"
+
+#: Includes/Page.php:471
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: Includes/Page.php:462 Includes/Page.php:570
+msgid "Title"
+msgstr "Titel"
+
+#: Includes/Page.php:454
+msgid "Add New Consent"
+msgstr "Tilføj nyt samtykke"
+
+#: Includes/Page.php:413
+msgid "Modal: Explanation"
+msgstr "Modal: Forklaring"
+
+#: Includes/Page.php:407
+msgid "Modal: Title"
+msgstr "Modal: Titel"
+
+#: Includes/Page.php:401
+msgid "Bar: Explanation"
+msgstr "Bar: Forklaring"
+
+#: Includes/Page.php:57 Includes/Page.php:380
+msgid "Consents"
+msgstr "Samtykker"
+
+#: Includes/Consent.php:282 Includes/Page.php:529
+msgid "Footer"
+msgstr "Sidefod"
+
+#: Includes/Consent.php:281 Includes/Page.php:524
+msgid "Head"
+msgstr "Sidehoved"
+
+#: Includes/Consent.php:81
+msgid "This site uses functional cookies and external scripts to improve your experience."
+msgstr "Dette website bruger funktionelle cookier og eksterne scripts til at forbedre din oplevelse."
+
+#: Includes/Consent.php:68
+msgid "This site uses functional cookies and external scripts to improve your experience. Which cookies and scripts are used and how they impact your visit is specified on the left. You may change your settings at any time. Your choices will not impact your visit."
+msgstr "Dette website bruger funktionelle cookier og eksterne scripts til at forbedre din oplevelse. Hvilke cookier og scripts der bruges, og hvordan de påvirker dit besøg, er angivet til venstre. Du kan til enhver tid ændre dine indstillinger. Dine valg vil ikke påvirke dit besøg."
+
+#: Includes/Consent.php:55
+msgid "Privacy Settings"
+msgstr "Privatlivsindstillinger"
+
+#: Includes/Action.php:238
+msgid "Close modal"
+msgstr "Luk modal"
+
+#: Includes/Action.php:231
+msgid "Save my settings"
+msgstr "Gem mine indstillinger"
+
+#: Includes/Action.php:197
+msgid "These settings will only apply to the browser and device you are currently using."
+msgstr "Disse indstillinger gælder kun for den browser og enhed, du bruger i øjeblikket."
+
+#: Includes/Action.php:158
+msgid "Accept"
+msgstr "Accepter"
+
+#: Includes/Action.php:152 Includes/Page.php:392 Includes/Shortcode.php:154
+msgid "My settings"
+msgstr "Mine indstillinger"
+
+#: Includes/Helper.php:144
+msgid "Couldn't find this consent."
+msgstr "Kunne ikke finde dette samtykke."
+
+#: Includes/Helper.php:137
+msgid "Consent has been added successfully."
+msgstr "Samtykke er blevet tilføjet med succes."
+
+#: Includes/Helper.php:134
+msgid "Consent has been updated successfully."
+msgstr "Samtykke er blevet opdateret med succes."
+
+#: Includes/Page.php:484
+msgid "Code snippets for Google Analytics, Facebook Pixel, etc."
+msgstr "Kodestumper til Google Analytics, Facebook Pixel osv."
+
+#: Includes/Shortcode.php:120
+msgid "Your Email Address"
+msgstr "Din e-mailadresse"
+
+#: Includes/Shortcode.php:134
+msgid "Send"
+msgstr "Send"
+
+#: Includes/Page.php:764
+msgid "Status"
+msgstr "Status"
+
+#: Includes/Page.php:456 Includes/Page.php:575 Includes/Page.php:790
+msgid "Active"
+msgstr "Aktiv"
+
+#: Includes/Shortcode.php:88
+msgid "You are only able to view your data when visiting this page on the same device with the same IP and in the same browser session as when you performed your request. This is an extra security measure to keep your data safe."
+msgstr "Du kan kun se dine data, når du besøger denne side på samme enhed med samme IP-adresse og i samme browsersession, som da du udførte din anmodning. Dette er en ekstra sikkerhedsforanstaltning for at holde dine data sikre."
+
+#: Includes/Shortcode.php:90
+msgid "If needed you can put in a new request after 24 hours here: %s."
+msgstr "Hvis det er nødvendigt, kan du indsætte en ny anmodning efter 24 timer her: %s."
+
+#: Includes/Page.php:141
+msgid "Support"
+msgstr "Support"
+
+#: Includes/Page.php:144
+msgid "Support forum"
+msgstr "Support forum"
+
+#: Includes/Page.php:143
+msgid "Need a helping hand? Please ask for help on the %s. Be sure to mention your WordPress version and give as much additional information as possible."
+msgstr "Brug for en hjælpende hånd? Venligst spørg om hjælp på %s. Husk at oplyse din WordPress version og giv så mange yderligere informationer som muligt."
+
+#: Includes/Page.php:136
+msgid "Did %s help you out? Please leave a 5-star review. Thank you!"
+msgstr "Løste %s dit problem? Venligst giv en 5-stjernet anmeldelse. Tak!"
+
+#: Includes/Ajax.php:160
+msgid "This page is available for 24 hours and can only be reached from the same device, IP address and browser session you requested from."
+msgstr "Denne side er tilgængelig i 24 timer og kan kun nås fra den samme enhed, IP-adresse og browsersession, du har anmodet om dataadgang fra."
+
+#: Includes/Ajax.php:162
+msgid "If your link is invalid you can fill in a new request after 24 hours: %s."
+msgstr "Hvis dit link er ugyldigt, kan du udfylde en ny anmodning efter 24 timer: %s."
+
+#: Includes/Data.php:178
+msgid "Anonymise selected %s(s)"
+msgstr "Anonymisér valgte %s(s)"
+
+#: Includes/Page.php:594 Includes/Page.php:614 wp-gdpr-compliance.php:203
+#: wp-gdpr-compliance.php:221
+msgid "No"
+msgstr "Nej"
+
+#: Includes/Page.php:458 Includes/Page.php:539 Includes/Page.php:594
+#: Includes/Page.php:614 wp-gdpr-compliance.php:202 wp-gdpr-compliance.php:220
+msgid "Yes"
+msgstr "Ja"
+
+#: Includes/Page.php:137
+msgid "Write a review"
+msgstr "Skriv en anmeldelse"
+
+#: Includes/DeleteRequest.php:228
+msgid "WooCommerce Order"
+msgstr "WooCommerce ordre"
+
+#: Includes/DeleteRequest.php:225
+msgid "Comment"
+msgstr "Kommentar"
+
+#: Includes/DeleteRequest.php:222
+msgid "User"
+msgstr "Bruger"
+
+#: Includes/Ajax.php:413
+msgid "Successfully sent an confirmation mail to the user."
+msgstr "Der blev sendt en bekræftelsesmail til brugeren"
+
+#: Includes/Ajax.php:404
+msgid "The following has been processed:"
+msgstr "Følgende er blevet behandlet:"
+
+#: Includes/Page.php:373
+msgid "Anonymise request explanation"
+msgstr "Anonymisér anmodningsforklaring"
+
+#: Includes/Page.php:134
+msgid "Rate us"
+msgstr "Bedøm os"
+
+#: Includes/Ajax.php:401
+msgid "We have successfully processed your request and your data has been anonymised on %s."
+msgstr "Vi har behandlet din anmodning med succes, og dine data er blevet anonymiseret på %s."
+
+#: Includes/Ajax.php:396
+msgid "%s - Your request"
+msgstr "%s - Din anmodning"
+
+#: Includes/Ajax.php:295
+msgid "This request doesn't exist."
+msgstr "Anmodningen eksisterer ikke."
+
+#: Includes/Ajax.php:245
+msgid "You can manage this request in the admin panel: %s"
+msgstr "Du kan administrere denne anmodning i kontrolpanelet: %s"
+
+#: Includes/Ajax.php:236
+msgid "%s - New anonymise request"
+msgstr "%s - Ny anonymiseringsanmodning"
+
+#: Includes/Ajax.php:241
+msgid "You have received a new anonymise request on %s."
+msgstr "Du har modtaget en ny anonymiseringsanmodning på %s."
+
+#: Includes/Action.php:133
+msgid "Retry"
+msgstr "Prøv igen"
+
+#: Includes/Ajax.php:180
+msgid "Something went wrong while saving the request. Please try again."
+msgstr "Noget gik galt, da anmodningen blev gemt. Prøv igen."
+
+#: Includes/Action.php:129
+msgid "Couldn't create the required database tables."
+msgstr "Kunne ikke oprette de nødvendige databasetabeller."
+
+#: Includes/Integration.php:308
+msgid "Below we show you all of the data stored by %s on %s. Select the data you wish the site owner to anonymise so it cannot be linked to your email address any longer. It is the site's owner responsibility to act upon your request. When your data is anonymised you will receive an email confirmation."
+msgstr "Nedenfor viser vi alle de data, der er gemt af %s på %s. Vælg de data, du ønsker, at ejeren af websitet skal anonymisere, så det ikke længere kan forbindes til din e-mailadresse. Det er webejerens ansvar at handle efter din anmodning. Når dine data er anonymiseret, vil du modtage en email-bekræftelse."
+
+#: Includes/Page.php:349
+msgid "Page"
+msgstr "Side"
+
+#: Includes/Page.php:667
+msgid "WordPress Users"
+msgstr "WordPress brugere"
+
+#: Includes/Page.php:782
+msgid "Manage"
+msgstr "Administrer"
+
+#: Includes/Page.php:790
+msgid "Expired"
+msgstr "Udløbet"
+
+#: Includes/Shortcode.php:35
+msgid "Users"
+msgstr "Brugere"
+
+#: Includes/Shortcode.php:42
+msgid "No users found with email address %s."
+msgstr "Der blev ikke fundet nogen brugere med e-mailadressen %s."
+
+#: Includes/Shortcode.php:49
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: Includes/Shortcode.php:56
+msgid "No comments found with email address %s."
+msgstr "Der blev ikke fundet nogen kommentarer med e-mailadressen %s."
+
+#: Includes/Shortcode.php:65
+msgid "WooCommerce Orders"
+msgstr "WooCommerce-ordrer"
+
+#: Includes/Shortcode.php:72
+msgid "No WooCommerce orders found with email address %s."
+msgstr "Der blev ikke fundet nogen WooCommerce-ordrer med e-mailadressen %s."
+
+#: Includes/Page.php:759
+msgid "ID"
+msgstr "ID"
+
+#: Includes/Page.php:698
+msgid "View"
+msgstr "Vis"
+
+#: Includes/Page.php:574 Includes/Page.php:683
+msgid "Action"
+msgstr "Handling"
+
+#: Includes/Page.php:682
+msgid "Processed"
+msgstr "Behandlet"
+
+#: Includes/Page.php:681 Includes/Page.php:763
+msgid "Date"
+msgstr "Dato"
+
+#: Includes/Page.php:679
+msgid "Type"
+msgstr "Type"
+
+#: Includes/Page.php:678
+msgid "Request"
+msgstr "Anmodning"
+
+#: Includes/Page.php:328
+msgid "Activate"
+msgstr "Aktivér"
+
+#: Includes/Ajax.php:232 Includes/Page.php:67
+msgid "Requests"
+msgstr "Anmodninger"
+
+#: Includes/Shortcode.php:102
+msgid "This request is expired or doesn't exist."
+msgstr "Denne anmodning er udløbet eller eksisterer ikke."
+
+#: Includes/Page.php:737 Includes/Page.php:819
+msgid "No requests found."
+msgstr "Ingen anmodninger fundet."
+
+#: Includes/Page.php:760
+msgid "Requests to Process"
+msgstr "Anmodninger som skal behandles"
+
+#: Includes/Page.php:637 Includes/Page.php:731 Includes/Page.php:813
+msgid "%d of %d results found"
+msgstr "%d af %d resultater fundet"
+
+#: Includes/Page.php:712
+msgid "Anonymise selected request(s)"
+msgstr "Anonymisér valgte anmodning(er)"
+
+#: Includes/Page.php:665
+msgid "Anonymise a request by ticking the checkbox and clicking on the green anonymise button below."
+msgstr "Anonymisér en anmodning ved at markere afkrydsningsfeltet og klikke på den grønne anonymisér-knap nedenfor."
+
+#: Includes/Page.php:361
+msgid "Click here to edit this page"
+msgstr "Klik her for at redigere denne side"
+
+#: Includes/Page.php:338
+msgid "Enabling this will create one private page containing the necessary shortcode: %s. You can determine when and how to publish this page yourself."
+msgstr "Aktivering af dette vil oprette en privat side med den nødvendige shortcode: %s. Du kan bestemme, hvornår og hvordan du selv vil offentliggøre denne side."
+
+#: Includes/Page.php:330
+msgid "Activate page"
+msgstr "Aktivér side"
+
+#: Includes/Page.php:325
+msgid "Allow your site's visitors to request their data stored in the WordPress database (comments, WooCommerce orders etc.). Data found is send to their email address and allows them to put in an additional request to have the data anonymised."
+msgstr "Tillad dit websites besøgende at anmode om deres data, der er gemt i WordPress-databasen (kommentarer, WooCommerce-ordrer osv.). Fundne data sendes til deres e-mailadresse og giver dem mulighed for at bede om en yderligere anmodning om at få data anonymiseret."
+
+#: Includes/Page.php:323
+msgid "Request User Data"
+msgstr "Anmod brugerdata"
+
+#: Includes/Page.php:121
+msgid "%s currently supports %s. Please visit %s for frequently asked questions and our development roadmap."
+msgstr "%s understøtter i øjeblikket %s. Besøg venligst %s for ofte stillede spørgsmål og vores udviklingsplan."
+
+#: Includes/Page.php:118
+msgid "This plugin assists website and webshop owners to comply with European privacy regulations known as GDPR. By May 25th, 2018 your site or shop has to comply."
+msgstr "Dette plugin hjælper website- og webshopejere med at overholde de europæiske regler for beskyttelse af personlige oplysninger, kendt som GDPR. Den 25. maj 2018 skal dit website eller webshop overholde GDPR."
+
+#: Includes/Data.php:72
+msgid "Address"
+msgstr "Adresse"
+
+#: Includes/Data.php:71
+msgid "Name"
+msgstr "Navn"
+
+#: Includes/Action.php:93
+msgid "Data Access Request"
+msgstr "Anmodning om dataadgang"
+
+#: Includes/Ajax.php:110
+msgid "Missing or incorrect email address."
+msgstr "Manglende eller forkert e-mailadresse."
+
+#: Includes/Ajax.php:139
+msgid "page"
+msgstr "side"
+
+#: Includes/Ajax.php:146
+msgid "%s - Your data request"
+msgstr "%s - din dataanmodning"
+
+#: Includes/Ajax.php:152
+msgid "You have requested to access your data on %s."
+msgstr "Du har bedt om at få adgang til dine data på %s."
+
+#: Includes/Ajax.php:156
+msgid "Please visit this %s to view the data linked to the email address %s."
+msgstr "Besøg denne %s for at se de data, der er knyttet til e-mailadressen %s."
+
+#: Includes/Ajax.php:176
+msgid "Success. You will receive an email with your data shortly."
+msgstr "Tak for din henvendelse. Du modtager en e-mail med dine data inden for kort tid."
+
+#: Includes/Ajax.php:183
+msgid "You have already requested your data. Please check your mailbox. After 24 hours you can put in a new request."
+msgstr "Du har allerede bedt om dine data. Tjek venligst din postkasse. Efter 24 timer kan du indsende en ny anmodning."
+
+#: Includes/Data.php:54 Includes/Data.php:63 Includes/Data.php:70
+#: Includes/Page.php:761
+msgid "Email Address"
+msgstr "E-mailadresse"
+
+#: Includes/Data.php:61
+msgid "Author"
+msgstr "Forfatter"
+
+#: Includes/Data.php:62
+msgid "Content"
+msgstr "Indhold"
+
+#: Includes/Data.php:64 Includes/Page.php:680 Includes/Page.php:762
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#: Includes/Data.php:74
+msgid "City"
+msgstr "By"
+
+#: Includes/Data.php:73
+msgid "Postcode / ZIP"
+msgstr "Postnummer"
+
+#: Includes/Data.php:69
+msgid "Order"
+msgstr "Ordre"
+
+#: Includes/Data.php:52
+msgid "Username"
+msgstr "Brugernavn"
+
+#: Includes/Data.php:28
+msgid "Email Address is required."
+msgstr "E-mailadresse er obligatorisk"
+
+#: Includes/Ajax.php:417
+msgid "This request has already been processed."
+msgstr "Denne anmodning er allerede blevet behandlet."
+
+#: Includes/Data.php:56
+msgid "Registered on"
+msgstr "Registreret"
+
+#: Includes/Data.php:55
+msgid "Website"
+msgstr "Website"
+
+#: Includes/Data.php:53
+msgid "Display Name"
+msgstr "Visningsnavn"
+
+#: Includes/Ajax.php:384
+msgid "You're not allowed to edit WooCommerce orders."
+msgstr "Du har ikke lov til at redigere WooCommerce-ordrer."
+
+#: Includes/Ajax.php:340
+msgid "You're not allowed to edit comments."
+msgstr "Du har ikke lov til at redigere kommentarer."
+
+#: Includes/Ajax.php:334
+msgid "This comment doesn't exist."
+msgstr "Denne kommentar eksisterer ikke."
+
+#: Includes/Ajax.php:321
+msgid "You're not allowed to edit users."
+msgstr "Du har ikke lov til at redigere brugere."
+
+#: Includes/Ajax.php:315
+msgid "This user doesn't exist."
+msgstr "Denne bruger eksisterer ikke."
+
+#: Includes/Ajax.php:281
+msgid "The access request functionality is not enabled."
+msgstr "Funktionen adgangsanmodning er ikke aktiveret."
+
+#: Includes/Ajax.php:259
+msgid "No session found."
+msgstr "Ingen session fundet."
+
+#: Includes/Ajax.php:256
+msgid "Session doesn't match."
+msgstr "Sessionen stemmer ikke overens."
+
+#: Includes/Ajax.php:224
+msgid "Something went wrong while saving this request. Please try again."
+msgstr "Noget gik galt, mens du lagrede denne anmodning. Prøv igen."
+
+#: Includes/Ajax.php:204
+msgid "No value selected."
+msgstr "Ingen værdi valgt."
+
+#: Includes/Ajax.php:200
+msgid "Missing or invalid type."
+msgstr "Manglende eller ugyldig type."
+
+#: Includes/Ajax.php:114
+msgid "You need to accept the privacy checkbox."
+msgstr "Du skal acceptere afkrydsningsfeltet om privatliv."
+
+#: Includes/Page.php:537 Includes/Page.php:571
+msgid "Required"
+msgstr "Obligatorisk"
+
+#: Includes/Helper.php:172
+msgid "Please disable the custom comments form in Jetpack to make your WordPress Comments GDPR compliant."
+msgstr "Deaktiver venligst den brugerdefinerede kommentarformular i Jetpack for at gøre dine WordPress-kommentarer GDPR-kompatibel."
+
+#: Includes/Integration.php:282 Includes/Page.php:303 Includes/Page.php:305
+msgid "Privacy Policy"
+msgstr "Privatlivspolitik"
+
+#: Includes/Action.php:196 Includes/Helper.php:116 Includes/Helper.php:171
+#: Includes/Page.php:236 Includes/Page.php:336 Includes/Page.php:387
+msgid "Note"
+msgstr "Note"
+
+#: Includes/Extensions/WP.php:57
+msgid "GDPR Accepted On"
+msgstr "GDPR accepteret"
+
+#: Includes/Extensions/GForms.php:147
+msgid "Accepted on %s."
+msgstr "Accepteret %s."
+
+#: Includes/Extensions/CF7.php:188 Includes/Extensions/WC.php:67
+msgid "GDPR accepted on:"
+msgstr "GDPR accepteret:"
+
+#: Includes/Extensions/CF7.php:184 Includes/Extensions/GForms.php:113
+#: Includes/Extensions/GForms.php:129 Includes/Extensions/GForms.php:149
+#: Includes/Extensions/WC.php:69 Includes/Extensions/WC.php:96
+#: Includes/Extensions/WP.php:69
+msgid "Not accepted."
+msgstr "Ikke accepteret."
+
+#: Includes/Page.php:129
+msgid "Disclaimer: The creators of this plugin do not have a legal background please contact a law firm for rock solid legal advice."
+msgstr "Ansvarsfraskrivelse: Skaberne af dette plugin har ingen juridisk baggrund, så kontakt et advokatfirma for at få grundig juridisk rådgivning."
+
+#: Includes/Page.php:318
+msgid "Link text"
+msgstr "Linktekst"
+
+#: Includes/Page.php:310 Includes/Page.php:354
+msgid "Select an option"
+msgstr "Vælg en mulighed"
+
+#: Includes/Page.php:177
+msgid "Enable:"
+msgstr "Aktivér:"
+
+#: Includes/Helper.php:117
+msgid "No HTML allowed due to plugin limitations."
+msgstr "Ingen HTML tilladt på grund af pluginbegrænsninger."
+
+#: Includes/Page.php:78 wp-gdpr-compliance.php:193
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: Includes/Helper.php:110
+msgid "You can use: %s"
+msgstr "Du kan bruge: %s"
+
+#: wp-gdpr-compliance.php:193
+msgid "View WP GDPR Compliance settings"
+msgstr "Se WP GDPR Compliance indstillinger"
+
+#: Includes/Data.php:27 Includes/Extensions/WP.php:34 Includes/Shortcode.php:85
+msgid "<strong>ERROR</strong>: %s"
+msgstr "<strong>FEJL</strong>: %s"
+
+#. Author of the plugin/theme
+msgid "Van Ons"
+msgstr "Van Ons"
+
+#: Includes/Page.php:77
+msgid "Checklist"
+msgstr "Tjekliste"
+
+#: Includes/Integration.php:369
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: Includes/Extensions/GForms.php:58 Includes/Extensions/GForms.php:97
+#: Includes/Extensions/WC.php:84
+msgid "Privacy"
+msgstr "Privatliv"
+
+#: Includes/Page.php:203
+msgid "This plugin is outdated. %s supports version %s and up."
+msgstr "Dette plugin er forældet. %s understøtter version %s og opefter."
+
+#: Includes/Integration.php:348
+msgid "When activated the GDPR checkbox will be added automatically just above the submit button."
+msgstr "Når den er aktiveret, bliver afkrydsningsfeltet GDPR tilføjet automatisk lige over submit-knappen."
+
+#: Includes/Integration.php:137 Includes/Integration.php:187
+msgid "No forms found."
+msgstr "Ingen formularer fundet."
+
+#: Includes/Integration.php:117 Includes/Integration.php:161
+msgid "Form: %s"
+msgstr "Formular: %s"
+
+#: Includes/Extensions/WP.php:37
+msgid "Comment Submission Failure"
+msgstr "Kommentarfejl"
+
+#: Includes/Integration.php:255
+msgid "Please accept the privacy checkbox."
+msgstr "Venligst acceptér checkboksen om privatliv."
+
+#: Includes/Helper.php:199
+msgid "Do you provide a forum or message board?"
+msgstr "Tilbyder du et forum eller en opslagstavle?"
+
+#: Includes/Integration.php:127 Includes/Integration.php:171
+#: Includes/Integration.php:206
+msgid "Error message"
+msgstr "Fejlbesked"
+
+#: Includes/Integration.php:376 Includes/Page.php:669
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: Includes/Integration.php:362
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: Includes/Integration.php:347 Includes/Page.php:668
+msgid "WordPress Comments"
+msgstr "WordPress kommentarer"
+
+#: Includes/Integration.php:121 Includes/Integration.php:165
+#: Includes/Integration.php:200 Includes/Page.php:367
+msgid "Checkbox text"
+msgstr "Checkbox tekst"
+
+#: Includes/Integration.php:118 Includes/Integration.php:162
+msgid "Activate for this form:"
+msgstr "Aktivér på denne formular:"
+
+#: Includes/Integration.php:238 Includes/Integration.php:294
+msgid "By using this form you agree with the storage and handling of your data by this website."
+msgstr "Ved at bruge denne formular accepterer du opbevaring og håndtering af dine data på dette website."
+
+#: Includes/Ajax.php:48
+msgid "Missing value."
+msgstr "Manglende værdi."
+
+#: Includes/Page.php:243
+msgid "Below we ask you what private data you currently collect and provide you with tips to comply."
+msgstr "Nedenfor spørger vi dig, hvilke private data du samler i øjeblikket og giver dig tips til at overholde GDPR."
+
+#: Includes/Integration.php:377
+msgid "The GDPR checkbox will be added automatically at the end of your checkout page."
+msgstr "Afkrydsningsfeltet GDPR vil blive tilføjet automatisk i bunden af ​​din betalingsside."
+
+#: Includes/Integration.php:363 Includes/Integration.php:370
+msgid "A GDPR form tag will be automatically added to every form you activate."
+msgstr "Et GDPR form tag bliver automatisk tilføjet til hver formular du aktiverer."
+
+#: Includes/Ajax.php:36
+msgid "Missing option name."
+msgstr "Manglende valgmulighed"
+
+#: Includes/Ajax.php:99
+msgid "Missing type."
+msgstr "Manglende type."
+
+#: Includes/Ajax.php:26 Includes/Ajax.php:95 Includes/Ajax.php:291
+msgid "Missing data."
+msgstr "Manglende data."
+
+#: Includes/Page.php:219
+msgid "More plugins will be added in the future."
+msgstr "Flere plugins vil blive tilføjet i fremtiden."
+
+#: Includes/Page.php:213
+msgid "The following plugins are supported as of now:"
+msgstr "Følgende plugins understøttes:"
+
+#: Includes/Page.php:212
+msgid "Couldn't find any supported plugins installed."
+msgstr "Kunne ikke finde nogen understøttede plugins der var installeret."
+
+#: Includes/Page.php:56
+msgid "Integrations"
+msgstr "integrationer"
+
+#. Author URI of the plugin/theme
+msgid "https://www.van-ons.nl/"
+msgstr "https://www.van-ons.nl/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wpgdprc.com/"
+msgstr "https://www.wpgdprc.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP GDPR Compliance"
+msgstr "WP GDPR Compliance"
+
+#. Description of the plugin/theme
+msgid "This plugin assists website and webshop owners to comply with European privacy regulations known as GDPR. By May 24th, 2018 your website or shop has to comply to avoid large fines."
+msgstr "Dette plugin hjælper website- og webshopejere med at overholde europæiske regler for beskyttelse af personlige oplysninger, kendt som GDPR. Den 25. maj 2018 skal dit website eller webshop overholde GDPR for at undgå store bøder."
+
+#: Includes/Helper.php:204
+msgid "Make sure you add a checkbox specifically asking chat users if they consent to you storing and using their personal information and messages. The checkbox must be unchecked by default. We recommend also mentioning for how long you will store chat messages or deleting them all within 24 hours. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Sørg for at tilføje et afkrydsningsfelt, der specifikt spørger chat-brugere, om de accepterer at gemme og bruge deres personlige oplysninger og meddelelser. Afkrydsningsfeltet skal ikke være markeret på forhånd. Vi anbefaler også at du nævner, hvor længe du vil gemme chatbeskeder eller slette dem alle inden for 24 timer. Du skal også nævne, om du vil sende eller dele dataene med en tredjepart og hvilken."
+
+#: Includes/Helper.php:203
+msgid "Can visitors chat with your company directly?"
+msgstr "Kan besøgende chatte med din virksomhed direkte?"
+
+#: Includes/Helper.php:200
+msgid "Make sure you add a checkbox specifically asking forum / board users if they consent to you storing and using their personal information and messages. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Sørg for at tilføje et afkrydsningsfelt, der specifikt spørger forum / board-brugere, om de accepterer at gemme og bruge deres personlige oplysninger og meddelelser. Afkrydsningsfeltet skal ikke være markeret på forhånd. Du skal også nævne, om du vil sende eller dele dataene med en tredjepart og hvilken."
+
+#: Includes/Helper.php:196
+msgid "Make sure you add a checkbox specifically asking the user of the form if they consent to you storing and using their personal information to ship the order. This cannot be the same checkbox as the Privacy Policy checkbox you should already have in place. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Sørg for at du tilføjer et afkrydsningsfelt, der specifikt spørger brugeren af formularen, om de accepterer at gemme og bruge deres personlige oplysninger til at sende ordren. Dette kan ikke være det samme afkrydsningsfelt som afkrydsningsfeltet Privatlivspolitik, som du allerede skal have på plads. Afkrydsningsfeltet skal ikke være markeret på forhånd. Du skal også nævne, om du vil sende eller dele dataene med en tredjepart og hvilken."
+
+#: Includes/Helper.php:195
+msgid "Is there an order form on your website or webshop present?"
+msgstr "Er der en ordreformular på dit website eller webshop?"
+
+#: Includes/Helper.php:192
+msgid "Make sure you add a checkbox specifically asking the user of the comment section if they consent to storing their message attached to the e-mail address they've used to comment. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Sørg for at tilføje et afkrydsningsfelt, der specifikt spørger brugeren af kommentarafsnittet, om de accepterer at deres meddelelse bliver gemt sammen med den e-mail-adresse, de har brugt til at kommentere. Afkrydsningsfeltet skal ikke være markeret på forhånd. Du skal også nævne, om du vil sende eller dele dataene med en tredjepart og hvilken."
+
+#: Includes/Helper.php:191
+msgid "Can visitors comment anywhere on your website?"
+msgstr "Kan besøgende kommentere hvor som helst på dit website?"
+
+#: Includes/Helper.php:188
+msgid "Make sure you add a checkbox specifically asking the user of the form if they consent to you storing and using their personal information to get back in touch with them. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Sørg for at tilføje et afkrydsningsfelt, der specifikt spørger brugeren af formularen, om de accepterer at gemme og bruge deres personlige oplysninger for at komme i kontakt med dem. Afkrydsningsfeltet skal ikke være markeret på forhånd. Du skal også nævne, om du vil sende eller dele dataene med en tredjepart og hvilken."
+
+#: Includes/Helper.php:187
+msgid "Do you have a contact form?"
+msgstr "Har du en kontaktformular?"

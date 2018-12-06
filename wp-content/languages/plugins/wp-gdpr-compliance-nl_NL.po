@@ -1,0 +1,795 @@
+# Translation of Plugins - WP GDPR Compliance - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WP GDPR Compliance - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-11 11:25:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WP GDPR Compliance - Stable (latest release)\n"
+
+#: Includes/Page.php:496
+msgid "JavaScript only. Do not add any <script> tags to your snippet."
+msgstr "Alleen JavaScript. Voeg geen <script>-tags toe aan je stukje code."
+
+#: Includes/Page.php:486
+msgid "Code Snippet"
+msgstr "Stukje code"
+
+#: Includes/Page.php:481
+msgid "Describe your consent script as thoroughly as possible."
+msgstr "Beschrijf je toestemming-script zo volledig mogelijk."
+
+#: Includes/Page.php:472
+msgid "e.g. \"Google Analytics\" or \"Advertising\""
+msgstr "bijv. \"Google Analytics\" of \"Advertising\""
+
+#: Includes/Page.php:601
+msgid "No consents found."
+msgstr "Geen toestemmingen gevonden."
+
+#: Includes/Page.php:575
+msgid "Edit"
+msgstr "Bewerk"
+
+#: Includes/Page.php:562
+msgid "Created at"
+msgstr "Aangemaakt op"
+
+#: Includes/Page.php:561
+msgid "Modified at"
+msgstr "Gewijzigd op"
+
+#: Includes/Page.php:558
+msgid "Consent"
+msgstr "Toestemming"
+
+#: Includes/Page.php:552
+msgctxt "consent"
+msgid "Add New"
+msgstr "Voeg nieuwe toe"
+
+#: Includes/Page.php:536
+msgid "Back to overview"
+msgstr "Terug naar overzicht"
+
+#: Includes/Page.php:535
+msgid "Add"
+msgstr "Voeg toe"
+
+#: Includes/Page.php:535
+msgid "Update"
+msgstr "Update"
+
+#: Includes/Page.php:504 Includes/Page.php:560
+msgid "Placement"
+msgstr "Plaatsing"
+
+#: Includes/Page.php:490
+msgid "Code snippets for Google Analytics, Facebook Pixel, etc."
+msgstr "Stukjes code voor Google Analytics, Facebook Pixel, etc."
+
+#: Includes/Page.php:477
+msgid "Description"
+msgstr "Beschrijving"
+
+#: Includes/Page.php:468 Includes/Page.php:559
+msgid "Title"
+msgstr "Titel"
+
+#: Includes/Page.php:460
+msgid "Add New Consent"
+msgstr "Voeg nieuwe toestemming toe"
+
+#: Includes/Page.php:401
+msgid "Modal: Explanation"
+msgstr "Modaal: Uitleg"
+
+#: Includes/Page.php:395
+msgid "Modal: Title"
+msgstr "Modaal: Titel"
+
+#: Includes/Page.php:389
+msgid "Bar: Explanation"
+msgstr "Balk: Uitleg"
+
+#: Includes/Page.php:57 Includes/Page.php:368
+msgid "Consents"
+msgstr "Toestemmingen"
+
+#: Includes/Consent.php:243 Includes/Page.php:527
+msgid "Footer"
+msgstr "Footer"
+
+#: Includes/Consent.php:242 Includes/Page.php:522
+msgid "Head"
+msgstr "Kop"
+
+#: Includes/Consent.php:77
+msgid "This site uses functional cookies and external scripts to improve your experience."
+msgstr "Deze site gebruikt functionele cookies en externe scripts om je beleving te verbeteren."
+
+#: Includes/Consent.php:51
+msgid "Privacy Settings"
+msgstr "Privacy-instellingen"
+
+#: Includes/Action.php:208
+msgid "Close modal"
+msgstr "Sluit modaal"
+
+#: Includes/Action.php:201
+msgid "Save my settings"
+msgstr "Bewaar mijn instellingen"
+
+#: Includes/Action.php:171
+msgid "These settings will only apply to the browser and device you are currently using."
+msgstr "Deze instellingen worden alleen toegepast in de browser en op het apparaat die je nu gebruikt."
+
+#: Includes/Action.php:134
+msgid "Accept"
+msgstr "Accepteer"
+
+#: Includes/Action.php:128 Includes/Page.php:380 Includes/Shortcode.php:154
+msgid "My settings"
+msgstr "Mijn instellingen"
+
+#: Includes/Action.php:29
+msgid "Couldn't find this consent."
+msgstr "Kon deze toestemming niet vinden."
+
+#: Includes/Action.php:25
+msgid "Consent has been added successfully."
+msgstr "Toestemming is succesvol toegevoegd."
+
+#: Includes/Action.php:21
+msgid "Consent has been updated successfully."
+msgstr "Toestemming is succesvol bijgewerkt."
+
+#: Includes/Shortcode.php:134
+msgid "Send"
+msgstr "Verstuur"
+
+#: Includes/Shortcode.php:120
+msgid "Your Email Address"
+msgstr "Jouw e-mailadres"
+
+#: Includes/Shortcode.php:90
+msgid "If needed you can put in a new request after 24 hours here: %s."
+msgstr "Indien nodig kan je hier een nieuw verzoek indienen na 24 uur: %s."
+
+#: Includes/Shortcode.php:88
+msgid "You are only able to view your data when visiting this page on the same device with the same IP and in the same browser session as when you performed your request. This is an extra security measure to keep your data safe."
+msgstr "Je kan alleen jouw data bekijken, als je deze pagina bezoekt op het zelfde apparaat met hetzelfde IP-adres en in dezelfde browser sessie van waar je het verzoek gedaan hebt. Dit is een extra beveiligingsmaatregel om jouw data veilig te houden."
+
+#: Includes/Page.php:462 Includes/Page.php:564 Includes/Page.php:750
+msgid "Active"
+msgstr "Actief"
+
+#: Includes/Page.php:724
+msgid "Status"
+msgstr "Status"
+
+#: Includes/Page.php:144
+msgid "Support forum"
+msgstr "Ondersteuningsforum"
+
+#: Includes/Page.php:143
+msgid "Need a helping hand? Please ask for help on the %s. Be sure to mention your WordPress version and give as much additional information as possible."
+msgstr "Hulp nodig? Vraag voor hulp op het %s. Vermeld jouw WordPress-versie en geef zoveel mogelijk extra informatie als mogelijk."
+
+#: Includes/Page.php:141
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: Includes/Page.php:136
+msgid "Did %s help you out? Please leave a 5-star review. Thank you!"
+msgstr "Heeft %s je geholpen? Laat een 5-sterren beoordeling achter. Dank je wel!"
+
+#: Includes/Ajax.php:134
+msgid "If your link is invalid you can fill in a new request after 24 hours: %s."
+msgstr "Indien jouw link ongeldig is, kan je een nieuw verzoek indienen na 24 uur: %s."
+
+#: Includes/Ajax.php:132
+msgid "This page is available for 24 hours and can only be reached from the same device, IP address and browser session you requested from."
+msgstr "Deze pagina is 24 uur beschikbaar en kan alleen benaderd worden vanaf hetzelfde apparaat, IP-adres en browsersessie waarvandaan je het verzoek gedaan hebt."
+
+#: Includes/Data.php:178
+msgid "Anonymise selected %s(s)"
+msgstr "Anonimiseer geselecteerde %s(s)"
+
+#: Includes/Page.php:361
+msgid "Anonymise request explanation"
+msgstr "Uitleg anonimiseringsverzoek"
+
+#: Includes/Page.php:576 wp-gdpr-compliance.php:141 wp-gdpr-compliance.php:159
+msgid "No"
+msgstr "Nee"
+
+#: Includes/Page.php:576 wp-gdpr-compliance.php:140 wp-gdpr-compliance.php:158
+msgid "Yes"
+msgstr "Ja"
+
+#: Includes/Page.php:137
+msgid "Write a review"
+msgstr "Schrijf een beoordeling"
+
+#: Includes/Page.php:134
+msgid "Rate us"
+msgstr "Waardeer ons"
+
+#: Includes/DeleteRequest.php:228
+msgid "WooCommerce Order"
+msgstr "WooCommerce-bestelling"
+
+#: Includes/DeleteRequest.php:225
+msgid "Comment"
+msgstr "Reactie"
+
+#: Includes/DeleteRequest.php:222
+msgid "User"
+msgstr "Gebruiker"
+
+#: Includes/Ajax.php:386
+msgid "Successfully sent an confirmation mail to the user."
+msgstr "Een bevestigingsmail is succesvol verstuurd naar de gebruiker."
+
+#: Includes/Ajax.php:377
+msgid "The following has been processed:"
+msgstr "Het volgende is verwerkt:"
+
+#: Includes/Ajax.php:374
+msgid "We have successfully processed your request and your data has been anonymised on %s."
+msgstr "We hebben jouw verzoek succesvol verwerkt en jouw data is geanonimiseerd op %s."
+
+#: Includes/Ajax.php:369
+msgid "%s - Your request"
+msgstr "%s - Jouw verzoek"
+
+#: Includes/Ajax.php:268
+msgid "This request doesn't exist."
+msgstr "Dit verzoek bestaat niet."
+
+#: Includes/Ajax.php:218
+msgid "You can manage this request in the admin panel: %s"
+msgstr "Je kan dit verzoek beheren in het beheerscherm: %s"
+
+#: Includes/Ajax.php:214
+msgid "You have received a new anonymise request on %s."
+msgstr "Je hebt een nieuw anonimiseringsverzoek ontvangen op %s."
+
+#: Includes/Ajax.php:209
+msgid "%s - New anonymise request"
+msgstr "%s - Nieuw anonimiseringsverzoek"
+
+#: Includes/Ajax.php:152
+msgid "Something went wrong while saving the request. Please try again."
+msgstr "Er is iets fout gegaan tijdens het opslaan van het verzoek. Probeer opnieuw."
+
+#: Includes/Action.php:109
+msgid "Retry"
+msgstr "Probeer opnieuw"
+
+#: Includes/Action.php:105
+msgid "Couldn't create the required database tables."
+msgstr "Kon vereiste database-tabellen niet aanmaken."
+
+#: Includes/Shortcode.php:102
+msgid "This request is expired or doesn't exist."
+msgstr "Dit verzoek is verlopen of bestaat niet."
+
+#: Includes/Shortcode.php:72
+msgid "No WooCommerce orders found with email address %s."
+msgstr "Geen WooCommerce-bestellingen gevonden met e-mailadres %s."
+
+#: Includes/Shortcode.php:65
+msgid "WooCommerce Orders"
+msgstr "WooCommerce-bestellingen"
+
+#: Includes/Shortcode.php:56
+msgid "No comments found with email address %s."
+msgstr "Geen reacties gevonden met e-mailadres %s."
+
+#: Includes/Shortcode.php:49
+msgid "Comments"
+msgstr "Reacties"
+
+#: Includes/Shortcode.php:42
+msgid "No users found with email address %s."
+msgstr "Geen gebruikers gevonden met e-mailadres %s."
+
+#: Includes/Shortcode.php:35
+msgid "Users"
+msgstr "Gebruikers"
+
+#: Includes/Page.php:697 Includes/Page.php:779
+msgid "No requests found."
+msgstr "Geen verzoeken gevonden."
+
+#: Includes/Page.php:742
+msgid "Manage"
+msgstr "Beheer"
+
+#: Includes/Page.php:750
+msgid "Expired"
+msgstr "Verlopen"
+
+#: Includes/Page.php:720
+msgid "Requests to Process"
+msgstr "Te verwerken verzoeken"
+
+#: Includes/Page.php:719
+msgid "ID"
+msgstr "ID"
+
+#: Includes/Page.php:597 Includes/Page.php:691 Includes/Page.php:773
+msgid "%d of %d results found"
+msgstr "%d van %d resultaten gevonden"
+
+#: Includes/Page.php:672
+msgid "Anonymise selected request(s)"
+msgstr "Anonimiseer geselecteerd(e) verzoek(en)"
+
+#: Includes/Page.php:658
+msgid "View"
+msgstr "Bekijk"
+
+#: Includes/Page.php:563 Includes/Page.php:643
+msgid "Action"
+msgstr "Actie"
+
+#: Includes/Page.php:642
+msgid "Processed"
+msgstr "Verwerkt"
+
+#: Includes/Page.php:641 Includes/Page.php:723
+msgid "Date"
+msgstr "Datum"
+
+#: Includes/Page.php:639
+msgid "Type"
+msgstr "Type"
+
+#: Includes/Page.php:638
+msgid "Request"
+msgstr "Verzoek"
+
+#: Includes/Page.php:627
+msgid "WordPress Users"
+msgstr "WordPress-gebruikers"
+
+#: Includes/Page.php:625
+msgid "Anonymise a request by ticking the checkbox and clicking on the green anonymise button below."
+msgstr "Anonimiseer een verzoek door het selectievakje te selecteren en op de groene anonimiseer-knop hieronder te klikken."
+
+#: Includes/Page.php:349
+msgid "Click here to edit this page"
+msgstr "Klik hier om deze pagina te bewerken"
+
+#: Includes/Page.php:337
+msgid "Page"
+msgstr "Pagina"
+
+#: Includes/Page.php:326
+msgid "Enabling this will create one private page containing the necessary shortcode: %s. You can determine when and how to publish this page yourself."
+msgstr "Dit inschakelen creëert een privépagina die de benodigde stortcode %s bevat. Je kan zelf beslissen wanneer en hoe je deze wilt publiceren."
+
+#: Includes/Page.php:318
+msgid "Activate page"
+msgstr "Activeer pagina"
+
+#: Includes/Page.php:316
+msgid "Activate"
+msgstr "Activeer"
+
+#: Includes/Page.php:313
+msgid "Allow your site's visitors to request their data stored in the WordPress database (comments, WooCommerce orders etc.). Data found is send to their email address and allows them to put in an additional request to have the data anonymised."
+msgstr "Sta je site bezoekers toe om hun data, die opgeslagen is in de WordPress-database (reacties, WooCommerce bestellingen, etc.), op te vragen. Gevonden data wordt verstuurd naar hun e-mailadres en stelt ze in staat om een anonimiseringsverzoek in te dienen."
+
+#: Includes/Page.php:311
+msgid "Request User Data"
+msgstr "Verzoek toegang gebruikersdata"
+
+#: Includes/Page.php:121
+msgid "%s currently supports %s. Please visit %s for frequently asked questions and our development roadmap."
+msgstr "%s ondersteunt op dit moment %s. Bezoek %s voor veel gestelde vragen en onze ontwikkeling tijdschema."
+
+#: Includes/Page.php:118
+msgid "This plugin assists website and webshop owners to comply with European privacy regulations known as GDPR. By May 25th, 2018 your site or shop has to comply."
+msgstr "Deze plugin ondersteunt website- en webshop-eigenaren om te voldoen aan de Europese privacywetgeving, bekend als GDPR. Met ingang van 25 mei 2018 dient je site of webshop hieraan te voldoen."
+
+#: Includes/Ajax.php:205 Includes/Page.php:67
+msgid "Requests"
+msgstr "Verzoeken"
+
+#: Includes/Integration.php:273
+msgid "Below we show you all of the data stored by %s on %s. Select the data you wish the site owner to anonymise so it cannot be linked to your email address any longer. It is the site's owner responsibility to act upon your request. When your data is anonymised you will receive an email confirmation."
+msgstr "Hieronder tonen we alle data die opgeslagen is door %s op %s. Selecteer de data waarvan je wilt dat de site eigenaar deze anonimiseert, waardoor het niet langer aan jouw e-mailadres gekoppeld kan worden. Het is de verantwoordelijkheid van de site eigenaar om op dit verzoek te reageren. Zodra jouw data geanonimiseerd is, ontvang je een melding via e-mail."
+
+#: Includes/Extensions/WP.php:24
+msgid "required"
+msgstr "vereist"
+
+#: Includes/Data.php:74
+msgid "City"
+msgstr "Plaats"
+
+#: Includes/Data.php:73
+msgid "Postcode / ZIP"
+msgstr "Postcode / ZIP"
+
+#: Includes/Data.php:72
+msgid "Address"
+msgstr "Adres"
+
+#: Includes/Data.php:71
+msgid "Name"
+msgstr "Naam"
+
+#: Includes/Data.php:69
+msgid "Order"
+msgstr "Volgorde"
+
+#: Includes/Data.php:64 Includes/Page.php:640 Includes/Page.php:722
+msgid "IP Address"
+msgstr "IP-adres"
+
+#: Includes/Data.php:62
+msgid "Content"
+msgstr "Inhoud"
+
+#: Includes/Data.php:61
+msgid "Author"
+msgstr "Auteur"
+
+#: Includes/Data.php:56
+msgid "Registered on"
+msgstr "Geregistreerd op"
+
+#: Includes/Data.php:55
+msgid "Website"
+msgstr "Website"
+
+#: Includes/Data.php:54 Includes/Data.php:63 Includes/Data.php:70
+#: Includes/Page.php:721
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: Includes/Data.php:53
+msgid "Display Name"
+msgstr "Weergavenaam"
+
+#: Includes/Data.php:52
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: Includes/Data.php:28
+msgid "Email Address is required."
+msgstr "E-mailadres is vereist."
+
+#: Includes/Ajax.php:390
+msgid "This request has already been processed."
+msgstr "Dit verzoek is reeds verwerkt."
+
+#: Includes/Ajax.php:357
+msgid "You're not allowed to edit WooCommerce orders."
+msgstr "Je hebt geen toestemming om WooCommerce-bestellingen te bewerken."
+
+#: Includes/Ajax.php:313
+msgid "You're not allowed to edit comments."
+msgstr "Je hebt geen toestemming om reacties te bewerken."
+
+#: Includes/Ajax.php:307
+msgid "This comment doesn't exist."
+msgstr "Deze reactie bestaat niet."
+
+#: Includes/Ajax.php:294
+msgid "You're not allowed to edit users."
+msgstr "Je hebt geen toestemming om gebruikers te bewerken."
+
+#: Includes/Ajax.php:288
+msgid "This user doesn't exist."
+msgstr "Deze gebruiker bestaat niet."
+
+#: Includes/Ajax.php:254
+msgid "The access request functionality is not enabled."
+msgstr "De verzoek-tot-toegang-functionaliteit is niet ingeschakeld."
+
+#: Includes/Ajax.php:232
+msgid "No session found."
+msgstr "Geen sessie gevonden."
+
+#: Includes/Ajax.php:229
+msgid "Session doesn't match."
+msgstr "Sessie komt niet overeen."
+
+#: Includes/Ajax.php:197
+msgid "Something went wrong while saving this request. Please try again."
+msgstr "Er ging iets fout bij het opslaan van dit verzoek. Probeer opnieuw."
+
+#: Includes/Ajax.php:176
+msgid "No value selected."
+msgstr "Geen waarde geselecteerd."
+
+#: Includes/Ajax.php:172
+msgid "Missing or invalid type."
+msgstr "Missend of ongeldig type."
+
+#: Includes/Ajax.php:168
+msgid "Missing session."
+msgstr "Missende sessie."
+
+#: Includes/Ajax.php:155
+msgid "You have already requested your data. Please check your mailbox. After 24 hours you can put in a new request."
+msgstr "Je hebt jouw data al opgevraagd. Controleer je postvak in. Na 24 uur kan je een nieuwe verzoek indienen."
+
+#: Includes/Ajax.php:148
+msgid "Success. You will receive an email with your data shortly."
+msgstr "Gelukt. Je ontvangt een e-mail met jouw data zo snel mogelijk."
+
+#: Includes/Ajax.php:111
+msgid "page"
+msgstr "pagina"
+
+#: Includes/Ajax.php:128
+msgid "Please visit this %s to view the data linked to the email address %s."
+msgstr "Bezoek deze %s om de data gekoppeld met e-mailadres %s te bekijken."
+
+#: Includes/Ajax.php:124
+msgid "You have requested to access your data on %s."
+msgstr "Je hebt toegang tot jouw data verzocht op %s."
+
+#: Includes/Ajax.php:118
+msgid "%s - Your data request"
+msgstr "%s - Jouw dataverzoek"
+
+#: Includes/Ajax.php:84
+msgid "You need to accept the privacy checkbox."
+msgstr "Je moet het privacy-selectievakje accepteren."
+
+#: Includes/Ajax.php:80
+msgid "Missing or incorrect email address."
+msgstr "Missend of foutief e-mailadres."
+
+#: Includes/Action.php:69
+msgid "Data Access Request"
+msgstr "Verzoek toegang tot data"
+
+#: Includes/Helper.php:138
+msgid "Please disable the custom comments form in Jetpack to make your WordPress Comments GDPR compliant."
+msgstr "Schakel het aangepaste reactieformulier in Jetpack uit, om jouw WordPress-reacties te laten voldoen aan GDPR."
+
+#: Includes/Page.php:129
+msgid "Disclaimer: The creators of this plugin do not have a legal background please contact a law firm for rock solid legal advice."
+msgstr "Disclaimer: de makers van deze plugin hebben geen juridische achtergrond. Neem contact op met een advocatenkantoor voor degelijk juridisch advies."
+
+#: Includes/Page.php:306
+msgid "Link text"
+msgstr "Link tekst"
+
+#: Includes/Page.php:298 Includes/Page.php:342
+msgid "Select an option"
+msgstr "Selecteer een optie"
+
+#: Includes/Page.php:177
+msgid "Enable:"
+msgstr "Inschakelen:"
+
+#: Includes/Integration.php:247 Includes/Page.php:291 Includes/Page.php:293
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: Includes/Helper.php:117
+msgid "No HTML allowed due to plugin limitations."
+msgstr "Geen HTML toegestaan vanwege beperkingen plugin."
+
+#: Includes/Action.php:170 Includes/Helper.php:116 Includes/Helper.php:137
+#: Includes/Page.php:324 Includes/Page.php:375 Includes/Page.php:495
+msgid "Note"
+msgstr "Notitie"
+
+#: Includes/Extensions/WP.php:57
+msgid "GDPR Accepted On"
+msgstr "GDPR geaccepteerd op"
+
+#: Includes/Extensions/GForms.php:147
+msgid "Accepted on %s."
+msgstr "Geaccepteerd op %s."
+
+#: Includes/Extensions/CF7.php:188 Includes/Extensions/WC.php:67
+msgid "GDPR accepted on:"
+msgstr "GDPR geaccepteerd op:"
+
+#: Includes/Extensions/CF7.php:184 Includes/Extensions/GForms.php:113
+#: Includes/Extensions/GForms.php:129 Includes/Extensions/GForms.php:149
+#: Includes/Extensions/WC.php:69 Includes/Extensions/WP.php:69
+msgid "Not accepted."
+msgstr "Niet geaccepteerd."
+
+#: Includes/Page.php:78 wp-gdpr-compliance.php:131
+msgid "Settings"
+msgstr "Instellingen"
+
+#: wp-gdpr-compliance.php:131
+msgid "View WP GDPR Compliance settings"
+msgstr "Bekijk WP GDPR Compliance-instellingen"
+
+#: Includes/Helper.php:110
+msgid "You can use: %s"
+msgstr "Je kan gebruik maken van: %s"
+
+#. Author of the plugin/theme
+msgid "Van Ons"
+msgstr "Van Ons"
+
+#: Includes/Page.php:203
+msgid "This plugin is outdated. %s supports version %s and up."
+msgstr "Deze plugin is verouderd. %s ondersteunt versie %s of nieuwer."
+
+#: Includes/Page.php:77
+msgid "Checklist"
+msgstr "Checklist"
+
+#: Includes/Integration.php:334
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: Includes/Integration.php:313
+msgid "When activated the GDPR checkbox will be added automatically just above the submit button."
+msgstr "Wanneer de GDPR-checkbox geactiveerd is, zal deze automatisch boven de verzendknop geplaatst worden."
+
+#: Includes/Integration.php:135 Includes/Integration.php:176
+msgid "No forms found."
+msgstr "Geen formulieren gevonden."
+
+#: Includes/Integration.php:115 Includes/Integration.php:156
+msgid "Form: %s"
+msgstr "Formulier: %s"
+
+#: Includes/Extensions/WP.php:37
+msgid "Comment Submission Failure"
+msgstr "Versturen van de reactie is mislukt"
+
+#: Includes/Data.php:27 Includes/Extensions/WP.php:34 Includes/Shortcode.php:85
+msgid "<strong>ERROR</strong>: %s"
+msgstr "<strong>FOUT</strong>: %s"
+
+#: Includes/Extensions/GForms.php:58 Includes/Extensions/GForms.php:97
+msgid "Privacy"
+msgstr "Privacy"
+
+#: Includes/Integration.php:236
+msgid "Please accept the privacy checkbox."
+msgstr "Ga akkoord met de privacyregels door de checkbox aan te vinken."
+
+#: Includes/Helper.php:165
+msgid "Do you provide a forum or message board?"
+msgstr "Bied je een forum of helpdesk aan?"
+
+#: Includes/Integration.php:125 Includes/Integration.php:166
+#: Includes/Integration.php:193
+msgid "Error message"
+msgstr "Foutmelding"
+
+#: Includes/Page.php:219
+msgid "More plugins will be added in the future."
+msgstr "In de toekomst zullen meer plugins toegevoegd worden."
+
+#: Includes/Page.php:213
+msgid "The following plugins are supported as of now:"
+msgstr "De volgende plugins worden nu ondersteund:"
+
+#: Includes/Page.php:212
+msgid "Couldn't find any supported plugins installed."
+msgstr "Er zijn geen geïnstalleerde plugins gevonden die ondersteund worden."
+
+#: Includes/Page.php:231
+msgid "Below we ask you what private data you currently collect and provide you with tips to comply."
+msgstr "Hieronder vragen we welke privacydata je op dit moment al verzamelt en geven we je tips om beter aan de wetgeving te voldoen."
+
+#: Includes/Page.php:56
+msgid "Integrations"
+msgstr "Integraties"
+
+#: Includes/Integration.php:342
+msgid "The GDPR checkbox will be added automatically at the end of your checkout page."
+msgstr "De GDPR-checkbox zal automatisch onderaan jouw afrekenpagina worden toegevoegd."
+
+#: Includes/Integration.php:341 Includes/Page.php:629
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: Includes/Integration.php:328 Includes/Integration.php:335
+msgid "A GDPR form tag will be automatically added to every form you activate."
+msgstr "Een GDPR-formulier-tag zal automatisch worden ingevoegd bij elk formulier waarvoor dit geactiveerd is."
+
+#: Includes/Integration.php:327
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: Includes/Integration.php:312 Includes/Page.php:628
+msgid "WordPress Comments"
+msgstr "WordPress-reacties"
+
+#: Includes/Integration.php:119 Includes/Integration.php:160
+#: Includes/Integration.php:187 Includes/Page.php:355
+msgid "Checkbox text"
+msgstr "Tekst selectievakje"
+
+#: Includes/Integration.php:116 Includes/Integration.php:157
+msgid "Activate for this form:"
+msgstr "Activeer voor dit formulier:"
+
+#: Includes/Integration.php:219 Includes/Integration.php:259
+msgid "By using this form you agree with the storage and handling of your data by this website."
+msgstr "Wanneer je dit formulier gebruikt, ga je akkoord met de opslag en verwerking van jouw gegevens door deze website."
+
+#: Includes/Ajax.php:47
+msgid "Missing value."
+msgstr "Ontbrekende waarde."
+
+#: Includes/Ajax.php:43
+msgid "Missing option name."
+msgstr "Ontbrekende optie naam."
+
+#: Includes/Ajax.php:31
+msgid "Missing type."
+msgstr "Ontbrekend type."
+
+#: Includes/Ajax.php:27 Includes/Ajax.php:264
+msgid "Missing data."
+msgstr "Ontbrekende data."
+
+#. Author URI of the plugin/theme
+msgid "https://www.van-ons.nl/"
+msgstr "https://www.van-ons.nl/"
+
+#. Description of the plugin/theme
+msgid "This plugin assists website and webshop owners to comply with European privacy regulations known as GDPR. By May 24th, 2018 your website or shop has to comply to avoid large fines."
+msgstr "Deze plugin helpt website- en webshop-eigenaren om te voldoen aan de Europese privacy regels (bekend als GDRP). Vanaf 24 mei 2018 moet jouw website of webshop aan deze regels voldoen om hoge boetes te voorkomen."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wpgdprc.com/"
+msgstr "https://www.wpgdprc.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP GDPR Compliance"
+msgstr "WP GDPR Compliance"
+
+#: Includes/Helper.php:170
+msgid "Make sure you add a checkbox specifically asking chat users if they consent to you storing and using their personal information and messages. The checkbox must be unchecked by default. We recommend also mentioning for how long you will store chat messages or deleting them all within 24 hours. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Zorg ervoor dat je een selectievakje toevoegt dat specifiek aan chatgebruikers vraagt ​​of ze toestemming geven om hun persoonlijke informatie en berichten op te slaan en te gebruiken. Het selectievakje moet standaard uitgeschakeld zijn. We raden aan om ook te vermelden hoelang je chatberichten wilt opslaan en of je ze allemaal binnen 24 uur wilt verwijderen. Vermeld ook of je de gegevens verzendt of deelt met derden en welke."
+
+#: Includes/Helper.php:169
+msgid "Can visitors chat with your company directly?"
+msgstr "Kunnen bezoekers rechtstreeks met jouw bedrijf contact opnemen?"
+
+#: Includes/Helper.php:166
+msgid "Make sure you add a checkbox specifically asking forum / board users if they consent to you storing and using their personal information and messages. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Zorg ervoor dat je een selectievakje toevoegt dat specifiek aan forumgebruikers vraagt ​​of zij toestemming geven om hun persoonlijke informatie en berichten op te slaan en te gebruiken. Het selectievakje moet standaard uitgeschakeld zijn. Vermeld ook of je de gegevens verzendt of deelt met derden en welke."
+
+#: Includes/Helper.php:162
+msgid "Make sure you add a checkbox specifically asking the user of the form if they consent to you storing and using their personal information to ship the order. This cannot be the same checkbox as the Privacy Policy checkbox you should already have in place. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Zorg ervoor dat je een selectievakje toevoegt dat specifiek aan de gebruiker van het formulier vraagt ​​of zij toestemming geven om hun persoonlijke gegevens op te slaan en te gebruiken om de bestelling te verzenden. Dit kan niet hetzelfde selectievakje zijn als het selectievakje Privacybeleid dat je al had moeten hebben. Het selectievakje moet standaard uitgeschakeld zijn. Vermeld ook of je de gegevens verzendt of deelt met derden en welke."
+
+#: Includes/Helper.php:161
+msgid "Is there an order form on your website or webshop present?"
+msgstr "Is er een bestelformulier op jouw website of webshop aanwezig?"
+
+#: Includes/Helper.php:158
+msgid "Make sure you add a checkbox specifically asking the user of the comment section if they consent to storing their message attached to the e-mail address they've used to comment. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Zorg ervoor dat je een selectievakje toevoegt die specifiek aan de gebruiker die reageert vraagt of deze akkoord gaat met het opslaan van het e-mailadres die gebruikt is voor de reactie. Dit selectievakje moet standaard uitgeschakeld zijn. Geef ook aan of je data met derden deelt en met wie."
+
+#: Includes/Helper.php:157
+msgid "Can visitors comment anywhere on your website?"
+msgstr "Kunnen bezoekers reacties achterlaten op jouw website?"
+
+#: Includes/Helper.php:154
+msgid "Make sure you add a checkbox specifically asking the user of the form if they consent to you storing and using their personal information to get back in touch with them. The checkbox must be unchecked by default. Also mention if you will send or share the data with any 3rd-parties and which."
+msgstr "Zorg ervoor dat je een selectievakje toevoegt die specifiek aan de gebruiker vraagt of deze akkoord gaat met het opslaan en gebruiken van persoonlijke informatie om contact met deze te kunnen opnemen. Dit selectievakje moet standaard uitgeschakeld zijn. Geef ook aan of je data met derden deelt en met wie."
+
+#: Includes/Helper.php:153
+msgid "Do you have a contact form?"
+msgstr "Heb je een contactformulier?"

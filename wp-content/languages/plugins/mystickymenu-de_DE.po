@@ -1,0 +1,136 @@
+# Translation of Plugins - myStickymenu - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - myStickymenu - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-26 11:25:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - myStickymenu - Stable (latest release)\n"
+
+#: mystickymenu.php:54
+msgid "myStickymenu Settings"
+msgstr "myStickymenu Einstellungen"
+
+#: mystickymenu.php:79
+msgid "myStickymenu Options"
+msgstr "myStickymenu Optionen"
+
+#: mystickymenu.php:85
+msgid "Sticky Class"
+msgstr "Sticky Klasse"
+
+#: mystickymenu.php:92
+msgid "Sticky z-index"
+msgstr "Sticky z-Index"
+
+#: mystickymenu.php:99
+msgid "Sticky Background Color"
+msgstr "Sticky Hintergrundfarbe"
+
+#: mystickymenu.php:148
+msgid ".myfixed css class"
+msgstr ".myfixed CSS-Klasse"
+
+#: mystickymenu.php:235
+msgid "Add nice modern sticky menu or header to any theme. Defaults works for Twenty Thirteen theme. <br />For other themes change 'Sticky Class' to div class desired to be sticky (div id can be used too)."
+msgstr "Füge deiner Seite ein optisch anspechendes und modernes \"Sticky Menü\" oder einen \"Sticky Header\" hinzu. Das Plugin ist voreingestellt für das Theme \"Twenty Thirteen\". <br />Um es mit anderen Themes zu nutzen, brauchst du nur das Feld \"Sticky Klasse\" entsprechend anzupassen."
+
+#: mystickymenu.php:270
+msgid "numbers 1-100."
+msgstr "Ein Wert zwischen 1 und 100"
+
+#: mystickymenu.php:289
+msgid "less than"
+msgstr "kleiner als"
+
+#: mystickymenu.php:303 mystickymenu.php:317
+msgid "after"
+msgstr "nach "
+
+#: mystickymenu.php:308 mystickymenu.php:322
+msgid "px."
+msgstr "px."
+
+#: mystickymenu.php:353
+msgid "More examples <a href='http://wordpress.transformnews.com/tutorials/mystickymenu-extended-style-functionality-using-myfixed-sticky-class-403'>here</a>."
+msgstr "Mehr Beispiele findest du <a href='http://wordpress.transformnews.com/tutorials/mystickymenu-extended-style-functionality-using-myfixed-sticky-class-403'>hier</a>."
+
+#. Plugin Name of the plugin/theme
+msgid "myStickymenu"
+msgstr "myStickymenu"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.transformnews.com/plugins/mystickymenu-simple-sticky-fixed-on-top-menu-implementation-for-twentythirteen-menu-269"
+msgstr "http://wordpress.transformnews.com/plugins/mystickymenu-simple-sticky-fixed-on-top-menu-implementation-for-twentythirteen-menu-269"
+
+#: mystickymenu.php:294
+msgid "px width, 0  to disable."
+msgstr "px Breite, 0 zum Deaktivieren"
+
+#: mystickymenu.php:280
+msgid "in seconds."
+msgstr "in Sekunden."
+
+#: mystickymenu.php:106
+msgid "Sticky Opacity"
+msgstr "Sticky Deckkraft"
+
+#: mystickymenu.php:155
+msgid "Disable CSS style"
+msgstr "Deaktiviere CSS-Stil"
+
+#. Author of the plugin/theme
+msgid "m.r.d.a"
+msgstr "m.r.d.a"
+
+#: mystickymenu.php:351
+msgid "If you want to change sticky hover color first add default style and than: "
+msgstr "Um die Farbe des \"Sticky Menü\" beim Mouseover (hover) zu ändern, ergänze den voreingestellten Stil um folgenden Code:"
+
+#: mystickymenu.php:349
+msgid "Default style: "
+msgstr "Standardesign:"
+
+#: mystickymenu.php:127
+msgid "Make visible on Scroll"
+msgstr "beim Scrollen sichtbar machen"
+
+#: mystickymenu.php:134
+msgid "Make visible on Scroll at homepage"
+msgstr "beim Scrollen auf der Homepage sichtbar machen"
+
+#: mystickymenu.php:244
+msgid "menu or header div class or id."
+msgstr "Klasse oder ID für Menü- oder Header-DIV"
+
+#: mystickymenu.php:120
+msgid "Disable at Small Screen Sizes"
+msgstr "bei kleinen Bildschirmgrößen deaktivieren"
+
+#: mystickymenu.php:364
+msgid "Use this option if you plan to include CSS Style manually"
+msgstr "Verwende diese Option, wenn du den CSS-Stil manuell einfügen möchtest"
+
+#: mystickymenu.php:141
+msgid "Fade or slide effect"
+msgstr "Überblend- oder Slide-Effekt"
+
+#: mystickymenu.php:333
+msgid "Checked is slide, unchecked is fade."
+msgstr "Aktiviert = Slider, Deaktiviert = Überblenden"
+
+#: mystickymenu.php:113
+msgid "Sticky Transition Time"
+msgstr "Sticky Dauer der Überblendung"
+
+#. Description of the plugin/theme
+msgid "Simple sticky (fixed on top) menu implementation for default Twentythirteen navigation menu. For other themes, after install go to Settings / myStickymenu and change Sticky Class to .your_navbar_class or #your_navbar_id."
+msgstr "Einfache Umsetzung, das Navigationsmenu im Default-Theme Twentythirteen „sticky“ zu machen, d.h. es am Bildschirmrand zu fixieren, sobald es beim Scrollen dahingelangt. Bei anderen Themes gehe nach der Installation zu den Einstellungen von myStickymenu und ändere die CSS-Klasse in .your_navbar_class oder #your_navbar_id."
+
+#: mystickymenu.php:342
+msgid "Add/Edit .myfixed css class to change sticky menu style. Leave it blank for default style."
+msgstr "Um den Stil des „Sticky Menü“ anzupassen, bearbeite die Klasse .myfixed oder füge CSS-Code hinzu. Leer lassen für Standarddesign."

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>My Customers</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:30%;">Kto</th>
+    <th style="width:30%;">wew.</th>
+    <th style="width:30%;">komórkowy.</th>
+  </tr>
+
+  <tr>
+    <td>
+         ADMINISTR. FAX
+    </td>
+</tr> 
+<tr>
+    <td>
+         ADMINISTR. TEL 
+    </td>
+</tr> 
+<tr>
+    </td>
+         Assembly - P/L Grupa 1                        
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - P/L Grupa 2                        
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - P/L Grupa 3                        
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - Rework
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - SHIFT LEADER
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - T/L Grupa 1                        
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - T/L Grupa 2                        
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly - T/L Grupa 3                        
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly 2 - T/L Grupa 1
+    </td>
+</tr> 
+<tr>
+    <td>
+         Assembly 2 - T/L Grupa 2
+    </td>
+</tr> 
+<tr>
+    <td>
+         DC Team Leader                  
+    </td>
+</tr> 
+<tr>
+    <td>
+         DC Team Leader                  
+    </td>
+</tr> 
+<tr>
+    <td>
+         FAX -  MC OFFICE
+    </td>
+</tr> 
+<tr>
+    <td>
+         FAX - PRODUCTION ENGINEERING
+    </td>
+</tr> 
+<tr>
+    <td>
+         FAX - PRODUCTION PLANNING
+    </td>
+</tr> 
+<tr>
+    <td>
+         HVAC DAF Team Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         HVAC Shift Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         HVAC Shift Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         HVAC Shift Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         HVAC Team Leader 
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG AS 2
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG FAX
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Linia1
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Linia2
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Logistyka/ Dostawy
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG LPW
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Magazyn FG
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG MX-1
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG MX-2
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Proces Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Shift Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Spare Parts
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG WEW   DAF
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG WEW SCANIA
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Wózkowy /LPW
+    </td>
+</tr> 
+<tr>
+    <td>
+         LOG Wysyłki/Przyjęcia
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Assambly
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Assambly
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Assambly
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Assambly
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Assambly
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Assambly
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - DC/MC - Automatic
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - DC/MC - Automatic Preventive
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - DC/MC - Mechanic
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - DC/MC - Shift Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - DC/MC - Shift Leader Preventive
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Die Maintenance/Technican
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Facility - Shift Leader
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - Facility Technician
+    </td>
+</tr> 
+<tr>
+    <td>
+         Maintenance - HVAC - UR
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Piston
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC S. Plate
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Shaft Rotor
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Shift Leader              
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Team Leader   
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Team Leader CH
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Team Leader FH
+    </td>
+</tr> 
+<tr>
+    <td>
+         MC Tomasz Ferens
+    </td>
+</tr> 
+<tr>
+    <td>
+         QA/Technik
+    </td>
+</tr> 
+<tr>
+    <td>
+         QA/Technik
+    </td>
+</tr> 
+<tr>
+    <td>
+         QC Assembly
+    </td>
+</tr> 
+<tr>
+    <td>
+         QC HVAC  Technik
+    </td>
+</tr> 
+<tr>
+    <td>
+         QC Technician
+    </td>
+</tr> 
+<tr>
+    <td>
+         QC/Piston
+    </td>
+</tr> 
+<tr>
+    <td>
+         QC/Technik2
+    </td>
+</tr> 
+<tr>
+    <td>
+         QC/TechnikASS 2
+    </td>
+</tr> 
+<tr>
+    <td>
+         Sala konferencyjna 
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - DC -PRODUCTION ENGINEERING 
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - IT ERP (BPCS)
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - LOGISTIC
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - PRODUCTION PLANNING
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - QUALITY ASSURANCE
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - QUALITY CONTROL
+    </td>
+</tr> 
+<tr>
+    <td>
+         STANDBY - SANDEN LOGISTIC CENTRE
+    </td>
+</tr> 
+<tr>
+    <td>
+         Warehouse  FAX
+    </td>
+</tr> 
+<tr>
+    <td>
+         Warehouse - general
+    </td>
+</tr>
+  
+</table>
+
+ 
+
+
+
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>

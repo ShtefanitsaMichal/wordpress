@@ -1,0 +1,1273 @@
+# Translation of Themes - Astra in Hebrew
+# This file is distributed under the same license as the Themes - Astra package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-09 23:49:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Themes - Astra\n"
+
+#. Description of the plugin/theme
+msgid "Astra is fast, fully customizable & beautiful theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!"
+msgstr "Astra היא תבנית מהירה ויפה, ניתנת לעיצוב והתאמה באופן מלא, המתאימה לבלוג, תיק עבודות אישי, אתר עסקי וחנות ווקומרס. היא מאד קלת משקל (פחות מ 50 ק\"ב בצד הקדמי) ומציעה מהירות חסרת תקדים. היא נבנתה במחשבה על קידום ומגיעה עם קוד משולב של Schema.org, כדי שמנועי החיפוש יאהבו את האתר שלך. היא מציע תכונות מיוחדות  ותבניות ופועלת באופן מושלם עם כל בנאי הדפים (עורכים חזותיים) כמו Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, וכו'. חלק מן התכונות הנוספות: מוכנות לחנות ווקומרס, מוכנות ל\"ימין לשמאל\", מוכנות לתרגום, ניתנת להרחבה עם תוספי פרימיום. התבנית מעודכנת מעוצבת מתפתחת מתוחזקת ונתמכת באופן שוטף על-ידי Brainstorm Force. מחפשים תבנית בסיסית מושלמת? מצאתם. Astra היא תבנית מהירה, ניתנת להתאמה אישית מלאה מותאמת לחנות ווקומרס ומתאימה לבניית כל סוג של אתר!"
+
+#: inc/compatibility/lifterlms/customizer/sections/layout/section-general.php:35
+msgid "Course / Membership Columns"
+msgstr "עמודות קורס / מנויים"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:278
+msgid "Leave Review"
+msgstr "סקירה"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:274
+msgid "Review Text is required."
+msgstr "חובה לכתוב טקסט בסקירה,"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:273
+msgid "Review Text"
+msgstr "טקסט הסקירה"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:272
+msgid "Review Title is required."
+msgstr "חובה לתת כותרת לסקירה"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:271
+msgid "Review Title"
+msgstr "כותרת הסקירה"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:269
+msgid "Write a Review"
+msgstr "כתיבת סקירה"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:263
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:282
+msgid "Thank you for your review!"
+msgstr "תודה לך על הסקירה שלך!"
+
+#. translators: 1 Author Name.
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:226
+msgid "By: %s"
+msgstr "על-ידי: %s"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:197
+msgid "What Others Have Said"
+msgstr "מה אחרים אמרו"
+
+#: inc/compatibility/lifterlms/customizer/register-panels-and-sections.php:20
+#: inc/compatibility/lifterlms/customizer/sections/section-container.php:45
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:45
+msgid "LifterLMS"
+msgstr "LifterLMS"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:70
+msgid "LifterLMS Course/Lesson"
+msgstr "קורס/שיעור של LifterLMS"
+
+#: inc/customizer/sections/layout/sidebar.php:179
+msgid "Sidebar width will apply only when one of the above sidebar is set."
+msgstr "רוחב סרגל הצד יחול רק רק כאשר יוגדר אחד מן הסרגלים לעיל."
+
+#: inc/customizer/sections/layout/header.php:138
+msgid "Take custom menu item outside"
+msgstr "הוצאה החוצה של פריט תפריט מותאם אישית"
+
+#: inc/compatibility/woocommerce/customizer/register-panels-and-sections.php:65
+msgid "Cart Page"
+msgstr "עמוד סל הקניות"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:86
+msgid "Product Image Hover Style"
+msgstr "עיצוב תמונת מוצר בריחוף עכבר"
+
+#: inc/metabox/class-astra-meta-boxes.php:149
+msgid " Settings"
+msgstr "הגדרות"
+
+#: inc/customizer/sections/site-identity/site-identity.php:132
+msgid "Inline Logo & Site Title"
+msgstr "לוגו וכותרת האתר בשורה"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:115
+msgid "Title"
+msgstr "כותרת"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:113
+msgid "Shop Product Structure"
+msgstr "מבנה מוצרי חנות"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:91
+msgid "Swap Images"
+msgstr "החלפת תמונות"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:59
+msgid "Products Per Page"
+msgstr "מוצרים לעמוד"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:36
+msgid "Shop Columns"
+msgstr "עמודות חנות"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop-single.php:29
+msgid "Disable Breadcrumb"
+msgstr "ביטול פירורי לחם"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop-cart.php:29
+msgid "Enable Upsells"
+msgstr "הפעלת מכירות המשך"
+
+#: inc/compatibility/woocommerce/customizer/register-panels-and-sections.php:53
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:70
+#: inc/customizer/register-panels-and-sections.php:107
+msgid "Single Product"
+msgstr "מוצר בודד"
+
+#: inc/compatibility/woocommerce/customizer/register-panels-and-sections.php:41
+#: inc/customizer/register-panels-and-sections.php:95
+msgid "Shop"
+msgstr "חנות"
+
+#: inc/compatibility/woocommerce/customizer/register-panels-and-sections.php:30
+#: inc/customizer/register-panels-and-sections.php:84
+msgid "General"
+msgstr "כללי"
+
+#: inc/compatibility/woocommerce/customizer/register-panels-and-sections.php:19
+#: inc/compatibility/woocommerce/customizer/sections/section-container.php:45
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:45
+#: inc/customizer/register-panels-and-sections.php:73
+msgid "WooCommerce"
+msgstr "חנות ווקומרס"
+
+#: inc/customizer/register-panels-and-sections.php:147
+msgid "Blog"
+msgstr "אתר"
+
+#: inc/customizer/register-panels-and-sections.php:47
+msgid "Primary Header"
+msgstr "כותרת ראשית"
+
+#: inc/compatibility/woocommerce/woocommerce-common-functions.php:132
+msgid "Availability:"
+msgstr "זמינות:"
+
+#: inc/compatibility/woocommerce/woocommerce-common-functions.php:79
+msgid "Out of stock"
+msgstr "אזל מן המלאי"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:119
+msgid "Add To Cart"
+msgstr "הוספה לסל"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:118
+msgid "Short Description"
+msgstr "תיאור קצר"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:117
+msgid "Ratings"
+msgstr "דירוגים"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:116
+msgid "Price"
+msgstr "מחיר"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:884
+msgid "View your shopping cart"
+msgstr "הצגת סל הקניות שלך"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:359
+msgid "This sidebar will be used on Single Product page."
+msgstr "סרגל צד זה יהיה בשימוש בעמוד של מוצר בודד."
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:357
+msgid "Product Sidebar"
+msgstr "סרגל צד של מוצר"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:348
+msgid "This sidebar will be used on Product archive, Cart, Checkout and My Account pages."
+msgstr "סרגל צד זה יהיה בשימוש בעמודי ארכיון מוצרים, סל קניות, קופה והחשבון שלי."
+
+#. translators: 1: number of products
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:173
+msgctxt "product categories"
+msgid "<mark class=\"count\">%1$s Product</mark>"
+msgid_plural "<mark class=\"count\">%1$s Products</mark>"
+msgstr[0] "<mark class=\"count\">%1$s מוצר</mark>"
+msgstr[1] "<mark class=\"count\">%1$s מוצרים</mark>"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:346
+msgid "WooCommerce Sidebar"
+msgstr "סרגל חנות ווקומרס"
+
+#: inc/core/common-functions.php:728
+msgid "Home"
+msgstr "דף הבית"
+
+#: inc/core/common-functions.php:734
+msgid "This page doesn't seem to exist."
+msgstr "נראה שדף זה אינו קיים"
+
+#. translators: 1: Astra Theme name
+#: inc/core/view-general.php:28
+msgid "Welcome to %1$s"
+msgstr "ברוכים הבאים אל %1$s"
+
+#: inc/customizer/astra-pro/astra-pro-section-register.php:19
+msgid "Need More Options? Get Astra Pro!"
+msgstr "יש צורך באפשרויות נוספו? שדרגו ל Astra Pro!"
+
+#: inc/customizer/sections/site-identity/site-identity.php:32
+msgid "Retina Logo"
+msgstr "לוגו רטינה"
+
+#: inc/customizer/sections/site-identity/site-identity.php:55
+msgid "Logo Width"
+msgstr "רוחב הלוגו"
+
+#: inc/metabox/class-astra-meta-boxes.php:268
+msgid "Disable Featured Image"
+msgstr "ביטול התמונה הראשית"
+
+#: inc/customizer/sections/layout/blog-single.php:32
+msgid "Single Post Structure"
+msgstr "מבנה פוסט בודד"
+
+#: inc/customizer/sections/layout/blog-single.php:34
+#: inc/customizer/sections/layout/blog.php:57
+msgid "Featured Image"
+msgstr "תמונה ראשית"
+
+#: inc/customizer/sections/layout/blog-single.php:35
+#: inc/customizer/sections/layout/blog.php:58
+msgid "Title & Blog Meta"
+msgstr "כותרת ותיאור האתר"
+
+#: inc/customizer/sections/layout/blog.php:55
+msgid "Blog Post Structure"
+msgstr "מבנה פוסט בודד"
+
+#: inc/customizer/sections/typography/body.php:177
+msgid "Paragraph Margin Bottom"
+msgstr "שוליים תחתונים של פסקה"
+
+#: inc/metabox/class-astra-meta-boxes.php:281
+msgid "Disable Footer Widgets"
+msgstr "ביטול הוידג'טים בסרגל התחתון"
+
+#: inc/metabox/class-astra-meta-boxes.php:293
+msgid "Disable Footer Bar"
+msgstr "ביטול הסרגל התחתון"
+
+#: inc/customizer/sections/typography/body.php:25
+msgid "Body & Content"
+msgstr "גוף ותוכן"
+
+#: inc/customizer/sections/typography/body.php:197
+msgid "Headings"
+msgstr "כותרות"
+
+#: inc/template-parts.php:170
+msgid "Main Menu"
+msgstr "תפריט ראשי"
+
+#: inc/widgets.php:117
+msgid "Footer Bar Section 1"
+msgstr "סרגל תחתון מקטע 1"
+
+#: inc/widgets.php:131
+msgid "Footer Bar Section 2"
+msgstr "סרגל תחתון מקטע 2"
+
+#: inc/widgets.php:147
+msgid "Footer Widget Area 1"
+msgstr "אזור וידג'ט 1 בסרגל התחתון"
+
+#: inc/widgets.php:158
+msgid "Footer Widget Area 2"
+msgstr "אזור וידג'ט 2 בסרגל התחתון"
+
+#: inc/widgets.php:169
+msgid "Footer Widget Area 3"
+msgstr "אזור וידג'ט 3 בסרגל התחתון"
+
+#: inc/widgets.php:180
+msgid "Footer Widget Area 4"
+msgstr "אזור וידג'ט 4 בסרגל התחתון"
+
+#. translators: 1: Post type label
+#: inc/core/class-theme-strings.php:72 inc/core/class-theme-strings.php:87
+msgid "Next %s"
+msgstr "ה %s הבא"
+
+#. translators: 1: Post type label
+#: inc/core/class-theme-strings.php:74 inc/core/class-theme-strings.php:89
+msgid "Previous %s"
+msgstr "ה %s הקודם"
+
+#: inc/customizer/register-panels-and-sections.php:134
+#: inc/customizer/register-panels-and-sections.php:205
+msgid "Footer Bar"
+msgstr "סרגל תחתון"
+
+#: inc/customizer/register-panels-and-sections.php:197
+msgid "Base Colors"
+msgstr "צבעי הבסיס"
+
+#: inc/customizer/register-panels-and-sections.php:231
+msgid "Base Typography"
+msgstr "טיפוגרפיה הבסיס"
+
+#: inc/customizer/sections/colors-background/advanced-footer.php:30
+msgid "Widget Title Color"
+msgstr "צבע כותרת הווידג'ט"
+
+#: inc/customizer/sections/colors-background/advanced-footer.php:69
+#: inc/customizer/sections/colors-background/footer.php:50
+msgid "Link Color"
+msgstr "צבע הקישור"
+
+#: inc/customizer/sections/layout/advanced-footer.php:31
+msgid "Footer Widgets Layout"
+msgstr "פריסת הווידג'טים בסרגל התחתון"
+
+#: inc/customizer/sections/layout/advanced-footer.php:35
+msgid "Disable"
+msgstr "כיבוי"
+
+#: inc/customizer/sections/layout/advanced-footer.php:39
+msgid "Layout 4"
+msgstr "פריסה 4"
+
+#: inc/customizer/sections/layout/container.php:29
+#: inc/customizer/sections/layout/sidebar.php:32
+msgid "Default Layout"
+msgstr "פריסת ברירת המחדל"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-container.php:50
+#: inc/compatibility/woocommerce/customizer/sections/section-container.php:50
+#: inc/customizer/sections/layout/container.php:33
+#: inc/customizer/sections/layout/container.php:71
+#: inc/customizer/sections/layout/container.php:96
+#: inc/customizer/sections/layout/container.php:121
+#: inc/metabox/class-astra-meta-boxes.php:234
+msgid "Full Width / Contained"
+msgstr "רוחב מלא / מוכל"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-container.php:51
+#: inc/compatibility/woocommerce/customizer/sections/section-container.php:51
+#: inc/customizer/sections/layout/container.php:34
+#: inc/customizer/sections/layout/container.php:72
+#: inc/customizer/sections/layout/container.php:97
+#: inc/customizer/sections/layout/container.php:122
+#: inc/metabox/class-astra-meta-boxes.php:235
+msgid "Full Width / Stretched"
+msgstr "רוחב מלא / מתוח"
+
+#: inc/customizer/sections/layout/container.php:66
+#: inc/customizer/sections/layout/sidebar.php:70
+msgid "Pages"
+msgstr "עמודים"
+
+#: inc/customizer/sections/layout/footer.php:32
+msgid "Footer Bar Layout"
+msgstr "פריסת הסרגל התחתון"
+
+#: inc/customizer/sections/layout/footer.php:39
+msgid "Footer Bar Layout 1"
+msgstr "סרגל תחתון פריסה 1"
+
+#: inc/customizer/sections/layout/footer.php:43
+msgid "Footer Bar Layout 2"
+msgstr "סרגל תחתון פריסה 2"
+
+#: inc/customizer/sections/layout/footer.php:209
+msgid "Footer Bar Top Border"
+msgstr "המסגרת העליונה של הסרגל התחתון"
+
+#: inc/customizer/sections/layout/footer.php:254
+msgid "Footer Bar Width"
+msgstr "רוחב הסרגל התחתון"
+
+#: inc/extras.php:1082
+msgid "Click here to assign a widget for this area."
+msgstr "נא לחוץ כאן כדי לשייך ווידג'ט לאזור זה"
+
+#: inc/metabox/class-astra-meta-boxes.php:215
+#: inc/metabox/class-astra-meta-boxes.php:231
+msgid "Customizer Setting"
+msgstr "הגדרת העיצוב"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:34
+msgid "Continue reading %s"
+msgstr "לקריאת ה%s"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:101
+msgid "Thin 100"
+msgstr "דק 100"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:102
+msgid "Extra-Light 200"
+msgstr "דק מאד 200"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:103
+msgid "Light 300"
+msgstr "דק 300"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:104
+msgid "Normal 400"
+msgstr "רגיל 400"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:105
+msgid "Medium 500"
+msgstr "בינוני 500"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:106
+msgid "Semi-Bold 600"
+msgstr "מודגש למחצה (600)"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:107
+msgid "Bold 700"
+msgstr "מודגש 700"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:108
+msgid "Extra-Bold 800"
+msgstr "מודגש מאוד 800"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:109
+msgid "Ultra-Bold 900"
+msgstr "מודגש במיוחד 900"
+
+#: inc/customizer/sections/buttons/buttons.php:30
+msgid "Button Text Color"
+msgstr "צבע טקסט של הכפתור"
+
+#: inc/customizer/sections/buttons/buttons.php:49
+msgid "Button Text Hover Color"
+msgstr "צבע טקסט הכפתור בריחוף עכבר"
+
+#: inc/core/class-astra-admin-settings.php:122
+msgid "Welcome"
+msgstr "ברוכים הבאים"
+
+#: inc/customizer/sections/colors-background/body.php:30
+msgid "Theme Color / Link Color"
+msgstr "צבע התבנית / צבע קישור"
+
+#: inc/customizer/sections/typography/archive.php:25
+msgid "Archive Summary Box Title"
+msgstr "כותרת תיבת תקציר הארכיון"
+
+#: inc/customizer/sections/typography/content.php:24
+msgid "Heading 1 (H1)"
+msgstr "כותרת 1 (H1)"
+
+#: inc/customizer/sections/typography/content.php:68
+msgid "Heading 2 (H2)"
+msgstr "כותרת 2 (H2)"
+
+#: inc/customizer/sections/typography/content.php:112
+msgid "Heading 3 (H3)"
+msgstr "' כותרת 3 (H3)"
+
+#: inc/customizer/sections/typography/content.php:153
+msgid "Heading 4 (H4)"
+msgstr "כותרת 4 (H4)"
+
+#: inc/customizer/sections/typography/content.php:200
+msgid "Heading 5 (H5)"
+msgstr "כותרת 5 (H5)"
+
+#: inc/customizer/sections/typography/content.php:241
+msgid "Heading 6 (H6)"
+msgstr "כותרת 6 (H6)"
+
+#: inc/core/class-theme-strings.php:34
+msgid "It looks like the link pointing here was faulty. Maybe try searching?"
+msgstr "נראה שהקישור שהוביל לכאן אינו תקין. אולי כדאי לנסות חיפוש?"
+
+#: comments.php:42 comments.php:65
+msgid "Comments Navigation"
+msgstr "ניווט תגובות"
+
+#: inc/admin-functions.php:26
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: inc/admin-functions.php:27 inc/customizer/sections/layout/footer.php:87
+#: inc/customizer/sections/layout/footer.php:142
+msgid "Footer Menu"
+msgstr "תפריט תחתון"
+
+#: inc/blog/blog-config.php:161
+msgid "Read More &raquo;"
+msgstr "לקריאה »"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/blog/blog-config.php:242 inc/blog/blog-config.php:271
+msgid ", "
+msgstr ","
+
+#: inc/blog/single-blog.php:130
+msgid "Pingback:"
+msgstr "פינגבאק:"
+
+#: inc/blog/single-blog.php:130
+msgid "(Edit)"
+msgstr "(עריכה)"
+
+#. translators: 1: date, 2: time
+#: inc/blog/single-blog.php:161
+msgid "%1$s at %2$s"
+msgstr "%1$s ב %2$s"
+
+#: inc/compatibility/class-astra-beaver-themer.php:204
+msgid "Before Page"
+msgstr "לפני העמוד"
+
+#: inc/compatibility/class-astra-beaver-themer.php:205
+msgid "After Page"
+msgstr "אחרי העמוד"
+
+#: inc/compatibility/class-astra-beaver-themer.php:211
+msgid "Before Header"
+msgstr "לפני ההאדר"
+
+#: inc/compatibility/class-astra-beaver-themer.php:212
+msgid "After Header"
+msgstr "אחרי ההאדר"
+
+#: inc/compatibility/class-astra-beaver-themer.php:218
+msgid "Before Content"
+msgstr "לפני התוכן"
+
+#: inc/compatibility/class-astra-beaver-themer.php:219
+msgid "After Content"
+msgstr "אחרי התוכן"
+
+#: inc/compatibility/class-astra-beaver-themer.php:225
+msgid "Before Footer"
+msgstr "לפני הסרגל התחתון"
+
+#: inc/compatibility/class-astra-beaver-themer.php:226
+msgid "After Footer"
+msgstr "אחרי הסרגל התחתון"
+
+#: inc/compatibility/class-astra-beaver-themer.php:232
+msgid "Before Sidebar"
+msgstr "לפני סרגל הצד"
+
+#: inc/compatibility/class-astra-beaver-themer.php:233
+msgid "After Sidebar"
+msgstr "אחרי סרגל הצד"
+
+#: inc/compatibility/class-astra-beaver-themer.php:239
+msgid "Loop Start"
+msgstr "תחילת לופ"
+
+#: inc/compatibility/class-astra-beaver-themer.php:240
+msgid "Before Post"
+msgstr "לפני הפוסט"
+
+#: inc/compatibility/class-astra-beaver-themer.php:241
+msgid "Before Post Content"
+msgstr "לפני תוכן הפוסט"
+
+#: inc/compatibility/class-astra-beaver-themer.php:242
+msgid "After Post Content"
+msgstr "אחרי תוכן הפוסט"
+
+#: inc/compatibility/class-astra-beaver-themer.php:243
+msgid "After Post"
+msgstr "אחרי הפוסט"
+
+#: inc/compatibility/class-astra-beaver-themer.php:244
+msgid "Before Comments"
+msgstr "לפני התגובות"
+
+#: inc/compatibility/class-astra-beaver-themer.php:245
+msgid "After Comments"
+msgstr "אחרי התגובות"
+
+#: inc/compatibility/class-astra-beaver-themer.php:246
+msgid "Loop End"
+msgstr "סיום הלופ"
+
+#. #-#-#-#-#  astra.pot (Astra 1.2.1)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/core/class-astra-admin-settings.php:90 inc/core/view-general.php:12
+#: inc/core/view-general.php:16 inc/extras.php:395 inc/extras.php:1353
+msgid "Astra"
+msgstr "Astra"
+
+#: inc/core/class-astra-admin-settings.php:276
+msgid "Settings saved successfully."
+msgstr "הגדרות נשמרו בהצלחה"
+
+#: inc/core/class-astra-theme-options.php:124
+#: inc/core/class-astra-theme-options.php:126
+msgid "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
+msgstr "זכויות יוצרים © [current_year] [site_title] | מופעל על ידי [theme_author]"
+
+#: inc/core/class-astra-theme-options.php:142
+msgid "Contact Us"
+msgstr "צרו קשר"
+
+#: inc/core/class-theme-strings.php:31
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: inc/core/class-theme-strings.php:37
+msgid "Nothing Found"
+msgstr "אין כלום"
+
+#: inc/core/class-theme-strings.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצטערים, אבל לא מצאנו את מה שחיפשת. נסה שוב עם מילות חיפוש אחרות."
+
+#: inc/core/class-theme-strings.php:39
+msgid "Start typing and press enter to search"
+msgstr "נא להתחיל להקליד ולהקיש Enter כדי לחפש"
+
+#: inc/core/class-theme-strings.php:40 inc/core/class-theme-strings.php:41
+msgid "Start Typing&hellip;"
+msgstr "להתחיל להקליד…"
+
+#: inc/core/class-theme-strings.php:42
+msgid "Search &hellip;"
+msgstr "חיפוש..."
+
+#: inc/core/class-theme-strings.php:45
+msgid "Reply"
+msgstr "תגובה"
+
+#: inc/core/class-theme-strings.php:46
+msgid "Edit"
+msgstr "עריכה"
+
+#: inc/core/class-theme-strings.php:47
+msgid "Your comment is awaiting moderation."
+msgstr "תגובתך ממתינה לאישור."
+
+#: inc/core/class-theme-strings.php:48 inc/core/class-theme-strings.php:63
+msgid "Leave a Comment"
+msgstr "לתגובה"
+
+#: inc/core/class-theme-strings.php:49
+msgid "Cancel Reply"
+msgstr "ביטול התגובה"
+
+#: inc/core/class-theme-strings.php:50
+msgid "Post Comment &raquo;"
+msgstr "שליחת התגובה »"
+
+#: inc/core/class-theme-strings.php:51
+msgid "Type here.."
+msgstr "להקליד כאן..."
+
+#: inc/core/class-theme-strings.php:52
+msgid "Name*"
+msgstr "שם*"
+
+#: inc/core/class-theme-strings.php:53
+msgid "Email*"
+msgstr "אימייל*"
+
+#: inc/core/class-theme-strings.php:54
+msgid "Website"
+msgstr "אתר"
+
+#: inc/core/class-theme-strings.php:55
+msgid "Comments are closed."
+msgstr "סגור לתגובות"
+
+#: inc/core/class-theme-strings.php:56
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: inc/core/class-theme-strings.php:57
+msgid "Newer Comments"
+msgstr "תגובות חדשות יותר"
+
+#: inc/core/class-theme-strings.php:58
+msgid "Older Comments"
+msgstr "תגובות קודמות"
+
+#: inc/core/class-theme-strings.php:61 inc/core/class-theme-strings.php:70
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: inc/core/class-theme-strings.php:62
+msgid "By "
+msgstr "על-ידי"
+
+#: inc/core/class-theme-strings.php:64
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: inc/core/class-theme-strings.php:65
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: inc/core/class-theme-strings.php:66 inc/core/class-theme-strings.php:83
+msgid "Next Page"
+msgstr "העמוד הבא"
+
+#: inc/core/class-theme-strings.php:67 inc/core/class-theme-strings.php:84
+msgid "Previous Page"
+msgstr "העמוד הקודם"
+
+#: inc/core/class-theme-strings.php:77
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה שאנחנו לא מוצאים את מה שחיפשת. אולי חיפוש יכול לעזור."
+
+#. translators: 1: search string
+#: inc/core/common-functions.php:740 inc/core/common-functions.php:820
+msgid "Search Results for: %s"
+msgstr "תוצאות החיפוש של: %s"
+
+#: inc/core/view-general.php:40
+msgid "Go ahead and start customizing your website."
+msgstr "קדימה, אפשר להתחיל את עיצוב האתר שלך."
+
+#: inc/core/view-general.php:42
+msgid "Customize"
+msgstr "התאמה אישית"
+
+#: inc/customizer/class-astra-customizer-sanitizes.php:258
+msgid "Enter valid email address!"
+msgstr "נא להזין כתובת אימייל תקפה"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:63
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:100
+#: inc/customizer/sections/typography/body.php:265
+msgid "Inherit"
+msgstr "לרשת"
+
+#: inc/customizer/register-panels-and-sections.php:20
+msgid "Layout"
+msgstr "פריסה"
+
+#: inc/customizer/register-panels-and-sections.php:29
+msgid "Site Layout"
+msgstr "פריסת האתר"
+
+#: inc/customizer/register-panels-and-sections.php:37
+msgid "Container"
+msgstr "מיכל"
+
+#: inc/customizer/register-panels-and-sections.php:251
+#: inc/customizer/sections/layout/header.php:40 inc/widgets.php:100
+msgid "Header"
+msgstr "כותרת (סרגל עליון)"
+
+#: inc/customizer/register-panels-and-sections.php:158
+#: inc/customizer/register-panels-and-sections.php:261
+msgid "Blog / Archive"
+msgstr "בלוג / ארכיון"
+
+#: inc/customizer/register-panels-and-sections.php:170
+msgid "Single Post"
+msgstr "פוסט יחיד"
+
+#: inc/customizer/register-panels-and-sections.php:179
+#: inc/metabox/class-astra-meta-boxes.php:212
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#: inc/customizer/register-panels-and-sections.php:191
+msgid "Colors & Background"
+msgstr "צבעים ורקע"
+
+#: inc/customizer/register-panels-and-sections.php:122
+#: inc/customizer/register-panels-and-sections.php:213
+msgid "Footer Widgets"
+msgstr "ווידג'טים של הסרגל התחתון"
+
+#: inc/customizer/register-panels-and-sections.php:225
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+#: inc/customizer/register-panels-and-sections.php:239
+msgid "Content"
+msgstr "תוכן"
+
+#: inc/customizer/register-panels-and-sections.php:269
+msgid "Single Page / Post"
+msgstr "עמוד / פוסט יחיד"
+
+#: inc/customizer/register-panels-and-sections.php:281
+msgid "Buttons"
+msgstr "כפתורים"
+
+#: inc/customizer/register-panels-and-sections.php:291
+msgid "Widget Areas"
+msgstr "אזורי ווידג'ט"
+
+#: inc/customizer/sections/buttons/buttons.php:68
+msgid "Button Background Color"
+msgstr "צבע הרקע של הכפתור"
+
+#: inc/customizer/sections/buttons/buttons.php:87
+msgid "Button Background Hover Color"
+msgstr "צבע רקע הכפתור בריחוף עכבר"
+
+#: inc/customizer/sections/buttons/buttons.php:106
+msgid "Button Radius"
+msgstr "רדיוס הפינות של הכפתור"
+
+#: inc/customizer/sections/buttons/buttons.php:130
+msgid "Vertical Padding"
+msgstr "מרווח אנכי"
+
+#: inc/customizer/sections/buttons/buttons.php:154
+msgid "Horizontal Padding"
+msgstr "מרווח אופקי"
+
+#: inc/customizer/sections/colors-background/advanced-footer.php:50
+#: inc/customizer/sections/colors-background/body.php:50
+#: inc/customizer/sections/colors-background/footer.php:30
+msgid "Text Color"
+msgstr "צבע הטקסט"
+
+#: inc/customizer/sections/colors-background/advanced-footer.php:88
+#: inc/customizer/sections/colors-background/body.php:71
+#: inc/customizer/sections/colors-background/footer.php:70
+msgid "Link Hover Color"
+msgstr "צבע הקישור בריחוף עכבר"
+
+#: inc/customizer/sections/colors-background/advanced-footer.php:120
+#: inc/customizer/sections/colors-background/footer.php:104
+#: inc/customizer/sections/layout/container.php:144
+msgid "Background Color"
+msgstr "צבע הרקע"
+
+#: inc/customizer/sections/layout/blog-single.php:57
+msgid "Single Post Meta"
+msgstr "תיאור פוסט בודד"
+
+#: inc/customizer/sections/layout/blog-single.php:59
+#: inc/customizer/sections/layout/blog.php:82
+msgid "Comments"
+msgstr "תגובות"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:120
+#: inc/customizer/sections/layout/blog-single.php:60
+#: inc/customizer/sections/layout/blog.php:83
+msgid "Category"
+msgstr "קטגוריה"
+
+#: inc/customizer/sections/layout/blog-single.php:61
+#: inc/customizer/sections/layout/blog.php:84
+msgid "Author"
+msgstr "מחבר"
+
+#: inc/customizer/sections/layout/blog-single.php:62
+#: inc/customizer/sections/layout/blog.php:85
+msgid "Publish Date"
+msgstr "תאריך הפרסום"
+
+#: inc/customizer/sections/layout/blog-single.php:63
+#: inc/customizer/sections/layout/blog.php:86
+msgid "Tag"
+msgstr "תגית"
+
+#: inc/customizer/sections/layout/blog-single.php:98
+msgid "Single Post Content Width"
+msgstr "רוחב התוכן בפוסט בודד"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-container.php:47
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:47
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:72
+#: inc/compatibility/woocommerce/customizer/sections/section-container.php:47
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:47
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:72
+#: inc/customizer/sections/layout/blog-single.php:100
+#: inc/customizer/sections/layout/blog.php:123
+#: inc/customizer/sections/layout/container.php:68
+#: inc/customizer/sections/layout/container.php:93
+#: inc/customizer/sections/layout/container.php:118
+#: inc/customizer/sections/layout/sidebar.php:72
+#: inc/customizer/sections/layout/sidebar.php:97
+#: inc/customizer/sections/layout/sidebar.php:122
+#: inc/customizer/sections/typography/body.php:46
+#: inc/customizer/sections/typography/body.php:69
+#: inc/customizer/sections/typography/body.php:96
+msgid "Default"
+msgstr "ברירת המחדל"
+
+#: inc/customizer/sections/layout/blog-single.php:101
+#: inc/customizer/sections/layout/blog.php:124
+msgid "Custom"
+msgstr "התאמה אישית"
+
+#: inc/customizer/sections/layout/blog-single.php:123
+#: inc/customizer/sections/layout/blog.php:146
+msgid "Enter Width"
+msgstr "נא להזין רוחב"
+
+#: inc/customizer/sections/layout/blog.php:29
+msgid "Blog Post Content"
+msgstr "תוכן הפוסט"
+
+#: inc/customizer/sections/layout/blog.php:33
+msgid "Full Content"
+msgstr "תוכן מלא"
+
+#: inc/customizer/sections/layout/blog.php:34
+msgid "Excerpt"
+msgstr "תקציר"
+
+#: inc/customizer/sections/layout/blog.php:80
+msgid "Blog Meta"
+msgstr "תיאור האתר"
+
+#: inc/customizer/sections/layout/blog.php:121
+msgid "Blog Content Width"
+msgstr "רוחב תוכן האתר"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-container.php:48
+#: inc/compatibility/woocommerce/customizer/sections/section-container.php:48
+#: inc/customizer/sections/layout/container.php:31
+#: inc/customizer/sections/layout/container.php:69
+#: inc/customizer/sections/layout/container.php:94
+#: inc/customizer/sections/layout/container.php:119
+#: inc/metabox/class-astra-meta-boxes.php:232
+msgid "Boxed"
+msgstr "תיבה"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-container.php:49
+#: inc/compatibility/woocommerce/customizer/sections/section-container.php:49
+#: inc/customizer/sections/layout/container.php:32
+#: inc/customizer/sections/layout/container.php:70
+#: inc/customizer/sections/layout/container.php:95
+#: inc/customizer/sections/layout/container.php:120
+#: inc/metabox/class-astra-meta-boxes.php:233
+msgid "Content Boxed"
+msgstr "התוכן בתיבה"
+
+#: inc/customizer/sections/layout/container.php:91
+#: inc/customizer/sections/layout/sidebar.php:95
+msgid "Blog Posts"
+msgstr "פוסטים באתר"
+
+#: inc/customizer/sections/layout/container.php:116
+#: inc/customizer/sections/layout/sidebar.php:120
+msgid "Blog Post Archives"
+msgstr "ארכיוני פוסטים"
+
+#: inc/customizer/sections/layout/footer.php:35
+msgid "Disabled"
+msgstr "כבוי"
+
+#: inc/customizer/sections/layout/footer.php:84
+msgid "Section 1"
+msgstr "מקטע 1"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/woo-shop.php:90
+#: inc/customizer/sections/layout/footer.php:86
+#: inc/customizer/sections/layout/footer.php:141
+#: inc/customizer/sections/layout/header.php:17
+#: inc/customizer/sections/layout/header.php:115
+#: inc/customizer/sections/typography/body.php:97
+#: inc/customizer/sections/typography/body.php:266
+msgid "None"
+msgstr "ללא"
+
+#: inc/customizer/sections/layout/footer.php:88
+#: inc/customizer/sections/layout/footer.php:143
+msgid "Custom Text"
+msgstr "טקסט מותאם אישית"
+
+#: inc/customizer/sections/layout/footer.php:89
+#: inc/customizer/sections/layout/footer.php:144
+#: inc/customizer/sections/layout/header.php:20
+#: inc/customizer/sections/layout/header.php:118
+msgid "Widget"
+msgstr "ווידג'ט"
+
+#: inc/customizer/sections/layout/footer.php:110
+msgid "Section 1 Custom Text"
+msgstr "טקסט מותאם אישית במקטע 1"
+
+#: inc/customizer/sections/layout/footer.php:139
+msgid "Section 2"
+msgstr "מקטע 2"
+
+#: inc/customizer/sections/layout/footer.php:165
+msgid "Section 2 Custom Text"
+msgstr "טקסט מותאם אישית במקטע 2"
+
+#: inc/customizer/sections/layout/footer.php:234
+msgid "Footer Bar Top Border Color"
+msgstr "צבע המסגרת העליונה של הסרגל התחתון"
+
+#: inc/customizer/sections/layout/footer.php:256
+#: inc/customizer/sections/layout/header.php:237
+msgid "Full Width"
+msgstr "רוחב מלא"
+
+#: inc/customizer/sections/layout/footer.php:257
+#: inc/customizer/sections/layout/header.php:238
+msgid "Content Width"
+msgstr "רוחב התוכן"
+
+#: inc/customizer/sections/layout/header.php:44
+msgid "Logo Left"
+msgstr "לוגו בשמאל"
+
+#: inc/customizer/sections/layout/header.php:48
+msgid "Logo Center"
+msgstr "לוגו ממורכז"
+
+#: inc/customizer/sections/layout/header.php:52
+msgid "Logo Right"
+msgstr "לוגו בימין"
+
+#: inc/customizer/sections/layout/header.php:74
+msgid "Disable Menu"
+msgstr "ביטול התפריט"
+
+#: inc/customizer/sections/layout/header.php:94
+#: inc/customizer/sections/layout/header.php:111
+msgid "Custom Menu Item"
+msgstr "עיצוב פריט בתפריט"
+
+#. translators: 1: Site Title Markup, 2: Site Tagline Markup
+#: inc/customizer/sections/layout/header.php:18
+#: inc/customizer/sections/layout/header.php:116 inc/extras.php:268
+msgid "Search"
+msgstr "חיפוש"
+
+#: inc/customizer/sections/layout/header.php:19
+#: inc/customizer/sections/layout/header.php:117
+msgid "Text / HTML"
+msgstr "טקסט / HTML"
+
+#: inc/customizer/sections/layout/header.php:160
+msgid "Custom Menu Text / HTML"
+msgstr "טקסט תפריט מותאם אישית / HTML"
+
+#: inc/customizer/sections/layout/header.php:190
+msgid "Bottom Border Size"
+msgstr "גודל המסגרת התחתונה"
+
+#: inc/customizer/sections/layout/header.php:215
+msgid "Bottom Border Color"
+msgstr "צבע המסגרת התחתונה"
+
+#: inc/customizer/sections/layout/header.php:235
+msgid "Header Width"
+msgstr "רוחב הסרגל העליון (האדר)"
+
+#: inc/customizer/sections/layout/header.php:273
+msgid "Menu Label on Small Devices"
+msgstr "תווית התפריט על מכשירים קטנים"
+
+#: inc/customizer/sections/layout/header.php:293
+msgid "Mobile Header Alignment"
+msgstr "יישור הסרגל העליון בנייד"
+
+#: inc/customizer/sections/layout/header.php:295
+msgid "Inline"
+msgstr "בשורה"
+
+#: inc/customizer/sections/layout/header.php:296
+msgid "Stack"
+msgstr "ערימה"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:48
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:73
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:48
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:73
+#: inc/customizer/sections/layout/sidebar.php:34
+#: inc/customizer/sections/layout/sidebar.php:73
+#: inc/customizer/sections/layout/sidebar.php:98
+#: inc/customizer/sections/layout/sidebar.php:123
+#: inc/metabox/class-astra-meta-boxes.php:218
+msgid "No Sidebar"
+msgstr "ללא סרגל צד"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:49
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:74
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:49
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:74
+#: inc/customizer/sections/layout/sidebar.php:35
+#: inc/customizer/sections/layout/sidebar.php:74
+#: inc/customizer/sections/layout/sidebar.php:99
+#: inc/customizer/sections/layout/sidebar.php:124
+#: inc/metabox/class-astra-meta-boxes.php:216
+msgid "Left Sidebar"
+msgstr "סרגל שמאלי"
+
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:50
+#: inc/compatibility/lifterlms/customizer/sections/section-sidebar.php:75
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:50
+#: inc/compatibility/woocommerce/customizer/sections/section-sidebar.php:75
+#: inc/customizer/sections/layout/sidebar.php:36
+#: inc/customizer/sections/layout/sidebar.php:75
+#: inc/customizer/sections/layout/sidebar.php:100
+#: inc/customizer/sections/layout/sidebar.php:125
+#: inc/metabox/class-astra-meta-boxes.php:217
+msgid "Right Sidebar"
+msgstr "סרגל ימני"
+
+#: inc/customizer/sections/layout/sidebar.php:161
+msgid "Sidebar Width"
+msgstr "רוחב הסרגל הצדדי"
+
+#: inc/customizer/sections/layout/site-layout.php:32
+msgid "Container Width"
+msgstr "רוחב המיכל"
+
+#: inc/customizer/sections/site-identity/site-identity.php:93
+msgid "Display Site Title"
+msgstr "הצגת שם האתר"
+
+#: inc/customizer/sections/site-identity/site-identity.php:113
+msgid "Display Site Tagline"
+msgstr "הצגת תיאור האתר"
+
+#: inc/customizer/sections/typography/archive.php:47
+#: inc/customizer/sections/typography/archive.php:91
+#: inc/customizer/sections/typography/body.php:121
+#: inc/customizer/sections/typography/content.php:47
+#: inc/customizer/sections/typography/content.php:91
+#: inc/customizer/sections/typography/content.php:135
+#: inc/customizer/sections/typography/content.php:179
+#: inc/customizer/sections/typography/content.php:223
+#: inc/customizer/sections/typography/content.php:267
+#: inc/customizer/sections/typography/header.php:48
+#: inc/customizer/sections/typography/header.php:92
+#: inc/customizer/sections/typography/single.php:48
+msgid "Font Size"
+msgstr "גודל הגופן"
+
+#: inc/customizer/sections/typography/archive.php:68
+msgid "Blog Post Title"
+msgstr "כותרת הפוסט"
+
+#: inc/customizer/sections/typography/body.php:49
+#: inc/customizer/sections/typography/body.php:217
+msgid "Font Family"
+msgstr "משפחת הגופן"
+
+#: inc/customizer/sections/typography/body.php:72
+#: inc/customizer/sections/typography/body.php:239
+msgid "Font Weight"
+msgstr "משקל הגופן"
+
+#: inc/customizer/sections/typography/body.php:94
+#: inc/customizer/sections/typography/body.php:261
+msgid "Text Transform"
+msgstr "שינוי הטקסט"
+
+#: inc/customizer/sections/typography/body.php:98
+#: inc/customizer/sections/typography/body.php:267
+msgid "Capitalize"
+msgstr "אותיות ראשיות"
+
+#: inc/customizer/sections/typography/body.php:99
+#: inc/customizer/sections/typography/body.php:268
+msgid "Uppercase"
+msgstr "אותיות גדולות"
+
+#: inc/customizer/sections/typography/body.php:100
+#: inc/customizer/sections/typography/body.php:269
+msgid "Lowercase"
+msgstr "אותיות קטנות"
+
+#: inc/customizer/sections/typography/body.php:149
+msgid "Line Height"
+msgstr "גובה השורה"
+
+#: inc/customizer/sections/typography/header.php:25
+msgid "Site Title"
+msgstr "שם האתר"
+
+#: inc/customizer/sections/typography/header.php:69
+msgid "Site Tagline"
+msgstr "סלוגן האתר"
+
+#: inc/customizer/sections/typography/single.php:25
+msgid "Single Post / Page Title"
+msgstr "כותרת הפוסט / העמוד"
+
+#: inc/extras.php:297
+msgid "Add Custom HTML"
+msgstr "הוספת קוד HTML"
+
+#: inc/extras.php:390
+msgid "Y"
+msgstr "Y"
+
+#: inc/extras.php:436
+msgid "Assign Footer Menu"
+msgstr "שיוך תפריט לסרגל התחתון"
+
+#: inc/extras.php:999
+msgid "Add Widget"
+msgstr "הוספת וידג'ט"
+
+#: inc/metabox/class-astra-meta-boxes.php:228
+msgid "Content Layout"
+msgstr "פריסת התוכן"
+
+#: inc/metabox/class-astra-meta-boxes.php:245
+msgid "Disable Sections"
+msgstr "ביטול מקטעים"
+
+#: inc/metabox/class-astra-meta-boxes.php:253
+msgid "Disable Primary Header"
+msgstr "ביטול הסרגל העליון"
+
+#: inc/metabox/class-astra-meta-boxes.php:261
+msgid "Disable Title"
+msgstr "ביטול הכותרת (שם האתר)"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:32 template-parts/content-page.php:52
+#: template-parts/single/single-layout.php:41
+msgid "Edit %s"
+msgstr "עריכת ה%s"
+
+#: inc/widgets.php:83
+msgid "Main Sidebar"
+msgstr "סרגל צד ראשי"
+
+#. translators: 1: link to new post
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הפוסט הראשון שלך? <a href=\"%1$s\">נא להתחיל כאן</a>."
+
+#. translators: 1: number of comments
+#: comments.php:34
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s מחשבה על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#. translators: 1: Astra Theme name
+#: inc/core/view-general.php:36
+msgid "%1$s is a very lightweight and beautiful theme made to work with Page Builders."
+msgstr "%1$s היא תבנית קלת משקל ויפה שנבנתה כדי לעבוד עם בנאי דפים (עורכים ויזואליים באמצעות גרירה ושחרור בצד הקדמי)."
+
+#: inc/customizer/register-panels-and-sections.php:59
+msgid "Footer"
+msgstr "סרגל תחתון"
+
+#. Author URI of the plugin/theme
+msgid "http://wpastra.com/about/"
+msgstr "http://wpastra.com/about/"
+
+#. Theme URI of the plugin/theme
+msgid "http://wpastra.com/"
+msgstr "http://wpastra.com/"
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr "כוח סיעור מוחות"

@@ -1,0 +1,48 @@
+0000.003 () Opened log file at time: Mon, 20 Nov 2017 14:54:45 +0000 on http://172.20.1.179
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.9 PHP: 7.0.24 (fpm-fcgi, Linux debian 3.16.0-4-amd64 #1 SMP Debian 3.16.43-2+deb8u5 (2017-09-19) x86_64) MySQL: 5.7.20 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.9M | 4M) multisite: N openssl: OpenSSL 1.0.2l  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 11582.7 MB
+0000.004 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.009 () Entity: plugins
+0000.009 () restore_backup(backup_file=backup_2017-11-20-0825_SMP_52621dcbaa25-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.009 () Unpacking backup... (backup_2017-11-20-0825_SMP_52621dcbaa25-plugins.zip, 13.3 Mb)
+0001.047 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.047 () Moving old data: can potentially use wp_filesystem method / -old
+0001.047 () Moving old data out of the way...
+0001.473 () Top-level entities being moved: advanced-code-editor, pdf-embedder, so-widgets-bundle, custom-facebook-feed, elementor, wp-responsive-recent-post-slider, index.php, recent-posts-widget-extended, wp-mail-smtp, siteorigin-panels, updraftplus
+0001.474 () Moving unpacked backup into place...
+0001.595 () Top-level entities being moved: advanced-code-editor, pdf-embedder, so-widgets-bundle, custom-facebook-feed, elementor, wp-responsive-recent-post-slider, index.php, recent-posts-widget-extended, wp-mail-smtp, siteorigin-panels, updraftplus
+0001.597 () Cleaning up rubbish...
+0001.602 () Entity: themes
+0001.602 () restore_backup(backup_file=backup_2017-11-20-0825_SMP_52621dcbaa25-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/opt/bitnami/apps/wordpress/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0001.602 () Unpacking backup... (backup_2017-11-20-0825_SMP_52621dcbaa25-themes.zip, 7.1 Mb)
+0001.875 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.875 () Moving old data: can potentially use wp_filesystem method / -old
+0001.875 () Moving old data out of the way...
+0001.918 () Top-level entities being moved: alante, twentysixteen, alante-blue, flymag, sydney, index.php, twentytwelve
+0001.919 () Moving unpacked backup into place...
+0001.959 () Top-level entities being moved: alante, twentysixteen, alante-blue, flymag, sydney, index.php, twentytwelve
+0001.960 () Cleaning up rubbish...
+0001.963 () Entity: uploads
+0001.963 () restore_backup(backup_file=backup_2017-11-20-0825_SMP_52621dcbaa25-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0001.963 () Unpacking backup... (backup_2017-11-20-0825_SMP_52621dcbaa25-uploads.zip, 25 Mb)
+0002.425 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.425 () Moving old data: can potentially use wp_filesystem method / -old
+0002.425 () Moving old data out of the way...
+0002.445 () Moving unpacked backup into place...
+0002.460 () Cleaning up rubbish...
+0002.462 () restore_backup(backup_file=backup_2017-11-20-0825_SMP_52621dcbaa25-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0002.462 () Unpacking backup... (backup_2017-11-20-0825_SMP_52621dcbaa25-uploads2.zip, 25 Mb)
+0002.877 () Moving unpacked backup into place...
+0002.890 () Cleaning up rubbish...
+0002.893 () restore_backup(backup_file=backup_2017-11-20-0825_SMP_52621dcbaa25-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0002.893 () Unpacking backup... (backup_2017-11-20-0825_SMP_52621dcbaa25-uploads3.zip, 23.2 Mb)
+0003.188 () Moving unpacked backup into place...
+0003.212 () Cleaning up rubbish...
+0003.216 () Entity: others
+0003.216 () restore_backup(backup_file=backup_2017-11-20-0825_SMP_52621dcbaa25-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/opt/bitnami/apps/wordpress/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0003.216 () Unpacking backup... (backup_2017-11-20-0825_SMP_52621dcbaa25-others.zip, 12.6 Mb)
+0004.286 () PHP event: code E_WARNING: copy(): The first argument to copy() function cannot be a directory (line 243, wp-admin/includes/class-wp-filesystem-direct.php)
+0004.287 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/opt/bitnami/apps/wordpress/htdocs/wp-content/languages)
+0004.287 () Restore failed...
+0004.287 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/opt/bitnami/apps/wordpress/htdocs/wp-content/languages)
+0004.287 () Restore failed

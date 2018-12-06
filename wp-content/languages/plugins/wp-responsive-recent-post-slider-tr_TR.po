@@ -1,0 +1,151 @@
+# Translation of Plugins - WP Responsive Recent Post Slider - Development (trunk) in Turkish
+# This file is distributed under the same license as the Plugins - WP Responsive Recent Post Slider - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-06 10:37:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - WP Responsive Recent Post Slider - Development (trunk)\n"
+
+#: includes/admin/wprps-how-it-work.php:257
+msgid "Help to improve this plugin!"
+msgstr "Bu eklentiyi iyileştirmeye yardım edin!"
+
+#: includes/admin/wprps-how-it-work.php:246
+msgid "View PRO Demo "
+msgstr "PRO demosunu görüntüle"
+
+#: includes/admin/wprps-how-it-work.php:245
+msgid "Go Premium "
+msgstr "Premium'a geç"
+
+#: includes/admin/wprps-how-it-work.php:230
+msgid "Upgrate to Pro"
+msgstr "Pro'ya yükselt"
+
+#: includes/admin/wprps-how-it-work.php:212
+msgid "Demo for Designs"
+msgstr "Tasarımlar için demo"
+
+#: includes/admin/wprps-how-it-work.php:211
+msgid "Documentation"
+msgstr "Belgelendirme"
+
+#: includes/admin/wprps-how-it-work.php:210
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr "Tasarımlar için demo ve kısa kod parametreleri için eklenti belgesini kontrol edin."
+
+#: includes/admin/wprps-how-it-work.php:207
+msgid "Need Support?"
+msgstr "Yardıma mı ihtiyacınız var?"
+
+#: includes/admin/wprps-how-it-work.php:197
+msgid "All Shortcodes"
+msgstr "Tüm kısa kodlar"
+
+#: includes/admin/wprps-how-it-work.php:190
+msgid "Step-2. Put below shortcode as per your need."
+msgstr "Adım 2. İhtiyacınıza göre kısa kodu aşağıya koyun."
+
+#: includes/admin/wprps-how-it-work.php:189
+msgid "Step-1. Create a page like Latet Post OR add the shortcode in a page."
+msgstr "Adım 1. Son Yazılar gibi bir sayfa oluşturun veya bir sayfaya kısa kodu ekleyin."
+
+#: includes/admin/wprps-how-it-work.php:185
+msgid "How Shortcode Works"
+msgstr "Kısa kod nasıl çalışır"
+
+#: includes/admin/wprps-how-it-work.php:177
+msgid "Step-3. If you need a <b>Featured Post</b> OR <b>Trending/Popular Post</b> plugin then try our plugins"
+msgstr "Adım 3. <b>Öne Çıkarılan Yazılar</b> veya <b>Popüler Yazılar</b> eklentisine ihtiyacınız varsa eklentilerimizi deneyin."
+
+#: includes/admin/wprps-how-it-work.php:176
+msgid "Step-2. This plugin get all the latest POST from WordPress post section with a simple shortcode"
+msgstr "Adım 2. Bu eklenti, WordPress yazılar bölümünden en yeni yazıları basit bir kısa kod ile alır."
+
+#: includes/admin/wprps-how-it-work.php:175
+msgid "Step-1. This plugin create a tab under \"POST--> Post Slider - How it work\"."
+msgstr "Adım 1. Bu eklenti \"Yazılar -> Post Slider - Nasıl çalışır\" altında bir sekme oluşturur."
+
+#: includes/admin/wprps-how-it-work.php:171
+msgid "Geeting Started with Post Slider"
+msgstr "Post Slider'a başlarken"
+
+#: includes/admin/wprps-how-it-work.php:163
+msgid "How It Works - Display and shortcode"
+msgstr "Nasıl çalışır - Görüntüleme ve kısa kod"
+
+#: includes/admin/wprps-how-it-work.php:127
+msgid "WPOS Offers"
+msgstr "WPOS önerileri"
+
+#: includes/admin/wprps-how-it-work.php:118
+msgid "How It Works"
+msgstr "Nasıl çalışır"
+
+#: includes/admin/wprps-how-it-work.php:22
+msgid "Post Slider - How It Works"
+msgstr "Posta Slider - Nasıl çalışır"
+
+#: includes/admin/wprps-how-it-work.php:22
+msgid "How it works, our plugins and offers"
+msgstr "Eklentilerimiz ve tekliflerimiz nasıl çalışır"
+
+#: templates/designs/design-1.php:40 templates/designs/design-2.php:40
+#: templates/designs/design-3.php:43 templates/designs/design-4.php:43
+msgid "Read More"
+msgstr "Devamını oku"
+
+#: includes/admin/wprps-how-it-work.php:103
+msgid "There was an error retrieving the data from the server. Please try again later."
+msgstr "Sunucudan veri alınırken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz."
+
+#: includes/admin/wprps-how-it-work.php:121
+msgid "Our Plugins"
+msgstr "Eklentilerimiz"
+
+#: templates/designs/design-1.php:22 templates/designs/design-2.php:23
+#: templates/designs/design-3.php:25 templates/designs/design-4.php:26
+msgid "By"
+msgstr "Yazan"
+
+#. Author of the plugin/theme
+msgid "WP Online Support"
+msgstr "WP Online Destek"
+
+#. Description of the plugin/theme
+msgid "Easy to add and display Recent Post Slider"
+msgstr "Recent Post Slider'ı eklemek ve görüntülemek çok kolay"
+
+#. #-#-#-#-#  wp-responsive-recent-post-slider-code.pot (WP Responsive Recent
+#. Post Slider 1.2.8)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-responsive-recent-post-slider-code.pot (WP Responsive Recent
+#. Post Slider 1.2.8)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.wponlinesupport.com/"
+msgstr "http://www.wponlinesupport.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Responsive Recent Post Slider"
+msgstr "WP Responsive Recent Post Slider"
+
+#: templates/wprps-template.php:233
+msgid "Posts"
+msgstr "Yazılar"
+
+#: templates/wprps-template.php:232
+msgid "Slug"
+msgstr "Kısa adı"
+
+#: templates/wprps-template.php:231
+msgid "Category Shortcode"
+msgstr "Kategori kısa kodu"
+
+#: templates/wprps-template.php:230
+msgid "Name"
+msgstr "Bağlantı ismi"

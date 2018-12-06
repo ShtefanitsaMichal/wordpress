@@ -1,0 +1,2059 @@
+# Translation of Themes - Astra in Norwegian (Bokmål)
+# This file is distributed under the same license as the Themes - Astra package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-08 18:24:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Themes - Astra\n"
+
+#. Description of the plugin/theme
+msgid "Astra is fast, fully customizable & beautiful theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!"
+msgstr ""
+"Astra er et raskt, tilpasningvennlig og vakkert WordPress-tema som passer utmerket til blogger, portfolios, business-nettsider og WooCommerce-nettsider. Det er et \"lett\" tema (mindre enn 50KB i front-end) og det fungerer utrolig raskt. Astra er bygget med fokus på SEO (søkemotoroptimalisering). Astra blir levert med kode til Schema.org integrert, og søkemotorer vil derfor elske dette temaet. Astra inneholder mange nyttige funksjoner, og en hel haug med ferdige maler/templates som fungerer til sidebyggere som Elementor og Beaver Builder. Temaet støtter også sidebyggere som Visual Composer, SiteOrigin, Divi, etc.\n"
+"Flere funksjoner; #WooCommerce klar #Responsivt design #RTL & oversettelsesklar #Utvidbart med permium utvidelser #Hyppig oppdatert #Designet, utviklet og vedlikeholdt av Brainstorm Force.\n"
+"Ser du etter et perfekt grunntema? Ikke let lenger. Astra er det du trenger til alle dine nettsider/nettbutikker."
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-single-product-layout-configs.php:45
+msgid "Disable Product Navigation"
+msgstr "Deaktiver produktnavigering"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:146
+msgid "Archive Content Width"
+msgstr "Bredden til innholdet i arkivet"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:106
+msgid "Options"
+msgstr "Valg"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:103
+msgid "Variable Product Button"
+msgstr "Produktknapp som kan endres"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:69
+msgid "Image"
+msgstr "Bilde"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:49
+msgid "Archive Columns"
+msgstr "Arkivkolonner"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:45
+msgid "Container for Easy Digital Downloads"
+msgstr "Konteiner for Easy Digital Downloads"
+
+#: inc/compatibility/edd/customizer/class-astra-customizer-register-edd-section.php:43
+msgid "Product Archive"
+msgstr "Produktarkiv"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:121
+msgid "Variable Product Button Text"
+msgstr "Varierende tekst til produktknapp"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:105
+msgid "Button"
+msgstr "Knapp"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:67
+msgid "Product Structure"
+msgstr "Produktstruktur"
+
+#: inc/compatibility/edd/class-astra-edd.php:630
+msgid "This sidebar will be used on EDD Single Product page."
+msgstr "Denne sidekolonnen vil bli brukt til EDD ettprodukt-side"
+
+#: inc/compatibility/edd/class-astra-edd.php:560
+msgid "View Details"
+msgstr "Se detaljer"
+
+#: inc/compatibility/edd/class-astra-edd.php:628
+msgid "EDD Single Product Sidebar"
+msgstr "EDD ett-produktskolonne"
+
+#: inc/compatibility/edd/class-astra-edd.php:224
+#: inc/compatibility/edd/customizer/class-astra-customizer-register-edd-section.php:36
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:57
+#: inc/core/class-astra-admin-settings.php:880
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital-nedlastinger"
+
+#: inc/compatibility/edd/class-astra-edd.php:617
+msgid "Easy Digital Downloads Sidebar"
+msgstr "Easy Digital nedlastingskolonne"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:89
+msgid "Cart Button Text"
+msgstr "Handlekurv-knappetekst"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:76
+msgid "EDD Single Product"
+msgstr "EDD singel produkt"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:98
+msgid "900 Italic"
+msgstr "900 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:96
+msgid "800 Italic"
+msgstr "800 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:94
+msgid "700 Italic"
+msgstr "700 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:92
+msgid "600 Italic"
+msgstr "600 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:90
+msgid "500 Italic"
+msgstr "500 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:88
+msgid "400 Italic"
+msgstr "400 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:86
+msgid "300 Italic"
+msgstr "300 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:84
+msgid "200 Italic"
+msgstr "200 kursiv"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:82
+msgid "100 Italic"
+msgstr "100 kursiv"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:78
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:222
+msgid "Font Variant"
+msgstr "Variant av skrifttype"
+
+#: inc/core/class-astra-admin-settings.php:186
+msgid "I already did"
+msgstr "Jeg har gjort det"
+
+#: inc/core/class-astra-admin-settings.php:185
+msgid "Nope, maybe later"
+msgstr "Neida, kanskje senere"
+
+#: inc/core/class-astra-admin-settings.php:183
+msgid "Ok, you deserve it"
+msgstr "Ok, du fortjener det"
+
+#: inc/core/class-astra-admin-settings.php:181
+msgid "Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Astra theme."
+msgstr "Kunne du være så snill å gjøre oss en STOR tjeneste og gi oss en femstjerners vurdering på WordPress? Dette vil øke motivasjonen vår og hjelpe andre brukere til å ta en lett avgjørelse og velge Astra-temaet."
+
+#: inc/core/class-astra-admin-settings.php:180
+msgid "Hello! Seems like you have used Astra theme to build this website — Thanks a ton!"
+msgstr "Hei! Ser ut til at du har brukt Astra-temaet til denne nettsiden - takker tungt for det!"
+
+#. Translators: %s is the theme name.
+#: inc/metabox/class-astra-meta-boxes.php:152
+msgid "%s Settings"
+msgstr "%s innstillinger"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:245
+msgid "Submenu Item Border Color"
+msgstr "Kantfarge til undermenytekst"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:275
+msgid "Fade"
+msgstr "Utfase"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:274
+msgid "Slide Up"
+msgstr "Gli opp"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:273
+msgid "Slide Down"
+msgstr "Gli ned"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:211
+msgid "Left"
+msgstr "Venstre"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:210
+msgid "Bottom"
+msgstr "Bunn"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:209
+msgid "Right"
+msgstr "Høyre"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:208
+msgid "Top"
+msgstr "Topp"
+
+#: inc/core/class-astra-admin-settings.php:758
+msgid "Nav Menu"
+msgstr "Navigasjonsmeny"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:270
+msgid "Submenu Container Animation"
+msgstr "Undermeny container animasjon"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:222
+msgid "Submenu Border Color"
+msgstr "Undermeny ramme-farge"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:235
+msgid "Submenu Item Border"
+msgstr "Undermeny gjenstands-ramme"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:206
+msgid "Submenu Container Border"
+msgstr "Undermney container-ramme"
+
+#. Translators: Author Name.
+#: inc/blog/blog-config.php:139
+msgid "View all posts by %1$s"
+msgstr "Vis alle innlegg av %1$s"
+
+#: inc/core/common-functions.php:1064
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Søk &hellip;"
+
+#: inc/core/common-functions.php:1063
+msgctxt "label"
+msgid "Search for:"
+msgstr "Søk etter:"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:164
+msgid "Header Bottom Border Color"
+msgstr "Farge på nedre kant i sidehode"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:144
+msgid "Header Bottom Border Size"
+msgstr "Størrelse på nedre kant i sidehode"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:108
+msgid "Site Identity Overview"
+msgstr "Oversikt over nettstedsidentitet"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:58
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:105
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:133
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:190
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:236
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:260
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:309
+msgid "Helpful Information"
+msgstr "Hjelpsom informasjon"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:312
+msgid "Typography Overview"
+msgstr "Oversikt over typografi"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:193
+msgid "Footer Bar Overview"
+msgstr "Oversikt over sidebunn"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:136
+msgid "Primary Header Overview"
+msgstr "Oversikt over hoved-sidehode"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:61
+msgid "Site Layout Overview"
+msgstr "Oversikt over utformingen av nettstedet"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:263
+msgid "Colors & Background Overview"
+msgstr "Oversikt over farger og bakgrunn"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:239
+msgid "Sidebar Overview"
+msgstr "Oversikt over sidestolpe"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:67
+msgid "Container Overview"
+msgstr "Kontainer-oversikt"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:326
+msgid "Link"
+msgstr "Lenke"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:325
+msgid "Icon"
+msgstr "Ikon"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:43
+msgid "Different Logo for retina devices?"
+msgstr "Annen logo for retina-enheter?"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:322
+msgid "Dropdown Target"
+msgstr "Dropdown Target"
+
+#: inc/core/class-astra-admin-settings.php:1079
+msgid "⚡ Lightning Fast & Fully Customizable WordPress theme!"
+msgstr "Lightning Fast & Fully Customizable WordPress theme!"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:416
+msgid "Minimal"
+msgstr "Minimal"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:415
+msgid "Outline"
+msgstr "Omriss"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:414
+msgid "Fill"
+msgstr "Fyll"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:428
+msgid "Toggle Button Color"
+msgstr "Veksle knappefarge"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:441
+msgid "Border Radius"
+msgstr "Kantradius"
+
+#: inc/core/class-astra-admin-settings.php:732
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:288
+msgid "Mobile Header"
+msgstr "Sidehode på mobil"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:50
+msgid "Header Layout"
+msgstr "Utforming av sidehode"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:409
+msgid "Toggle Button Style"
+msgstr "Veksle knappestil"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:99
+msgid "Site Identity"
+msgstr "Nettstedsidentitet"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:89
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:100
+msgid "Last Item in Menu"
+msgstr "Siste element i meny"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:71
+msgid "Different Logo for mobile devices?"
+msgstr "Forskjellig logo på mobile enheter?"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:86
+msgid "Mobile Logo (optional)"
+msgstr "Mobil-logo (valgfritt)"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:482
+msgid "More Options Available for Mobile Header in Astra Pro!"
+msgstr "Flere valg tilgjengelig for mobil-header i Astra PRO"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:375
+msgid "Take Last item in Menu outside menu"
+msgstr "Sett siste gjenstand i menyen utenfor menyen"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:361
+msgid "Hide Last item in Menu on mobile"
+msgstr "Skjul siste gjenstand i menyen på mobil"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:155
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:303
+msgid "Menu Breakpoint"
+msgstr "Brytningspunkt for meny"
+
+#: inc/compatibility/learndash/customizer/class-astra-customizer-register-learndash-section.php:36
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:57
+#: inc/core/class-astra-admin-settings.php:893
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:108
+#: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:95
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:133
+msgid "Background"
+msgstr "Bakgrunn"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:180
+msgid "Fixed"
+msgstr "Fixed"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:177
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:171
+msgid "Background Attachment"
+msgstr "Bakgrunnsvedlegg"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:164
+msgid "Auto"
+msgstr "Auto"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:161
+msgid "Contain"
+msgstr "Inneholder"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:158
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:155
+msgid "Background Size"
+msgstr "Bakgrunnsstørrelse"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:149
+msgid "Center Bottom"
+msgstr "Center Bottom"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:148
+msgid "Center Center"
+msgstr "Center Center"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:147
+msgid "Center Top"
+msgstr "Center Top"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:146
+msgid "Right Bottom"
+msgstr "Right Bottom"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:145
+msgid "Right Center"
+msgstr "Right Center"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:144
+msgid "Right Top"
+msgstr "Right Top"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:143
+msgid "Left Bottom"
+msgstr "Left Bottom"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:142
+msgid "Left Center"
+msgstr "Left Center"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:141
+msgid "Left Top"
+msgstr "Left Top"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:134
+msgid "Repeat Vertically"
+msgstr "Repeat Vertically"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:133
+msgid "Repeat Horizontally"
+msgstr "Repeat Horizontally"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:132
+msgid "Repeat All"
+msgstr "Repeat All"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:131
+msgid "No Repeat"
+msgstr "No Repeat"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:118
+msgid "Select File"
+msgstr "Velg fil"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:117
+msgid "Remove"
+msgstr "Fjern"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:114
+msgid "No File Selected"
+msgstr "Ingen fil er valgt"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:109
+msgid "Background Image"
+msgstr "Bakgrunnsbilde"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:72
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:122
+msgid "More Settings"
+msgstr "Flere innstillinger"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:71
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:120
+msgid "Less Settings"
+msgstr "Færre innstillinger"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:70
+msgid "No file selected"
+msgstr "Ingen fil er valgt"
+
+#: inc/core/class-astra-admin-settings.php:894
+msgid "Supercharge your LearnDash website with amazing design features."
+msgstr "Supercharge your LearnDash website with amazing design features."
+
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:59
+msgid "Container for LifterLMS"
+msgstr "Container for LifterLMS"
+
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:58
+msgid "This layout will apply on all single course, lesson, topic and quiz."
+msgstr "This layout will apply on all single course, lesson, topic and quiz."
+
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:58
+msgid "Will be applied to All Single Courses, Topics, Lessons and Quizzes. Does not work on pages created with LearnDash shortcodes."
+msgstr "Will be applied to All Single Courses, Topics, Lessons and Quizzes. Does not work on pages created with LearnDash shortcodes."
+
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:57
+msgid "Container for LearnDash"
+msgstr "Container for LearnDash"
+
+#: inc/compatibility/learndash/customizer/sections/layout/class-astra-learndash-general-configs.php:70
+msgid "Differentiate Rows"
+msgstr "Differentiate Rows"
+
+#: inc/compatibility/learndash/customizer/sections/layout/class-astra-learndash-general-configs.php:57
+msgid "Display Serial Number"
+msgstr "Vis serienummer"
+
+#: inc/compatibility/learndash/customizer/sections/layout/class-astra-learndash-general-configs.php:41
+msgid "Course Content Table"
+msgstr "Course Content Table"
+
+#. translators: %1$s: Astra Theme name.
+#: inc/core/class-astra-admin-settings.php:550
+msgid "%1$s Community"
+msgstr "%1$s Community"
+
+#: inc/extras.php:1536
+msgid "Astra Pro"
+msgstr "Astra Pro"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:133
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:268
+#: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:161
+#: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:101
+msgid "More Options Available for Typography in Astra Pro!"
+msgstr "More Options Available for Typography in Astra Pro!"
+
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:166
+msgid "More Options Available for Container in Astra Pro!"
+msgstr "More Options Available for Container in Astra Pro!"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:169
+msgid "More Options Available for Blog in Astra Pro!"
+msgstr "More Options Available for Blog in Astra Pro!"
+
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:152
+msgid "More Options Available for Single Post in Astra Pro!"
+msgstr "More Options Available for Single Post in Astra Pro!"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:169
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:152
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:287
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:482
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:166
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:133
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:268
+#: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:161
+#: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:101
+msgid "Learn More"
+msgstr "Lær mer"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:287
+msgid "More Options Available for Footer Widgets in Astra Pro!"
+msgstr "More Options Available for Footer Widgets in Astra Pro!"
+
+#: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:44
+msgid "Theme Color"
+msgstr "Temafarge"
+
+#: inc/customizer/astra-pro/class-astra-pro-upgrade-link-configs.php:33
+msgid "More Options Available in Astra Pro!"
+msgstr "More Options Available in Astra Pro!"
+
+#. translators: %1$1s: Addon Name, %2$2s: Minimum Required version of the Astra
+#. Addon
+#: inc/core/class-astra-admin-settings.php:1059
+msgid "Update to the latest version of %1$2s to make changes in settings below."
+msgstr "Update to the latest version of %1$2s to make changes in settings below."
+
+#: inc/core/class-astra-admin-settings.php:1027
+msgid "Plugin Successfully Activated"
+msgstr "Utvidelse ble aktivert"
+
+#: inc/core/class-astra-admin-settings.php:1006
+msgid "No plugin specified"
+msgstr "Ingen utvidelse er spesifisert"
+
+#: inc/core/class-astra-admin-settings.php:936
+msgid "Links to Customizer Settings:"
+msgstr "Links to Customizer Settings:"
+
+#: inc/core/class-astra-admin-settings.php:920
+msgid "White Label"
+msgstr "White Label"
+
+#: inc/core/class-astra-admin-settings.php:854
+msgid "Scroll To Top"
+msgstr "Scroll til toppen."
+
+#: inc/core/class-astra-admin-settings.php:828
+msgid "Site Layouts"
+msgstr "Sidelayout"
+
+#: inc/core/class-astra-admin-settings.php:814
+msgid "Add content conditionally in the various hook areas of the theme."
+msgstr "Add content conditionally in the various hook areas of the theme."
+
+#: inc/core/class-astra-admin-settings.php:812
+msgid "Custom Layouts"
+msgstr "Egendefinert layout"
+
+#: inc/core/class-astra-admin-settings.php:798
+msgid "Make your header layouts look more appealing and sexy!"
+msgstr "Make your header layouts look more appealing and sexy!"
+
+#: inc/core/class-astra-admin-settings.php:797
+msgid "Page Headers"
+msgstr "Page Headers"
+
+#: inc/core/class-astra-admin-settings.php:784
+msgid "Sticky Header"
+msgstr "Sticky Header"
+
+#: inc/core/class-astra-admin-settings.php:771
+msgid "Transparent Header"
+msgstr "Transparent Header"
+
+#: inc/core/class-astra-admin-settings.php:745
+msgid "Header Sections"
+msgstr "Header Sections"
+
+#: inc/core/class-astra-admin-settings.php:719
+msgid "Blog Pro"
+msgstr "Blog Pro"
+
+#: inc/core/class-astra-admin-settings.php:706
+msgid "Spacing"
+msgstr "Spacing"
+
+#: inc/core/class-astra-admin-settings.php:669
+msgid "Sidebar Options"
+msgstr "Sidebar Options"
+
+#: inc/core/class-astra-admin-settings.php:664
+msgid "Footer Settings"
+msgstr "Footer Settings"
+
+#: inc/core/class-astra-admin-settings.php:659
+msgid "Blog Layouts"
+msgstr "Blog Layouts"
+
+#: inc/core/class-astra-admin-settings.php:654
+msgid "Header Options"
+msgstr "Header Options"
+
+#: inc/core/class-astra-admin-settings.php:649
+msgid "Layout Options"
+msgstr "Layout Options"
+
+#: inc/core/class-astra-admin-settings.php:644
+msgid "Customize Fonts"
+msgstr "Customize Fonts"
+
+#: inc/core/class-astra-admin-settings.php:639
+msgid "Set Colors"
+msgstr "Velg farger"
+
+#: inc/core/class-astra-admin-settings.php:634
+msgid "Upload Logo"
+msgstr "Last opp logo"
+
+#. translators: %1$s: Astra Knowledge doc link.
+#: inc/core/class-astra-admin-settings.php:627
+msgid "More Options Available with Astra Pro!"
+msgstr "More Options Available with Astra Pro!"
+
+#: inc/core/class-astra-admin-settings.php:606
+msgid "Submit a Ticket »"
+msgstr "Send inn en ticket »"
+
+#: inc/core/class-astra-admin-settings.php:687
+#: inc/core/class-astra-admin-settings.php:700
+#: inc/core/class-astra-admin-settings.php:713
+#: inc/core/class-astra-admin-settings.php:726
+#: inc/core/class-astra-admin-settings.php:739
+#: inc/core/class-astra-admin-settings.php:752
+#: inc/core/class-astra-admin-settings.php:765
+#: inc/core/class-astra-admin-settings.php:778
+#: inc/core/class-astra-admin-settings.php:791
+#: inc/core/class-astra-admin-settings.php:806
+#: inc/core/class-astra-admin-settings.php:822
+#: inc/core/class-astra-admin-settings.php:835
+#: inc/core/class-astra-admin-settings.php:848
+#: inc/core/class-astra-admin-settings.php:861
+#: inc/core/class-astra-admin-settings.php:874
+#: inc/core/class-astra-admin-settings.php:887
+#: inc/core/class-astra-admin-settings.php:901
+#: inc/core/class-astra-admin-settings.php:914
+#: inc/core/class-astra-admin-settings.php:927
+msgid "Learn More »"
+msgstr "Lær mer »"
+
+#. translators: %1$s: Astra Theme name.
+#: inc/core/class-astra-admin-settings.php:599
+msgid "Got a question? Get in touch with %1$s developers. We're happy to help!"
+msgstr "Got a question? Get in touch with %1$s developers. We're happy to help!"
+
+#. translators: %1$s: Astra Knowledge doc link.
+#: inc/core/class-astra-admin-settings.php:592
+msgid "Five Star Support"
+msgstr "Five Star Support"
+
+#: inc/core/class-astra-admin-settings.php:567
+msgid "Join Our Facebook Group »"
+msgstr "Join Our Facebook Group »"
+
+#. translators: %1$s: Astra Theme name.
+#: inc/core/class-astra-admin-settings.php:560
+msgid "Join the community of super helpful %1$s users. Say hello, ask questions, give feedback and help each other!"
+msgstr "Join the community of super helpful %1$s users. Say hello, ask questions, give feedback and help each other!"
+
+#: inc/core/class-astra-admin-settings.php:521
+msgid "Visit Knowledge Base »"
+msgstr "Visit Knowledge Base »"
+
+#: inc/core/class-astra-admin-settings.php:517
+msgid "Not sure how something works? Take a peek at the knowledge base and learn."
+msgstr "Not sure how something works? Take a peek at the knowledge base and learn."
+
+#: inc/core/class-astra-admin-settings.php:513
+msgid "Knowledge Base"
+msgstr "Knowledge Base"
+
+#: inc/core/class-astra-admin-settings.php:470
+msgid "Install Importer Plugin"
+msgstr "Install Importer Plugin"
+
+#: inc/core/class-astra-admin-settings.php:461
+msgid "Activate Importer Plugin"
+msgstr "Activate Importer Plugin"
+
+#: inc/core/class-astra-admin-settings.php:452
+msgid "Import your favorite site one click and start your project in style!"
+msgstr "Import your favorite site one click and start your project in style!"
+
+#: inc/core/class-astra-admin-settings.php:440
+msgid "Starter Site Templates?"
+msgstr "Starter Site Templates?"
+
+#. translators: %1$s: Starter site link.
+#: inc/core/class-astra-admin-settings.php:443
+msgid "Did you know %1$s offers a free library of %2$s "
+msgstr "Did you know %1$s offers a free library of %2$s "
+
+#: inc/core/class-astra-admin-settings.php:433
+msgid "Import Starter Site"
+msgstr "Import Starter Site"
+
+#: inc/core/class-astra-admin-settings.php:296
+#: inc/core/class-astra-admin-settings.php:477
+#: inc/core/class-astra-admin-settings.php:481
+msgid "See Library »"
+msgstr "See Library »"
+
+#: inc/core/class-astra-admin-settings.php:294
+msgid "Activating Importer Plugin "
+msgstr "Activating Importer Plugin "
+
+#: inc/core/class-astra-admin-settings.php:97
+msgid "Astra Options"
+msgstr "Astra Options"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:57
+msgid "Default System Font"
+msgstr "Standard systemskrift"
+
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:113
+msgid "Container for Blog Archives"
+msgstr "Kontainer for bloggarkiver"
+
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:93
+msgid "Container for Blog Posts"
+msgstr "Kontainer for blogginnlegg"
+
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:75
+msgid "Container for Pages"
+msgstr "Kontainer for sider"
+
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:45
+msgid "Container for WooCommerce"
+msgstr "Kontainer for WooCommerce"
+
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:60
+msgid "Default Container"
+msgstr "Standard kontainer"
+
+#: inc/compatibility/lifterlms/customizer/sections/layout/class-astra-lifter-general-configs.php:48
+msgid "Course Columns"
+msgstr "Kurskolonner"
+
+#: inc/compatibility/lifterlms/customizer/sections/layout/class-astra-lifter-general-configs.php:70
+msgid "Membership Columns"
+msgstr "Medlemsskapkolonner"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:139
+msgid "Shop Archive Content Width"
+msgstr "Butikkarkiv, innholdsbredde"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:295
+msgid "Leave Review"
+msgstr "Skriv omtale"
+
+#. translators: 1 Author Name.
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:243
+msgid "By: %s"
+msgstr "Av: %s"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:214
+msgid "What Others Have Said"
+msgstr "Hva andre har sagt"
+
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:76
+msgid "LifterLMS Course/Lesson"
+msgstr "LifterLMS kurs/oppgave"
+
+#: inc/compatibility/lifterlms/customizer/class-astra-liferlms-section-configs.php:35
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:57
+#: inc/core/class-astra-admin-settings.php:907
+msgid "LifterLMS"
+msgstr "LifterLMS"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:291
+msgid "Review Text is required."
+msgstr "Omtaletekst er påkrevd"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:290
+msgid "Review Text"
+msgstr "Omtaletekst"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:289
+msgid "Review Title is required."
+msgstr "Omtaletekst er påkrevd"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:288
+msgid "Review Title"
+msgstr "Omtaletittel"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:286
+msgid "Write a Review"
+msgstr "Skriv en omtale"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:280
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:299
+msgid "Thank you for your review!"
+msgstr "Takk for omtalen!"
+
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:160
+msgid "Sidebar width will apply only when one of the above sidebar is set."
+msgstr "Bredden til sidebaren vil kun fungere hvis én av sidebarene over har en verdi"
+
+#: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:72
+msgid "Cart Page"
+msgstr "Handlekurv-siden"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:86
+msgid "Product Image Hover Style"
+msgstr "Stil på produktbildet når musepeker=over"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:165
+msgid "Inline Logo & Site Title"
+msgstr "Logo & sidetittel"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:207
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:349
+msgid "Blog"
+msgstr "Blogg"
+
+#: inc/compatibility/edd/class-astra-edd.php:558
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:74
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:112
+msgid "Add To Cart"
+msgstr "Legg i handlekurv"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:73
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:111
+msgid "Short Description"
+msgstr "Kort beskrivelse"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:72
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:109
+msgid "Price"
+msgstr "Pris"
+
+#: inc/compatibility/woocommerce/woocommerce-common-functions.php:80
+msgid "Out of stock"
+msgstr "Ikke på lager"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:71
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:108
+msgid "Title"
+msgstr "Tittel"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:64
+msgid "Products Per Page"
+msgstr "Produkter pr. side"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:49
+msgid "Shop Columns"
+msgstr "Butikkolonner"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-single-layout-configs.php:45
+msgid "Disable Breadcrumb"
+msgstr "Deaktiver brødsmuler"
+
+#: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:53
+msgid "Shop"
+msgstr "Butikk"
+
+#: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:44
+msgid "General"
+msgstr "Generelt"
+
+#: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:37
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:57
+#: inc/core/class-astra-admin-settings.php:867
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:127
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:340
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:398
+msgid "Primary Header"
+msgstr "Primær-header"
+
+#: inc/compatibility/woocommerce/woocommerce-common-functions.php:133
+msgid "Availability:"
+msgstr "Tilgjengelighet"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:110
+msgid "Ratings"
+msgstr "Poengsum"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:106
+msgid "Shop Product Structure"
+msgstr "Struktur på butikkprodukter"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:91
+msgid "Swap Images"
+msgstr "Bytt bilde (swap)"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:45
+msgid "Enable Upsells"
+msgstr "Aktiver mersalg"
+
+#: inc/compatibility/edd/customizer/class-astra-customizer-register-edd-section.php:53
+#: inc/compatibility/woocommerce/customizer/class-astra-customizer-register-woo-section.php:63
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:76
+msgid "Single Product"
+msgstr "Enslig produkt"
+
+#: inc/compatibility/edd/class-astra-edd.php:343
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:972
+msgid "View your shopping cart"
+msgstr "Vis handlekurven"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:384
+msgid "This sidebar will be used on Single Product page."
+msgstr "Denne sidebaren vil bli brukt på enslig produktside"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:382
+msgid "Product Sidebar"
+msgstr "Produkt-sidebar"
+
+#: inc/compatibility/edd/class-astra-edd.php:619
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:373
+msgid "This sidebar will be used on Product archive, Cart, Checkout and My Account pages."
+msgstr "Denne sidebaren vil bli brukt på produkt-arkiv, handlekurv, utsjekking og på MIN KONTO-sider"
+
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:371
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce sidebar"
+
+#. translators: 1: number of products
+#: inc/compatibility/woocommerce/class-astra-woocommerce.php:194
+msgctxt "product categories"
+msgid "<mark class=\"count\">%1$s Product</mark>"
+msgid_plural "<mark class=\"count\">%1$s Products</mark>"
+msgstr[0] "<mark class=\"count\">%1$s Produkt</mark>"
+msgstr[1] "<mark class=\"count\">%1$s Produkter</mark>"
+
+#: inc/core/common-functions.php:779
+msgid "Home"
+msgstr "Hjem"
+
+#: inc/core/common-functions.php:785
+msgid "This page doesn't seem to exist."
+msgstr "Denne siden eksisterer ikke"
+
+#: inc/metabox/class-astra-meta-boxes.php:274
+msgid "Disable Featured Image"
+msgstr "Deaktiver fremhevet bilde"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:105
+msgid "Logo Width"
+msgstr "Logobredde"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:58
+msgid "Retina Logo"
+msgstr "Retina-logo"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:637
+#: inc/metabox/class-astra-meta-boxes.php:299
+msgid "Disable Footer Bar"
+msgstr "Deaktiver footer-bar"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:628
+#: inc/metabox/class-astra-meta-boxes.php:287
+msgid "Disable Footer Widgets"
+msgstr "Deaktiver footer-widget"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:171
+msgid "Paragraph Margin Bottom"
+msgstr "Paragraf-margin: bunn"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:62
+msgid "Blog Post Structure"
+msgstr "Struktur til blogginnlegg"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:65
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:48
+msgid "Title & Blog Meta"
+msgstr "Tittel- og BloggMeta"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:64
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:47
+msgid "Featured Image"
+msgstr "Fremhevet bilde"
+
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:45
+msgid "Single Post Structure"
+msgstr "Struktur til enkeltinnlegg"
+
+#. translators: 1: Post type label
+#: inc/core/class-theme-strings.php:75 inc/core/class-theme-strings.php:90
+msgid "Previous %s"
+msgstr "Forrige %s"
+
+#. translators: 1: Post type label
+#: inc/core/class-theme-strings.php:73 inc/core/class-theme-strings.php:88
+msgid "Next %s"
+msgstr "Neste %s"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:34
+msgid "Continue reading %s"
+msgstr "Fortsett å lese %s"
+
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:75
+msgid "Pages"
+msgstr "Sider"
+
+#: inc/widgets.php:184
+msgid "Footer Widget Area 4"
+msgstr "Footer-widget område 4"
+
+#: inc/widgets.php:173
+msgid "Footer Widget Area 3"
+msgstr "Footer-widget område 3"
+
+#: inc/widgets.php:162
+msgid "Footer Widget Area 2"
+msgstr "Footer-widget område 2"
+
+#: inc/widgets.php:151
+msgid "Footer Widget Area 1"
+msgstr "Footer-widget område 1"
+
+#: inc/widgets.php:135
+msgid "Footer Bar Section 2"
+msgstr "Footer bar seksjon 2"
+
+#: inc/widgets.php:120
+msgid "Footer Bar Section 1"
+msgstr "Footer bar seksjon 1"
+
+#: inc/template-parts.php:170
+msgid "Main Menu"
+msgstr "Hovedmeny"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:655
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:667
+#: inc/metabox/class-astra-meta-boxes.php:221
+#: inc/metabox/class-astra-meta-boxes.php:237
+msgid "Customizer Setting"
+msgstr "Tilpasser-innstillinger"
+
+#: inc/extras.php:1195
+msgid "Click here to assign a widget for this area."
+msgstr "Klikk her for å tildele en widget til dette området"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:189
+msgid "Headings"
+msgstr "Overskrifter"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:44
+msgid "Body & Content"
+msgstr "\"Body\" & innhold"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:229
+msgid "Footer Bar Width"
+msgstr "Footer-bar bredde"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:57
+msgid "Footer Bar Layout 2"
+msgstr "Footer-bar layout 2"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:53
+msgid "Footer Bar Layout 1"
+msgstr "Footer-bar layout 1"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:46
+msgid "Footer Bar Layout"
+msgstr "Footer-bar layout"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:51
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:64
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:671
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:65
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:51
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:65
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:82
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:99
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:119
+#: inc/metabox/class-astra-meta-boxes.php:241
+msgid "Full Width / Stretched"
+msgstr "Full bredde / utstrekt"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:50
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:63
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:670
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:64
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:50
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:64
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:81
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:98
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:118
+#: inc/metabox/class-astra-meta-boxes.php:240
+msgid "Full Width / Contained"
+msgstr "Full bredde / omsluttet"
+
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:45
+msgid "Default Layout"
+msgstr "Standard layout"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:252
+msgid "Layout 4"
+msgstr "Layout 4"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:248
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:244
+msgid "Footer Widgets Layout"
+msgstr "Footer-widgets layout"
+
+#: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:68
+#: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:57
+#: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:56
+msgid "Link Color"
+msgstr "Lenkefarge"
+
+#: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:42
+msgid "Widget Title Color"
+msgstr "Widget tittelfarge"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:325
+msgid "Base Typography"
+msgstr "Basetypografi"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:276
+msgid "Base Colors"
+msgstr "Basefarger"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:183
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:284
+msgid "Footer Bar"
+msgstr "Footer-bar"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:188
+msgid "Footer Bar Top Border"
+msgstr "Footer-bar linje: topp"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:62
+msgid "Button Text Hover Color"
+msgstr "Knappetekst når musepeker=over"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:50
+msgid "Button Text Color"
+msgstr "Knappetekst-farge"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:93
+msgid "Bold 700"
+msgstr "Tykk 700"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:91
+msgid "Semi-Bold 600"
+msgstr "Semi-tykk 600"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:89
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:87
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:97
+msgid "Ultra-Bold 900"
+msgstr "Ultra-tykk 900"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:95
+msgid "Extra-Bold 800"
+msgstr "Extra-tykk 800"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:85
+msgid "Light 300"
+msgstr "Lett 300"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:83
+msgid "Extra-Light 200"
+msgstr "Ekstra lett 200"
+
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:81
+msgid "Thin 100"
+msgstr "Tynn 100"
+
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:212
+msgid "Heading 6 (H6)"
+msgstr "Overskrift 6 (H6)"
+
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:180
+msgid "Heading 5 (H5)"
+msgstr "Overskrift 5 (H5)"
+
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:143
+msgid "Heading 4 (H4)"
+msgstr "Overskrift 4 (H4)"
+
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:112
+msgid "Heading 3 (H3)"
+msgstr "Overskrift 3 (H3)"
+
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:78
+msgid "Heading 2 (H2)"
+msgstr "Overskrift 2 (H2)"
+
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:44
+msgid "Heading 1 (H1)"
+msgstr "Overskrift 1 (H1)"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:44
+msgid "Archive Summary Box Title"
+msgstr "Akrivsammendrag, bokstittel"
+
+#: inc/core/class-astra-admin-settings.php:205
+msgid "Welcome"
+msgstr "Velkommen"
+
+#. translators: 1: Site Title Markup, 2: Site Tagline Markup
+#: inc/core/common-functions.php:1066
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:35
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:105
+#: inc/extras.php:342
+msgid "Search"
+msgstr "Søk"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:84
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:67
+msgid "Author"
+msgstr "Skribent"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:85
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:68
+msgid "Publish Date"
+msgstr "Publisert dato"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:70
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:113
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:83
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:66
+msgid "Category"
+msgstr "Kategori"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:82
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:65
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: inc/core/class-theme-strings.php:65
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/core/class-theme-strings.php:67 inc/core/class-theme-strings.php:84
+msgid "Next Page"
+msgstr "Neste side"
+
+#: inc/core/class-theme-strings.php:68 inc/core/class-theme-strings.php:85
+msgid "Previous Page"
+msgstr "Forrige side"
+
+#: inc/core/class-theme-strings.php:62 inc/core/class-theme-strings.php:71
+msgid "Pages:"
+msgstr "Sider:"
+
+#: inc/core/class-theme-strings.php:59
+msgid "Older Comments"
+msgstr "Gamle kommentarer"
+
+#: inc/core/class-theme-strings.php:58
+msgid "Newer Comments"
+msgstr "Nye kommentarer"
+
+#. translators: 1: search string
+#: inc/core/common-functions.php:791 inc/core/common-functions.php:871
+msgid "Search Results for: %s"
+msgstr "Søkeresultat for: %s"
+
+#: inc/core/class-theme-strings.php:46
+msgid "Reply"
+msgstr "Svar"
+
+#: inc/core/class-theme-strings.php:38
+msgid "Nothing Found"
+msgstr "Ingenting funnet"
+
+#: inc/core/class-astra-theme-options.php:141
+#: inc/core/class-astra-theme-options.php:143
+msgid "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
+msgstr "Kopirett &copy; [current_year] [site_title] | Drevet av [theme_author]"
+
+#: inc/core/class-theme-strings.php:78
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Kan ikke finne det du leter etter. Prøv et søk."
+
+#: inc/core/class-theme-strings.php:66
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/core/class-theme-strings.php:63
+msgid "By "
+msgstr "Av"
+
+#: inc/core/class-theme-strings.php:49 inc/core/class-theme-strings.php:64
+msgid "Leave a Comment"
+msgstr "Legg igjen en kommentar"
+
+#: inc/core/class-theme-strings.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Fant ikke noe på det søket. Prøv på nytt med et annet søkeord."
+
+#. translators: 1: link to new post
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar til å publisere ditt første innlegg? <a href=\"%1$s\">Start her</a>."
+
+#: inc/core/class-astra-admin-settings.php:841
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:174
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:293
+msgid "Footer Widgets"
+msgstr "Footer-widget"
+
+#: inc/widgets.php:84
+msgid "Main Sidebar"
+msgstr "Hoved-sidebar"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:32 template-parts/content-page.php:52
+#: template-parts/single/single-layout.php:41
+msgid "Edit %s"
+msgstr "Rediger %s"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:611
+#: inc/metabox/class-astra-meta-boxes.php:259
+msgid "Disable Primary Header"
+msgstr "Deaktiver primær-header"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:619
+#: inc/metabox/class-astra-meta-boxes.php:267
+msgid "Disable Title"
+msgstr "Deaktiver tittel"
+
+#: inc/metabox/class-astra-meta-boxes.php:251
+msgid "Disable Sections"
+msgstr "Deaktiver seksjoner"
+
+#: inc/extras.php:1158
+msgid "Add Widget"
+msgstr "Legg til widget"
+
+#: inc/extras.php:514
+msgid "Assign Footer Menu"
+msgstr "Tildel footer-meny"
+
+#: inc/extras.php:374
+msgid "Add Custom HTML"
+msgstr "Legg til egendefinert HTML"
+
+#: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:46
+msgid "Single Post / Page Title"
+msgstr "Tittel til enkeltinnlegg / enkeltside"
+
+#: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:99
+msgid "Site Tagline"
+msgstr "Side-tag"
+
+#: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:51
+msgid "Site Title"
+msgstr "Sidetittel"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:150
+msgid "Line Height"
+msgstr "Linjehøyde"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:115
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:259
+msgid "Lowercase"
+msgstr "Små bokstaver"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:114
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:258
+msgid "Uppercase"
+msgstr "STORE BOKSTAVER"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:113
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:257
+msgid "Capitalize"
+msgstr "Stor Forbokstav"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:255
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:174
+#: inc/customizer/custom-controls/typography/class-astra-control-typography.php:79
+msgid "Inherit"
+msgstr "Bruk standard"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:109
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:251
+msgid "Text Transform"
+msgstr "Transformér tekst"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:95
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:236
+msgid "Font Weight"
+msgstr "Tekst-vekt"
+
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:61
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:202
+msgid "Font Family"
+msgstr "Tekst-familie/type"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:59
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:93
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:129
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:59
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:93
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:127
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:161
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:195
+#: inc/customizer/configurations/typography/class-astra-content-typo-configs.php:229
+#: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:73
+#: inc/customizer/configurations/typography/class-astra-header-typo-configs.php:121
+#: inc/customizer/configurations/typography/class-astra-single-typo-configs.php:61
+msgid "Font Size"
+msgstr "Tekst-størrelse"
+
+#: inc/customizer/configurations/typography/class-astra-archive-typo-configs.php:78
+msgid "Blog Post Title"
+msgstr "Tittel på blogginnlegg"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:147
+msgid "Display Site Tagline"
+msgstr "Vis side-tagline"
+
+#: inc/customizer/configurations/layout/class-astra-site-identity-configs.php:134
+msgid "Display Site Title"
+msgstr "Vis sidetittel"
+
+#: inc/customizer/configurations/layout/class-astra-site-layout-configs.php:42
+msgid "Container Width"
+msgstr "Kontainer-bredde"
+
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:144
+msgid "Sidebar Width"
+msgstr "Sidebar-bredde"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:389
+msgid "Inline"
+msgstr "På linje"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:393
+msgid "Stack"
+msgstr "Stable"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:399
+msgid "Mobile Header Alignment"
+msgstr "Mobil-header justering"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:346
+msgid "Menu Label on Small Devices"
+msgstr "Meny-merkelapp på små enheter"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:177
+msgid "Header Width"
+msgstr "Header-bredde"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:130
+msgid "Custom Menu Text / HTML"
+msgstr "Egendefinert meny-tekst / HTML"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:36
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:106
+msgid "Text / HTML"
+msgstr "Tekst / HTML"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:75
+msgid "Disable Menu"
+msgstr "Deaktiver meny"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:62
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:81
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:63
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:657
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:62
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:81
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:62
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:81
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:49
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:80
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:99
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:118
+#: inc/metabox/class-astra-meta-boxes.php:223
+msgid "Right Sidebar"
+msgstr "Høyre-sidebar"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:61
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:80
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:62
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:656
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:61
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:80
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:61
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:80
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:48
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:79
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:98
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:117
+#: inc/metabox/class-astra-meta-boxes.php:222
+msgid "Left Sidebar"
+msgstr "Venstre-sidebar"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:60
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:79
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:61
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:658
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:60
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:79
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:60
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:79
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:47
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:78
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:97
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:116
+#: inc/metabox/class-astra-meta-boxes.php:224
+msgid "No Sidebar"
+msgstr "Ingen sidebar"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:63
+msgid "Logo Right"
+msgstr "Logo: høyre"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:59
+msgid "Logo Center"
+msgstr "Logo: sentrert"
+
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:55
+msgid "Logo Left"
+msgstr "Logo: venstre"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:232
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:180
+msgid "Content Width"
+msgstr "Innholdsbredde"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:231
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:179
+msgid "Full Width"
+msgstr "Full bredde"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:208
+msgid "Footer Bar Top Border Color"
+msgstr "Footer-bar linjefarge: topp"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:156
+msgid "Section 2 Custom Text"
+msgstr "Seksjon 2 egendefinert tekst"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:136
+msgid "Section 2"
+msgstr "Seksjon 2"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:111
+msgid "Section 1 Custom Text"
+msgstr "Seksjon 1 egendefinert tekst"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:92
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:116
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:141
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:37
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:107
+msgid "Widget"
+msgstr "Widget"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:91
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:115
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:140
+msgid "Custom Text"
+msgstr "Egendefinert tekst"
+
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:90
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:89
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:113
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:138
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:34
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:104
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:112
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:256
+msgid "None"
+msgstr "Ingen"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:87
+msgid "Section 1"
+msgstr "Seksjon 1"
+
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:49
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: inc/customizer/custom-controls/background/class-astra-control-background.php:103
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:113
+msgid "Blog Post Archives"
+msgstr "Blogginnlegg - arkiv"
+
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:94
+msgid "Blog Posts"
+msgstr "Blogginnlegg"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:49
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:62
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:669
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:63
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:49
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:63
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:80
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:97
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:117
+#: inc/metabox/class-astra-meta-boxes.php:239
+msgid "Content Boxed"
+msgstr "Innhold i boks (boxed)"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:48
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:61
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:668
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:62
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:48
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:62
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:79
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:96
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:116
+#: inc/metabox/class-astra-meta-boxes.php:238
+msgid "Boxed"
+msgstr "I boks (boxed)"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:664
+#: inc/metabox/class-astra-meta-boxes.php:234
+msgid "Content Layout"
+msgstr "Innholdslayout"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:112
+msgid "Blog Content Width"
+msgstr "Blogginnlegg: bredde"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:80
+msgid "Blog Meta"
+msgstr "Blogg meta"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:48
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:47
+msgid "Full Content"
+msgstr "Alt innhold"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:41
+msgid "Blog Post Content"
+msgstr "Blogginnlegg: innhold"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:164
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:157
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:130
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:113
+msgid "Enter Width"
+msgstr "Skriv inn bredde"
+
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:149
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:142
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:115
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:98
+msgid "Custom"
+msgstr "Egendefinert"
+
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:95
+msgid "Single Post Content Width"
+msgstr "Enkeltinnlegg: innholdsbredde"
+
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:86
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:69
+msgid "Tag"
+msgstr "Tag"
+
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:63
+msgid "Single Post Meta"
+msgstr "Enkeltinnlegg: meta"
+
+#: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:81
+#: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:83
+#: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:68
+msgid "Link Hover Color"
+msgstr "Lenkefarge når musepeker=over"
+
+#: inc/customizer/configurations/colors-background/class-astra-advanced-footer-colors-configs.php:55
+#: inc/customizer/configurations/colors-background/class-astra-body-colors-configs.php:70
+#: inc/customizer/configurations/colors-background/class-astra-footer-colors-configs.php:41
+msgid "Text Color"
+msgstr "Tekstfarge"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:130
+msgid "Horizontal Padding"
+msgstr "Horisontal padding"
+
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-container-configs.php:47
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:59
+#: inc/compatibility/edd/customizer/sections/class-astra-edd-sidebar-configs.php:78
+#: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:148
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-container-configs.php:60
+#: inc/compatibility/learndash/customizer/sections/class-astra-learndash-sidebar-configs.php:60
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-container-configs.php:61
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:59
+#: inc/compatibility/lifterlms/customizer/sections/class-astra-lifter-sidebar-configs.php:78
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-container-configs.php:47
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:59
+#: inc/compatibility/woocommerce/customizer/sections/class-astra-woo-shop-sidebar-configs.php:78
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-layout-configs.php:141
+#: inc/customizer/configurations/layout/class-astra-blog-layout-configs.php:114
+#: inc/customizer/configurations/layout/class-astra-blog-single-layout-configs.php:97
+#: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:272
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:77
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:96
+#: inc/customizer/configurations/layout/class-astra-sidebar-layout-configs.php:115
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:78
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:95
+#: inc/customizer/configurations/layout/class-astra-site-container-layout-configs.php:115
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:75
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:92
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:111
+#: inc/customizer/configurations/typography/class-astra-body-typo-configs.php:219
+msgid "Default"
+msgstr "Standard"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:113
+msgid "Vertical Padding"
+msgstr "Vertikal padding"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:98
+msgid "Button Radius"
+msgstr "Knapp-radius"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:86
+msgid "Button Background Hover Color"
+msgstr "Bakgrunn på knapp når musepeker=over"
+
+#: inc/customizer/configurations/buttons/class-astra-customizer-button-configs.php:74
+msgid "Button Background Color"
+msgstr "Bakgrunnsfarge på knapp"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:388
+msgid "Widget Areas"
+msgstr "Widget-område"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:378
+msgid "Buttons"
+msgstr "Knapper"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:333
+msgid "Content"
+msgstr "Innhold"
+
+#: inc/core/class-astra-admin-settings.php:693
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:304
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/core/class-astra-admin-settings.php:680
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:256
+msgid "Colors & Background"
+msgstr "Farger & bakgrunn"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:652
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:231
+#: inc/metabox/class-astra-meta-boxes.php:218
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:222
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:366
+msgid "Single Post"
+msgstr "Enkeltinnlegg"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:214
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:357
+msgid "Blog / Archive"
+msgstr "Blogg / arkiv"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:162
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:86
+#: inc/widgets.php:102
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:53
+msgid "Container"
+msgstr "Kontainer"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:45
+msgid "Site Layout"
+msgstr "Side-layout"
+
+#: inc/customizer/class-astra-customizer-register-sections-panels.php:38
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/class-astra-customizer-sanitizes.php:277
+msgid "Enter valid email address!"
+msgstr "Skriv inn gyldig epost-adresse!"
+
+#: inc/core/class-theme-strings.php:57
+msgid "Comment navigation"
+msgstr "Kommentar-navigasjon"
+
+#: inc/core/class-theme-strings.php:56
+msgid "Comments are closed."
+msgstr "Stengt for kommentarer."
+
+#: inc/core/class-theme-strings.php:55
+msgid "Website"
+msgstr "Webside"
+
+#: inc/core/class-theme-strings.php:54
+msgid "Email*"
+msgstr "E-post*"
+
+#: inc/core/class-theme-strings.php:53
+msgid "Name*"
+msgstr "Navn*"
+
+#: inc/core/class-theme-strings.php:52
+msgid "Type here.."
+msgstr "Skriv her..."
+
+#: inc/core/class-theme-strings.php:51
+msgid "Post Comment &raquo;"
+msgstr "Innleggskommentarer &raquo;"
+
+#: inc/core/class-theme-strings.php:50
+msgid "Cancel Reply"
+msgstr "Avslutt svar"
+
+#: inc/core/class-theme-strings.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter på godkjenning."
+
+#: inc/core/class-theme-strings.php:47
+msgid "Edit"
+msgstr "Rediger"
+
+#: inc/core/class-theme-strings.php:41 inc/core/class-theme-strings.php:42
+#: inc/core/class-theme-strings.php:43
+msgid "Search &hellip;"
+msgstr "Search &hellip;"
+
+#: inc/core/class-theme-strings.php:40
+msgid "Start typing and press enter to search"
+msgstr "Trykk enter når du vil søke."
+
+#: inc/core/class-theme-strings.php:35
+msgid "It looks like the link pointing here was faulty. Maybe try searching?"
+msgstr "Det ser ut som linken som peker hit ikke fungerer. Prøv å søk i stedet."
+
+#: inc/core/class-theme-strings.php:32
+msgid "Skip to content"
+msgstr "Hopp rett til innholdet"
+
+#: inc/core/class-astra-theme-options.php:164
+msgid "Contact Us"
+msgstr "Kontakt oss"
+
+#. #-#-#-#-#  astra.pot (Astra 1.5.5)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/core/class-astra-admin-settings.php:98 inc/core/view-general.php:19
+#: inc/extras.php:473 inc/extras.php:1489
+msgid "Astra"
+msgstr "Astra"
+
+#: inc/compatibility/class-astra-beaver-themer.php:261
+msgid "Loop End"
+msgstr "Loop end"
+
+#: inc/compatibility/class-astra-beaver-themer.php:258
+msgid "After Post"
+msgstr "After post"
+
+#: inc/compatibility/class-astra-beaver-themer.php:259
+msgid "Before Comments"
+msgstr "Before Comments"
+
+#: inc/compatibility/class-astra-beaver-themer.php:260
+msgid "After Comments"
+msgstr "After Comments"
+
+#: inc/compatibility/class-astra-beaver-themer.php:257
+msgid "After Post Content"
+msgstr "After Post Content"
+
+#: inc/compatibility/class-astra-beaver-themer.php:256
+msgid "Before Post Content"
+msgstr "Before Post Content"
+
+#: inc/compatibility/class-astra-beaver-themer.php:255
+msgid "Before Post"
+msgstr "Before Post"
+
+#: inc/compatibility/class-astra-beaver-themer.php:254
+msgid "Loop Start"
+msgstr "Loop Start"
+
+#: inc/compatibility/class-astra-beaver-themer.php:248
+msgid "After Sidebar"
+msgstr "After Sidebar"
+
+#: inc/compatibility/class-astra-beaver-themer.php:247
+msgid "Before Sidebar"
+msgstr "Before Sidebar"
+
+#: inc/compatibility/class-astra-beaver-themer.php:241
+msgid "After Footer"
+msgstr "After Footer"
+
+#: inc/compatibility/class-astra-beaver-themer.php:240
+msgid "Before Footer"
+msgstr "Before Footer"
+
+#: inc/compatibility/class-astra-beaver-themer.php:234
+msgid "After Content"
+msgstr "After Content"
+
+#: inc/compatibility/class-astra-beaver-themer.php:233
+msgid "Before Content"
+msgstr "Before Content"
+
+#: inc/compatibility/class-astra-beaver-themer.php:227
+msgid "After Header"
+msgstr "After Header"
+
+#: inc/compatibility/class-astra-beaver-themer.php:226
+msgid "Before Header"
+msgstr "Before Header"
+
+#: inc/compatibility/class-astra-beaver-themer.php:220
+msgid "After Page"
+msgstr "After Page"
+
+#: inc/compatibility/class-astra-beaver-themer.php:219
+msgid "Before Page"
+msgstr "Before Page"
+
+#. translators: 1: date, 2: time
+#: inc/blog/single-blog.php:161
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: inc/blog/single-blog.php:130
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: inc/blog/single-blog.php:130
+msgid "Pingback:"
+msgstr "Tilbakeping:"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/blog/blog-config.php:255 inc/blog/blog-config.php:284
+msgid ", "
+msgstr ","
+
+#: inc/blog/blog-config.php:174 inc/blog/blog-config.php:436
+msgid "Read More &raquo;"
+msgstr "Les mer &raquo;"
+
+#: inc/admin-functions.php:27
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:90
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:114
+#: inc/customizer/configurations/layout/class-astra-footer-layout-configs.php:139
+msgid "Footer Menu"
+msgstr "Footer-meny"
+
+#: inc/admin-functions.php:26
+msgid "Primary Menu"
+msgstr "Primær-meny"
+
+#: comments.php:48 comments.php:71
+msgid "Comments Navigation"
+msgstr "Kommentar-navigasjon"
+
+#. translators: 1: number of comments
+#: comments.php:36
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s hendelser på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s hendelser på &ldquo;%2$s&rdquo;"
+
+#: inc/compatibility/lifterlms/class-astra-lifterlms.php:643
+msgid "Astra Settings"
+msgstr "Innstillinger for Astra"
+
+#. Author URI of the plugin/theme
+msgid "https://wpastra.com/about/"
+msgstr "https://wpastra.com/about/"
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Theme URI of the plugin/theme
+msgid "https://wpastra.com/"
+msgstr "https://wpastra.com/"

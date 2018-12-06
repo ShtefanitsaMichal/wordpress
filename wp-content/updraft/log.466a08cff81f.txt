@@ -1,0 +1,75 @@
+0000.009 () Opened log file at time: Fri, 17 Nov 2017 14:15:35 +0000 on http://172.20.1.179
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.9 PHP: 7.0.24 (fpm-fcgi, Linux debian 3.16.0-4-amd64 #1 SMP Debian 3.16.43-2+deb8u5 (2017-09-19) x86_64) MySQL: 5.7.20 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.2M | 2M) multisite: N openssl: OpenSSL 1.0.2l  25 May 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.009 () Free space on disk containing Updraft's temporary directory: 11652.8 MB
+0000.010 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.032 () Entity: db
+0000.032 () restore_backup(backup_file=backup_2017-11-17-1134_SMP_b0909a41673f-db.gz, type=db, info=a:0:{}, last_one=)
+0000.033 () Unpacking backup... (backup_2017-11-17-1134_SMP_b0909a41673f-db.gz, 0.4 Mb)
+0000.033 () Database successfully unpacked
+0000.033 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.034 () Using direct MySQL access; value of use_mysqli is: 1
+0000.199 () Max packet size: 32 MB
+0000.199 () Entering maintenance mode
+0000.199 () Enabling Maintenance mode&#8230;
+0000.199 () Backup of: http://172.20.7.222/wordpress
+0000.212 () Content URL: http://172.20.7.222/wordpress/wp-content
+0000.212 () Uploads URL: http://172.20.7.222/wordpress/wp-content/uploads
+0000.212 () Old table prefix: wp_
+0000.212 () Site information: multisite=0
+0000.213 () New table prefix: wp_
+0000.232 () Processing table (InnoDB): wp_options
+0000.507 () Restoring prior UD configuration (table: wp_options; keys: 90)
+0000.814 () Processing table (InnoDB): wp_users
+0000.885 () Processing table (InnoDB): wp_usermeta
+0000.939 () Processing table (InnoDB): wp_commentmeta
+0001.009 () Processing table (InnoDB): wp_comments
+0001.105 () Processing table (InnoDB): wp_links
+0001.144 () Processing table (InnoDB): wp_postmeta
+0001.753 () Processing table (InnoDB): wp_posts
+0002.376 () Processing table (InnoDB): wp_term_relationships
+0002.445 () Processing table (InnoDB): wp_term_taxonomy
+0002.489 () Processing table (InnoDB): wp_termmeta
+0002.537 () Processing table (InnoDB): wp_terms
+0002.569 () Database queries processed: 50 in 2.53 seconds
+0002.572 () Processing table (MyISAM): wp_filemeta
+0002.574 () Processing table (InnoDB): wp_ngg_album
+0002.600 () Processing table (InnoDB): wp_ngg_gallery
+0002.642 () Processing table (InnoDB): wp_ngg_pictures
+0002.687 () Unlocking database and leaving maintenance mode
+0002.687 () Disabling Maintenance mode&#8230;
+0002.687 () Finished: lines processed: 64 in 2.65 seconds
+0002.687 () Cleaning up rubbish...
+0002.694 () Entity: plugins
+0002.694 () restore_backup(backup_file=backup_2017-11-17-1134_SMP_b0909a41673f-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0002.695 () Unpacking backup... (backup_2017-11-17-1134_SMP_b0909a41673f-plugins.zip, 13.1 Mb)
+0003.590 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.591 () Moving old data: can potentially use wp_filesystem method / -old
+0003.591 () Moving old data out of the way...
+0003.751 () Top-level entities being moved: simple-tags, google-analytics-for-wordpress, hello.php, jetpack, akismet, index.php, all-in-one-wp-migration, all-in-one-seo-pack, wp-mail-smtp, updraftplus
+0003.752 () Moving unpacked backup into place...
+0003.882 () Top-level entities being moved: advanced-code-editor, pdf-embedder, so-widgets-bundle, custom-facebook-feed, elementor, wp-responsive-recent-post-slider, index.php, recent-posts-widget-extended, wp-mail-smtp, siteorigin-panels, updraftplus
+0003.884 () Cleaning up rubbish...
+0003.905 () Entity: themes
+0003.905 () restore_backup(backup_file=backup_2017-11-17-1134_SMP_b0909a41673f-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/opt/bitnami/apps/wordpress/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0003.905 () Unpacking backup... (backup_2017-11-17-1134_SMP_b0909a41673f-themes.zip, 7 Mb)
+0004.205 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.205 () Moving old data: can potentially use wp_filesystem method / -old
+0004.205 () Moving old data out of the way...
+0004.212 () Top-level entities being moved: twentysixteen, twentyfifteen, index.php, twentyseventeen
+0004.213 () Moving unpacked backup into place...
+0004.239 () Top-level entities being moved: alante, twentysixteen, alante-blue, flymag, sydney, index.php, twentytwelve
+0004.240 () Cleaning up rubbish...
+0004.262 () Entity: uploads
+0004.262 () restore_backup(backup_file=backup_2017-11-17-1134_SMP_b0909a41673f-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0004.262 () Unpacking backup... (backup_2017-11-17-1134_SMP_b0909a41673f-uploads.zip, 72.4 Mb)
+0005.035 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.035 () Moving old data: can potentially use wp_filesystem method / -old
+0005.035 () Moving old data out of the way...
+0005.036 () Moving unpacked backup into place...
+0005.164 () Cleaning up rubbish...
+0005.170 () Entity: others
+0005.170 () restore_backup(backup_file=backup_2017-11-17-1134_SMP_b0909a41673f-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/opt/bitnami/apps/wordpress/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0005.170 () Unpacking backup... (backup_2017-11-17-1134_SMP_b0909a41673f-others.zip, 6 Mb)
+0005.505 () Cleaning up rubbish...
+0005.607 () Restore successful!
+0005.607 () Restore successful
