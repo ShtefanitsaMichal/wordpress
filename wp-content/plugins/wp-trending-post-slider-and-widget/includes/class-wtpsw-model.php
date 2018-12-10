@@ -27,12 +27,12 @@ class Wtpsw_Model {
 
 		// Taking defaults
 		$result_data = array();
-		
+
 		$postsargs['post_status']		= array( 'publish' );
 		$postsargs['post_type'] 		= !empty($args['post_type']) 		? $args['post_type'] 		: 'post';
 		$postsargs['posts_per_page'] 	= !empty($args['posts_per_page']) 	? $args['posts_per_page'] 	: -1;
-		$postsargs['offset']            = !empty($args['offset'])           ? $args['offset']           : 1;
-
+		$postsargs['offset']            = !empty($args['offset'])           ? $args['offset']           : 1; 
+		
 		// Order by records
 		$postsargs['order']		= !empty($args['order']) 	? $args['order'] : 'DESC';
 		$postsargs['orderby'] 	= !empty($args['orderby']) 	? $args['orderby'] : 'date';

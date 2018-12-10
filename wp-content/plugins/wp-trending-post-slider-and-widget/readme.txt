@@ -2,12 +2,12 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain
 Tags: popular post, popular posts,trending, slick slider for post, trending posts carousel trending post, trending posts, trending posts carousel, popular posts slider, trending posts slider, widget, shortcodes, slider, post slick slider, trending posts widget, popular posts widget, counter, daily popular, page views, popular posts, statistics, top 10, top posts
 Requires at least: 3.5
-Tested up to: 5.0
+Tested up to: 4.9.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add Popular/Trending posts slider, grid block and widget. Also work with Gutenberg shortcode block.
+A quick, easy way to add Popular/Trending posts slider, grid block and widget.
 
 == Description ==
 WP Trending Post Slider and Widget allows you to displays the most popular posts/trending posts on your blog by posts views or posts comments. Display your popular post in a page by shortcode or in a sidebar by widget with desired time range.
@@ -20,16 +20,15 @@ WP Trending Post Slider and Widget allows you to displays the most popular posts
 
 View [DEMO](https://www.wponlinesupport.com/wp-plugin/trending-post-slider-widget/) | [PRO DEMO and Features](https://www.wponlinesupport.com/wp-plugin/trending-post-slider-widget/) for additional information.
 
-Need Featured Post section in your website? Try our plugin [Featured Post Creative](https://wordpress.org/plugins/featured-post-creative/)
+Checkout our new plugin - [PowerPack - Need of Every Website](https://wordpress.org/plugins/powerpack-lite/)
 
-Also work with Gutenberg shortcode block.
+Need Featured Post section in your website? Try our plugin [Featured Post Creative](https://wordpress.org/plugins/featured-post-creative/)
 
 **Note:** After inserting shortcode or widget to site, if you are not seeing any post list then kindly visit blog/post section on frontend. It will store the post count on the database** 
 
 WP Trending Post Slider and Widget will list post based on your post views or Comment Count. Once you visit post page then plugin will automatic take that post into list.
 
-= This plugin contain 3 shortcode and 1 widget =
-
+= WP Trending Post Slider and Widget plugin contain 3 shortcode and 1 widget =
 * Display popular/trending posts in a slider view. 
 
 <code>[wtpsw_popular_post]</code>
@@ -150,7 +149,6 @@ WP Trending Post Slider and Widget will list post based on your post views or Co
 
 
 = Why Use WP Trending Post Slider and Widget Plugin? =
-* Also work with Gutenberg shortcode block.
 * WP Trending Post Slider and Widget Plugin is made with WordPress standard.
 * This plugin helps you to display popular post, trending post, what's hot on your site in a easy way.
 * WP Trending Post Slider and Widget Plugin, when used effectively, is a great tool to attract your blogs visitors!
@@ -200,9 +198,6 @@ If you find any javascript conflict or slider not working then you can raise a s
 
 WP Trending Post Slider and Widget will list post based on your post views or Comment Count. Once you visit post page then plugin will automatic take that post into list.
 
-= Privacy & Policy =
-* We have also opt-in e-mail selection , once you download the plugin , so that we can inform you and nurture you about products and its features.
-
 == Screenshots ==
 
 1. Front view with grid box.
@@ -210,13 +205,8 @@ WP Trending Post Slider and Widget will list post based on your post views or Co
 3. Widget.
 4. Widget frontend view.
 5. Setting page.
-6. Also work with Gutenberg shortcode block.
 
 == Changelog ==
-
-= 1.3 (06-12-2018) =
-* [*] Tested with WordPress 5.0 and Gutenberg.
-* [*] Fixed some CSS issues.
 
 = 1.2.4 (08, Aug 2018) =
 * [*] Fix - Fatal error on plugin activation with Php 5.4

@@ -2,8 +2,8 @@
 Contributors: webtechstreet, hardiksharma
 Tags: page-builder, elementor
 Requires at least: 4.4
-Tested up to: 4.9.7
-Stable tag: 4.9.7
+Tested up to: 5.0
+Stable tag: 5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +24,6 @@ Current Addon Elements:
 * Animated Text
 * After/Before Image Compare
 * Split Text
-* Particle Background for Sections
 * Google Map (with ability to add styles from Snazzy Maps)
 * Twitter (Show profile timeline, hashtag feed, tweet, follow and hashtag button)
 * Shape Separator (Deprecated.. use shape separator available with Elementor)
@@ -64,9 +63,16 @@ Column gap => No gap
 
 == Changelog ==
 
+= 1.2 =
+* New Widget: Pop Up
+* New Feature: Background slider
+* Enhancement: Animation option added in Gmap marker icon
+* Enhancement: More effects added in flipbox
+
+
 = 1.1 =
 * New Widget: After/Before Image Compare
-* New Feature: Particles Background on Sections (Requires Elementor 2.1 or higher)
+* New Feature: Particles Background on Sections
 * Enhancement: Added dynamic content support for Text Separator & FlipBox
 * Bug Fix: Issue with flipbox on iPhones.
 

@@ -8,7 +8,7 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
             var zoom = $wrapper.data('zoom');
             var $markers = $el.find('.marker');
             var styles = $wrapper.data('style');
-            var prevent_scroll = $wrapper.data('scroll')
+            var prevent_scroll = $wrapper.data('scroll');
             // vars
             var args = {
                 zoom		: zoom,
@@ -36,7 +36,8 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
         }
 
         function add_marker( $marker, map ) {
-            // var
+            var animate = $wrapper.data('animate')
+            $wrapper = $scope.find('.eae-markers');
             var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
 
             icon_img = $marker.attr('data-icon');
@@ -46,7 +47,6 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
                     scaledSize: new google.maps.Size($marker.attr('data-icon-size'), $marker.attr('data-icon-size'))
                 };
 
-                console.log(icon);
             }
 
 
@@ -56,12 +56,22 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
             var marker = new google.maps.Marker({
                 position	: latlng,
                 map			: map,
-                icon        : icon
+                icon        : icon,
+                animation: google.maps.Animation.DROP
             });
+            if(animate == 'animate-yes'){
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+            }
+            if(animate == 'animate-yes'){
+                google.maps.event.addListener(marker, 'click', function() {
+                    marker.setAnimation(null);
+                });
+            }
+
+
 
             // add to array
             map.markers.push( marker );
-
             // if marker contains HTML, add it to an infoWindow
 
             if( $marker.html() )
@@ -75,11 +85,18 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
                 google.maps.event.addListener(marker, 'click', function() {
                     infowindow.open( map, marker );
                 });
+
+
+            }
+            if(animate == 'animate-yes') {
+                google.maps.event.addListener(infowindow, 'closeclick', function () {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                });
             }
         }
 
         function center_map( map, zoom ) {
-            console.log(zoom);
+
             // vars
             var bounds = new google.maps.LatLngBounds();
             // loop through all markers and create bounds
@@ -99,6 +116,68 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
             {
                 // fit to bounds
                 map.fitBounds( bounds );
+            }
+        }
+    });
+
+    elementorFrontend.hooks.addAction( 'frontend/element_ready/global', function ( $scope ) {
+
+        var eae_slides = [];
+        var eae_slides_json = [];
+        var eae_transition;
+        var eae_animation;
+        var eae_custom_overlay;
+        var eae_overlay;
+        var eae_cover;
+        var eae_delay;
+        var eae_timer;
+        var slider_wrapper = $scope.children('.eae-section-bs').children('.eae-section-bs-inner');
+
+        if (slider_wrapper && slider_wrapper.data('eae-bg-slider')) {
+
+            slider_images = slider_wrapper.data('eae-bg-slider');
+            eae_transition = slider_wrapper.data('eae-bg-slider-transition');
+            eae_animation = slider_wrapper.data('eae-bg-slider-animation');
+            eae_custom_overlay = slider_wrapper.data('eae-bg-custom-overlay');
+            if (eae_custom_overlay == 'yes') {
+                eae_overlay = eae_editor.plugin_url + '/assets/lib/vegas/overlays/' + slider_wrapper.data('eae-bg-slider-overlay');
+            } else {
+                if (slider_wrapper.data('eae-bg-slider-overlay')) {
+                    eae_overlay = eae_editor.plugin_url + '/assets/lib/vegas/overlays/' + slider_wrapper.data('eae-bg-slider-overlay');
+                } else {
+                    eae_overlay = eae_editor.plugin_url + '/assets/lib/vegas/overlays/' + slider_wrapper.data('eae-bg-slider-overlay');
+                }
+            }
+
+            eae_cover = slider_wrapper.data('eae-bg-slider-cover');
+            eae_delay = slider_wrapper.data('eae-bs-slider-delay');
+            eae_timer = slider_wrapper.data('eae-bs-slider-timer');
+
+            if (typeof slider_images != 'undefined') {
+                eae_slides = slider_images.split(",");
+
+                jQuery.each(eae_slides, function (key, value) {
+                    var slide = [];
+                    slide.src = value;
+                    eae_slides_json.push(slide);
+                });
+
+                slider_wrapper.vegas({
+                    slides: eae_slides_json,
+                    transition: eae_transition,
+                    animation: eae_animation,
+                    overlay: eae_overlay,
+                    cover: eae_cover,
+                    delay: eae_delay,
+                    timer: eae_timer,
+                    init: function () {
+                        if (eae_custom_overlay == 'yes') {
+                            var ob_vegas_overlay = slider_wrapper.children('.vegas-overlay');
+                            ob_vegas_overlay.css('background-image', '');
+                        }
+                    }
+                });
+
             }
         }
     });
@@ -343,23 +422,97 @@ jQuery( window ).on( 'elementor/frontend/init', function() {
                 pdata = $scope.data('eae-particle');
                 pdata_wrapper = $scope.find('.eae-particle-wrapper').data('eae-pdata');
                 if(typeof pdata != 'undefined' && pdata != ''){
+                    if($scope.find('.eae-section-bs').length > 0){
+                        $scope.find('.eae-section-bs').after('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
+                        particlesJS('eae-particle-'+ id, pdata);
+                    }
+                    else{
 
-                    $scope.prepend('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
-                    particlesJS('eae-particle-'+ id, pdata);
+                        if(element_type == 'column'){
+                            $scope.find('.elementor-column-wrap').prepend('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
+                        }else{
+                            $scope.prepend('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
+                        }
+
+                        particlesJS('eae-particle-'+ id, pdata);
+                    }
+
 
                 }else if(typeof pdata_wrapper != 'undefined' && pdata_wrapper != ''){
 
-                    $scope.prepend('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
-                    console.log('calling particle js else', JSON.parse(pdata_wrapper));
+                   // $scope.prepend('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
+                    //console.log('calling particle js else', JSON.parse(pdata_wrapper));
                     particlesJS('eae-particle-'+ id, JSON.parse(pdata_wrapper));
                 }
 
             }
 
-        }
+        };
+
+        var EaePopup = function($scope, $){
+            $preview_modal = $scope.find('.eae-popup-wrapper').data('preview-modal');
+            $close_btn = $scope.find('.eae-popup-wrapper').data('close-btn');
+
+           $magnific = $scope.find('.eae-popup-link').eaePopup({
+                type: 'inline',
+
+                disableOn: 0,
+
+                key: null,
+
+                midClick: false,
+
+                mainClass: 'eae-popup eae-popup-'+$scope.find('.eae-popup-link').data('id'),
+
+                preloader: true,
+
+                focus: '', // CSS selector of input to focus after popup is opened
+
+                closeOnContentClick: false,
+
+                closeOnBgClick: true,
+
+                closeBtnInside: $scope.find('.eae-popup-wrapper').data('close-in-out'),
+
+                showCloseBtn: true,
+
+                enableEscapeKey: false,
+
+                modal: false,
+
+                alignTop: false,
+
+                removalDelay: 0,
+
+                prependTo: null,
+
+                fixedContentPos: 'auto',
+
+                fixedBgPos: 'auto',
+
+                overflowY: 'auto',
+
+                closeMarkup: '<i class="eae-close '+ $close_btn +'"> </i>',
+
+                tClose: 'Close (Esc)',
+
+                tLoading: 'Loading...',
+
+                autoFocusLast: true
+            });
+
+            if($preview_modal == 'yes'){
+                if($scope.hasClass('elementor-element-edit-mode')) {
+                    $scope.find('.eae-popup-link').click();
+                }
+            }
+        };
+
+
 
         elementorFrontend.hooks.addAction( 'frontend/element_ready/wts-ab-image.default', ab_image);
         elementorFrontend.hooks.addAction( 'frontend/element_ready/global', ParticlesBG );
+        elementorFrontend.hooks.addAction( 'frontend/element_ready/wts-modal-popup.default', EaePopup );
 
         });
 

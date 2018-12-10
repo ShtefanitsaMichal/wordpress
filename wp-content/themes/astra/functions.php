@@ -96,9 +96,7 @@ require_once ASTRA_THEME_DIR . 'inc/metabox/class-astra-meta-box-operations.php'
  */
 require_once ASTRA_THEME_DIR . 'inc/customizer/class-astra-customizer.php';
 
-/**
-	Dodanie Bootsrap  
-*/
+/** Dodanie Bootsrap **/
 
 function theme_add_bootstrap() {
 wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/assets/css/minified/bootstrap.min.css' );
@@ -107,6 +105,7 @@ wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/mi
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_add_bootstrap' );
+
 
 
 /**

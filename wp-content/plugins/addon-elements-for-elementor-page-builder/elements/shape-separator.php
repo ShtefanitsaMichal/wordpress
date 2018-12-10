@@ -10,7 +10,7 @@ class Widget_ShapeSeparator extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - Shape Separator', 'elementor' );
+		return __( 'EAE - Shape Separator', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -26,20 +26,20 @@ class Widget_ShapeSeparator extends Widget_Base {
         $this->start_controls_section(
             'section_shape',
             [
-                'label' => __( 'Shape', 'elementor' )
+                'label' => __( 'Shape', 'wts-eae' )
             ]
         );
 
 		$this->add_control(
 				'separator_shape',
 				[
-						'label' => __( 'Shape', 'elementor' ),
+						'label' => __( 'Shape', 'wts-eae' ),
 						'type' => Controls_Manager::SELECT,
 						'options' => [
-								'triangle-upper-left' => __( 'Triangle Upper Left', 'elementor' ),
-								'triangle-upper-right' => __( 'Triangle Upper Right', 'elementor' ),
-								'triangle-bottom-left' => __( 'Triangle Bottom Left', 'elementor' ),
-								'triangle-bottom-right' => __( 'Triangle Bottom Right', 'elementor' ),
+								'triangle-upper-left' => __( 'Triangle Upper Left', 'wts-eae' ),
+								'triangle-upper-right' => __( 'Triangle Upper Right', 'wts-eae' ),
+								'triangle-bottom-left' => __( 'Triangle Bottom Left', 'wts-eae' ),
+								'triangle-bottom-right' => __( 'Triangle Bottom Right', 'wts-eae' ),
 						],
 						'default' => 'triangle-upper-right',
 
@@ -49,7 +49,7 @@ class Widget_ShapeSeparator extends Widget_Base {
 		$this->add_control(
 				'shape_color',
 				[
-						'label' => __( 'Shape Color', 'elementor' ),
+						'label' => __( 'Shape Color', 'wts-eae' ),
 						'type' => Controls_Manager::COLOR,
 						'scheme' => [
 								'type' => Scheme_Color::get_type(),
@@ -65,9 +65,9 @@ class Widget_ShapeSeparator extends Widget_Base {
 				'shape_height',
 				[
 						'type' => Controls_Manager::NUMBER,
-						'label' => __( 'Shape Height (in px)', 'elementor' ),
-						'placeholder' => __( '75', 'elementor' ),
-						'default' => __( '75', 'elementor' ),
+						'label' => __( 'Shape Height (in px)', 'wts-eae' ),
+						'placeholder' => __( '75', 'wts-eae' ),
+						'default' => __( '75', 'wts-eae' ),
 				]
 		);
 

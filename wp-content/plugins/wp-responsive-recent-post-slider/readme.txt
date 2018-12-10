@@ -2,23 +2,21 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain
 Tags: wponlinesupport, post slider, posts slider, recent post slider, recent posts slider, slider, responsive post slider, responsive posts slider, responsive recent post slider, responsive recent posts slider, wordpress posts slider, post slideshow, posts slideshow, recent posts slideshow, shortcodes
 Requires at least: 3.5
-Tested up to: 5.0
+Tested up to: 4.9.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add and display Responsive WordPresss Recent Post Slider on your website with 4 designs using a shortcode. Also work with Gutenberg shortcode block. 
+A quick, easy way to add and display Responsive WordPresss Recent Post Slider on your website with 4 designs using a shortcode.
 
 == Description ==
 Responsive Recent WordPresss Post Slider is a WordPress posts content slider plugin with touch for mobile devices and responsive. WordPresss Recent Post Slider displays your recent posts using 4 designs with beautiful slider.
 
-View [DEMO](https://www.wponlinesupport.com/wp-plugin/wp-responsive-recent-post-slider/) | [PRO DEMO and Features](https://www.wponlinesupport.com/wp-plugin/wp-responsive-recent-post-slider/) for additional information.
+View [DEMO](http://demo.wponlinesupport.com/recent-post-slider-demo/) | [PRO DEMO and Features](https://1.envato.market/Yye) for additional information.
 
 You can also try our FREE plugin [Recent Posts Widget Designer](https://wordpress.org/plugins/recent-posts-widget-designer/) along with "Responsive Recent Post Slider"
 
 A multipurpose responsive WordPresss posts slider plugin powered with four built-in design template, lots of easy customizable options. Display unlimited number of WordPresss posts slider in a single page or post with different sets of options like category, limit, navigation type. 
-
-Also work with Gutenberg shortcode block. 
 
 = Here is the Recent Post Slider shortcode example =
 
@@ -77,12 +75,11 @@ You can see and select all the designs from Post -> Post Slider Designs. Here yo
 > * 3 Widgets (Post slider, Post List/Slider-1, Post List/Slider-2)
 > * V1.3.4 Support WordPress default post as well as any custom post-type and taxonomy 
 >
-> View [PRO DEMO and Features](https://www.wponlinesupport.com/wp-plugin/wp-responsive-recent-post-slider/) for additional information.
+> View [PRO DEMO and Features](https://1.envato.market/Yye) for additional information.
 >
 
 = Features include: =
 * Easy to add.
-* Also work with Gutenberg shortcode block. 
 * Given 4 designs.
 * Media size ie  thumbnail, medium, medium_large, large and full
 * Responsive.
@@ -114,15 +111,10 @@ You can see and select all the designs from Post -> Post Slider Designs. Here yo
 2. Design-2
 3. Design-3
 4. Design-4
-5. Also work with Gutenberg shortcode block. 
+5. Designs
 6. Category shortcode for post
 
 == Changelog ==
-
-= 2.0 (06-12-2018) =
-* [*] Tested with WordPress 5.0 and Gutenberg.
-* [*] Tested with Twenty Nineteen theme.
-* [*] Fixed some CSS issues.
 
 = 1.5 (22-09-2018) =
 * [*] Fixed readmore button issue.

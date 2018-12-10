@@ -11,7 +11,9 @@ function eae_elementor_init(){
         1
     );
 
+	require_once ELEMENTOR_ADDON_PATH.'elements/bg-slider.php';
     require_once ELEMENTOR_ADDON_PATH.'elements/particles.php';
+
 }
 add_action('elementor/init','Elementor\eae_elementor_init');
 

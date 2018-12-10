@@ -10,7 +10,7 @@ class Widget_AnimatedText extends Widget_Base {
 	}
 	
 	public function get_title() {
-		return __( 'EAE - Animated Text', 'elementor' );
+		return __( 'EAE - Animated Text', 'wts-eae' );
 	}
 	
 	public function get_icon() {
@@ -25,7 +25,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->start_controls_section(
 				'section_general',
 				[
-					'label' => __( 'General', 'elementor' )
+					'label' => __( 'General', 'wts-eae' )
 				]
 			);
 
@@ -33,19 +33,19 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_responsive_control(
 					'text-align',
 					[
-							'label' => __( 'Alignment', 'elementor' ),
+							'label' => __( 'Alignment', 'wts-eae' ),
 							'type' => Controls_Manager::CHOOSE,
 							'options' => [
 									'left' => [
-											'title' => __( 'Left', 'elementor' ),
+											'title' => __( 'Left', 'wts-eae' ),
 											'icon' => 'fa fa-align-left',
 									],
 									'center' => [
-											'title' => __( 'Center', 'elementor' ),
+											'title' => __( 'Center', 'wts-eae' ),
 											'icon' => 'fa fa-align-center',
 									],
 									'right' => [
-											'title' => __( 'Right', 'elementor' ),
+											'title' => __( 'Right', 'wts-eae' ),
 											'icon' => 'fa fa-align-right',
 									]
 							],
@@ -59,10 +59,10 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'pre-text',
 				[
-					'label' => __( 'Pre Text', 'elementor' ),
+					'label' => __( 'Pre Text', 'wts-eae' ),
 					'type' => Controls_Manager::TEXTAREA,
-					'placeholder' => __( 'Enter text', 'elementor' ),
-					'default' => __( 'I Love', 'elementor' ),
+					'placeholder' => __( 'Enter text', 'wts-eae' ),
+					'default' => __( 'I Love', 'wts-eae' ),
 				]
 			);
 			
@@ -70,27 +70,27 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'animation-text-list',
 				[
-					'label' => __( 'Animated Text List', 'elementor' ),
+					'label' => __( 'Animated Text List', 'wts-eae' ),
 					'type' => Controls_Manager::REPEATER,
 					'default' => [
 						[
-							'text' => __( 'Football', 'elementor' ),
+							'text' => __( 'Football', 'wts-eae' ),
 						],
 						[
-							'text' => __( 'Cricket', 'elementor' ),
+							'text' => __( 'Cricket', 'wts-eae' ),
 						],
 						[
-							'text' => __( 'Basketball', 'elementor' ),
+							'text' => __( 'Basketball', 'wts-eae' ),
 						],
 					],
 					'fields' => [
 						[
 							'name' => 'text',
-							'label' => __( 'Text', 'elementor' ),
+							'label' => __( 'Text', 'wts-eae' ),
 							'type' => Controls_Manager::TEXT,
 							'label_block' => true,
-							'placeholder' => __( 'Text to animate', 'elementor' ),
-							'default' => __( '', 'elementor' ),
+							'placeholder' => __( 'Text to animate', 'wts-eae' ),
+							'default' => __( '', 'wts-eae' ),
 						],
 					],
 					'title_field' => '{{{ text }}}'
@@ -100,10 +100,10 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'post-text',
 				[
-					'label' => __( 'Post Text', 'elementor' ),
+					'label' => __( 'Post Text', 'wts-eae' ),
 					'type' => Controls_Manager::TEXTAREA,
-					'placeholder' => __( 'Enter text', 'elementor' ),
-					'default' => __( 'Very Much', 'elementor' ),
+					'placeholder' => __( 'Enter text', 'wts-eae' ),
+					'default' => __( 'Very Much', 'wts-eae' ),
 				]
 			);
 
@@ -112,7 +112,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->start_controls_section(
 				'section_pre_text_style',
 				[
-					'label' => __( 'Pre Text', 'elementor' ),
+					'label' => __( 'Pre Text', 'wts-eae' ),
 					'tab' => Controls_Manager::TAB_STYLE,
 				]
 			);
@@ -121,7 +121,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'pre_text_color',
 				[
-					'label' => __( 'Pre Text Color', 'elementor' ),
+					'label' => __( 'Pre Text Color', 'wts-eae' ),
 					'type' => Controls_Manager::COLOR,
 					'scheme' => [
 						'type' => Scheme_Color::get_type(),
@@ -149,7 +149,7 @@ class Widget_AnimatedText extends Widget_Base {
 			 $this->start_controls_section(
 				'section_animation_text_style',
 				[
-					'label' => __( 'Animated Text', 'elementor' ),
+					'label' => __( 'Animated Text', 'wts-eae' ),
 					'tab' => Controls_Manager::TAB_STYLE,
 				]
 			);
@@ -168,7 +168,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'animation_color',
 				[
-					'label' => __( 'Animation Text Color', 'elementor' ),
+					'label' => __( 'Animation Text Color', 'wts-eae' ),
 					'type' => Controls_Manager::COLOR,
 					'scheme' => [
 						'type' => Scheme_Color::get_type(),
@@ -184,7 +184,7 @@ class Widget_AnimatedText extends Widget_Base {
 				Group_Control_Border::get_type(),
 				[
 					'name' => 'animated_text_border',
-					'label' => __( 'Box Border', 'elementor' ),
+					'label' => __( 'Box Border', 'wts-eae' ),
 					'selector' => '{{WRAPPER}} .eae-at-animation-text-wrapper .eae-at-animation-text.is-visible',
 				]
 			);
@@ -194,7 +194,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'box_border_radius',
 				[
-					'label' => __( 'Border Radius', 'elementor' ),
+					'label' => __( 'Border Radius', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -206,7 +206,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'box_padding',
 				[
-					'label' => __( 'Padding', 'elementor' ),
+					'label' => __( 'Padding', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -217,7 +217,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'box_margin',
 				[
-					'label' => __( 'Margin', 'elementor' ),
+					'label' => __( 'Margin', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -232,7 +232,7 @@ class Widget_AnimatedText extends Widget_Base {
 				Group_Control_Background::get_type(),
 				[
 					'name' => 'animation_section_bg',
-					'label' => __( 'Section Background', 'elementor' ),
+					'label' => __( 'Section Background', 'wts-eae' ),
 					'types' => [ 'classic','gradient'  ],
 					'selector' => '{{WRAPPER}} .eae-at-animation-text-wrapper .eae-at-animation-text.is-visible',
 				]
@@ -245,7 +245,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->start_controls_section(
 				'section_cursor_style',
 				[
-					'label' => __( 'Cursor Control', 'elementor' ),
+					'label' => __( 'Cursor Control', 'wts-eae' ),
 					'tab' => Controls_Manager::TAB_STYLE,
 				]
 			);
@@ -254,7 +254,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'cursor_color',
 				[
-					'label' => __( 'Color', 'elementor' ),
+					'label' => __( 'Color', 'wts-eae' ),
 					'type' => Controls_Manager::COLOR,
 					'scheme' => [
 						'type' => Scheme_Color::get_type(),
@@ -270,7 +270,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_responsive_control(
 				'cursor_width',
 				[
-					'label' => __( 'Width', 'elementor' ),
+					'label' => __( 'Width', 'wts-eae' ),
 					'type' => Controls_Manager::SLIDER,
 					'size_units' => [ 'px' ],
 					'default' => [
@@ -294,7 +294,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->start_controls_section(
 				'section_post_text_style',
 				[
-					'label' => __( 'Post Text', 'elementor' ),
+					'label' => __( 'Post Text', 'wts-eae' ),
 					'tab' => Controls_Manager::TAB_STYLE,
 				]
 			);
@@ -303,7 +303,7 @@ class Widget_AnimatedText extends Widget_Base {
 			$this->add_control(
 				'post_text_color',
 				[
-					'label' => __( 'Post Text Color', 'elementor' ),
+					'label' => __( 'Post Text Color', 'wts-eae' ),
 					'type' => Controls_Manager::COLOR,
 					'scheme' => [
 						'type' => Scheme_Color::get_type(),

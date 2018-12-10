@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-25 18:52:37+0000\n"
+"PO-Revision-Date: 2018-12-07 01:11:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8340,11 +8340,6 @@ msgstr "Do site"
 msgid "Create or select your site&#8217;s privacy policy page under <strong>Settings &gt; Privacy</strong> to keep your users informed and aware."
 msgstr "Crie ou seleccione a página de política de privacidade do seu site em <strong>Opções &gt; Privacidade</strong> para manter seus utilizadores informados e conscientes."
 
-#. translators: accessibility text
-#: wp-admin/includes/misc.php:1573
-msgid "(opens in a new tab)"
-msgstr "(abre num novo separado)"
-
 #: wp-admin/includes/misc.php:1682
 msgid "Suggested text:"
 msgstr "Texto sugerido:"
@@ -8539,13 +8534,13 @@ msgstr "Se editar ou publicar um artigo, será guardado no seu navegador um cook
 msgid "If your web site receives data about users from third parties, including advertisers, this information must be included within the section of your privacy policy dealing with third party data."
 msgstr "Se o seu site receber dados de utilizadores de terceiros, incluindo anunciantes, esta informação tem de estar incluída na secção relativa aos dados de terceiros, na política de privacidade."
 
-#: wp-admin/includes/misc.php:1781
-msgid "In this section you should explain what measures you have taken to protect your users&#8217; data. This could include technical measures such as encryption; security measures such as two factor authentication; and measures such as staff training in data protection. If you have carried out a Privacy Impact Assessment, you can mention it here too."
-msgstr "Nesta secção deve explicar que medidas foram tomadas para proteger os dados dos utilizadores. Isso poderá incluir medidas técnicas como encriptação, medidas de segurança como autenticação de dois factores e instrução de profissionais em protecção de dados. Se foi realizada uma avaliação de impacto de privacidade, poderá mencioná-la aqui."
-
 #: wp-admin/includes/misc.php:1776
 msgid "If you use your site for commercial purposes and you engage in more complex collection or processing of personal data, you should note the following information in your privacy policy in addition to the information we have already discussed."
 msgstr "Se utilizar o seu site para fins comerciais e se envolver em recolha ou processamento de dados pessoais mais complexos, deve indicar essa informação na sua política de privacidade além da informação previamente discutida."
+
+#: wp-admin/includes/misc.php:1781
+msgid "In this section you should explain what measures you have taken to protect your users&#8217; data. This could include technical measures such as encryption; security measures such as two factor authentication; and measures such as staff training in data protection. If you have carried out a Privacy Impact Assessment, you can mention it here too."
+msgstr "Nesta secção deve explicar que medidas foram tomadas para proteger os dados dos utilizadores. Isso poderá incluir medidas técnicas como encriptação, medidas de segurança como autenticação de dois factores e instrução de profissionais em protecção de dados. Se foi realizada uma avaliação de impacto de privacidade, poderá mencioná-la aqui."
 
 #: wp-admin/includes/misc.php:1765
 msgid "European data protection law requires data about European residents which is transferred outside the European Union to be safeguarded to the same standards as if the data was in Europe. So in addition to listing where data goes, you should describe how you ensure that these standards are met either by yourself or by your third party providers, whether that is through an agreement such as Privacy Shield, model clauses in your contracts, or binding corporate rules."
@@ -8563,6 +8558,10 @@ msgstr "Nesta secção deverá explicar por quanto tempo vai guardar os dados pe
 msgid "In this section you should name and list all third party providers with whom you share site data, including partners, cloud-based services, payment processors, and third party service providers, and note what data you share with them and why. Link to their own privacy policies if possible."
 msgstr "Nesta secção deverá nomear e listar todos os terceiros com quem partilha os dados do site, incluindo parceiros, serviços na nuvem, processadores de pagamentos e fornecedores, definir quais os dados partilhados e porquê. Coloque uma ligação para as políticas de privacidade desses terceiros, sempre que possível."
 
+#: wp-admin/includes/misc.php:1730
+msgid "When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed."
+msgstr "Ao iniciar a sessão, serão configurados alguns cookies para guardar a sua informação de sessão e as suas escolhas de visualização de ecrã. Os cookies de início de sessão duram um ano. Se seleccionar &quot;Lembrar-me&quot;, a sua sessão irá persistir durante duas semanas. Ao terminar a sessão, os cookies de inicio de sessão serão removidos."
+
 #: wp-admin/includes/misc.php:1729
 msgid "If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser."
 msgstr "Se tem uma conta e iniciar sessão neste site, será configurado um cookie temporário para determinar se o seu navegador aceita cookies. Este cookie não contém dados pessoais e será eliminado ao fechar o seu navegador. "
@@ -8570,10 +8569,6 @@ msgstr "Se tem uma conta e iniciar sessão neste site, será configurado um cook
 #: wp-admin/includes/misc.php:1726
 msgid "In this subsection you should list the cookies your web site uses, including those set by your plugins, social media, and analytics. We have provided the cookies which WordPress installs by default."
 msgstr "Nesta subsecção deverão ser listados os cookies utilizados pelo seu site, incluindo os que são definidos pelos plugins, redes sociais e dados analíticos. Os cookies instalados pelo WordPress são fornecidos por omissão."
-
-#: wp-admin/includes/misc.php:1730
-msgid "When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed."
-msgstr "Ao iniciar a sessão, serão configurados alguns cookies para guardar a sua informação de sessão e as suas escolhas de visualização de ecrã. Os cookies de início de sessão duram um ano. Se seleccionar &quot;Lembrar-me&quot;, a sua sessão irá persistir durante duas semanas. Ao terminar a sessão, os cookies de inicio de sessão serão removidos."
 
 #: wp-admin/includes/misc.php:1711
 msgid "An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment."
@@ -8790,6 +8785,11 @@ msgstr "familiar"
 #: wp-admin/includes/meta-boxes.php:1173
 msgid "parent"
 msgstr "pai/mãe"
+
+#. translators: accessibility text
+#: wp-admin/includes/misc.php:1573
+msgid "(opens in a new tab)"
+msgstr "(abre num novo separador)"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:29
 msgid "The ftp PHP extension is not available"
@@ -11936,12 +11936,12 @@ msgstr "<strong>Enviar trackbacks</strong> &mdash; Trackbacks são uma maneira d
 msgid "Preview page"
 msgstr "Pré-visualizar página"
 
-#: wp-admin/media.php:76 wp-admin/edit-form-advanced.php:417
-msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
-msgstr "Apenas para imagens, pode clicar em Editar imagem por baixo da miniatura para ampliar um editor de imagem incorporado com ícones para recortar, rodar ou inverter a imagem, bem como para desfazer e refazer. As caixas do lado direito dão-lhe mais opções para redimensionar a imagem, para a recortar e para recortar a miniatura de maneira diferente da imagem original. Pode clicar em Ajuda nas caixas para obter mais informações."
-
 #. translators: Page title of the About WordPress page in the admin.
 #: wp-admin/about.php:15
 msgctxt "page title"
 msgid "About"
 msgstr "Sobre"
+
+#: wp-admin/media.php:76 wp-admin/edit-form-advanced.php:417
+msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
+msgstr "Apenas para imagens, pode clicar em Editar imagem por baixo da miniatura para ampliar um editor de imagem incorporado com ícones para recortar, rodar ou inverter a imagem, bem como para desfazer e refazer. As caixas do lado direito dão-lhe mais opções para redimensionar a imagem, para a recortar e para recortar a miniatura de maneira diferente da imagem original. Pode clicar em Ajuda nas caixas para obter mais informações."

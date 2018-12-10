@@ -9,7 +9,7 @@ class Widget_SplitText extends Widget_Base {
 	}
 	
 	public function get_title() {
-		return __( 'EAE - Split Text', 'elementor' );
+		return __( 'EAE - Split Text', 'wts-eae' );
 	}
 	
 	public function get_icon() {
@@ -24,7 +24,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->start_controls_section(
 				'section_general',
 				[
-					'label' => __( 'General', 'elementor' )
+					'label' => __( 'General', 'wts-eae' )
 				]
 			);
 
@@ -32,19 +32,19 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_responsive_control(
 					'text-align',
 					[
-							'label' => __( 'Alignment', 'elementor' ),
+							'label' => __( 'Alignment', 'wts-eae' ),
 							'type' => Controls_Manager::CHOOSE,
 							'options' => [
 									'left' => [
-											'title' => __( 'Left', 'elementor' ),
+											'title' => __( 'Left', 'wts-eae' ),
 											'icon' => 'fa fa-align-left',
 									],
 									'center' => [
-											'title' => __( 'Center', 'elementor' ),
+											'title' => __( 'Center', 'wts-eae' ),
 											'icon' => 'fa fa-align-center',
 									],
 									'right' => [
-											'title' => __( 'Right', 'elementor' ),
+											'title' => __( 'Right', 'wts-eae' ),
 											'icon' => 'fa fa-align-right',
 									]
 							],
@@ -58,11 +58,11 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'split_mode',
 				[
-					'label' => __( 'Split Mode', 'elementor' ),
+					'label' => __( 'Split Mode', 'wts-eae' ),
 					'type' => Controls_Manager::SELECT,
 					'options' => [
-						'text' => __( 'Letter', 'elementor' ),
-						'word' => __( 'Word', 'elementor' )
+						'text' => __( 'Letter', 'wts-eae' ),
+						'word' => __( 'Word', 'wts-eae' )
 					],
 					'default' => 'word',
 				]
@@ -71,28 +71,28 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'split_count',
 				[
-					'label' => __( 'Split Count', 'elementor' ),
+					'label' => __( 'Split Count', 'wts-eae' ),
 					'type' => Controls_Manager::TEXT,
 					'default' => '2',
-					'placeholder' => __( 'Count', 'elementor' ),
+					'placeholder' => __( 'Count', 'wts-eae' ),
 				]
 			);
 			
 			$this->add_control(
 				'title_size',
 				[
-					'label' => __( 'HTML Tag', 'elementor' ),
+					'label' => __( 'HTML Tag', 'wts-eae' ),
 					'type' => Controls_Manager::SELECT,
 					'options' => [
-						'h1' => __( 'H1', 'elementor' ),
-						'h2' => __( 'H2', 'elementor' ),
-						'h3' => __( 'H3', 'elementor' ),
-						'h4' => __( 'H4', 'elementor' ),
-						'h5' => __( 'H5', 'elementor' ),
-						'h6' => __( 'H6', 'elementor' ),
-						'div' => __( 'div', 'elementor' ),
-						'span' => __( 'span', 'elementor' ),
-						'p' => __( 'p', 'elementor' ),
+						'h1' => __( 'H1', 'wts-eae' ),
+						'h2' => __( 'H2', 'wts-eae' ),
+						'h3' => __( 'H3', 'wts-eae' ),
+						'h4' => __( 'H4', 'wts-eae' ),
+						'h5' => __( 'H5', 'wts-eae' ),
+						'h6' => __( 'H6', 'wts-eae' ),
+						'div' => __( 'div', 'wts-eae' ),
+						'span' => __( 'span', 'wts-eae' ),
+						'p' => __( 'p', 'wts-eae' ),
 					],
 					'default' => 'h3',
 				]
@@ -101,10 +101,10 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'text',
 				[
-					'label' => __( 'Text', 'elementor' ),
+					'label' => __( 'Text', 'wts-eae' ),
 					'type' => Controls_Manager::TEXTAREA,
-					'placeholder' => __( 'Enter text', 'elementor' ),
-					'default' => __( 'I Love Elementor', 'elementor' ),
+					'placeholder' => __( 'Enter text', 'wts-eae' ),
+					'default' => __( 'I Love Elementor', 'wts-eae' ),
 				]
 			);
 			
@@ -116,7 +116,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->start_controls_section(
 				'section_split_text_style',
 				[
-					'label' => __( 'Part 1', 'elementor' ),
+					'label' => __( 'Part 1', 'wts-eae' ),
 					'tab' => Controls_Manager::TAB_STYLE,
 				]
 			);
@@ -125,7 +125,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'split_text_color',
 				[
-					'label' => __( 'Text Color', 'elementor' ),
+					'label' => __( 'Text Color', 'wts-eae' ),
 					'type' => Controls_Manager::COLOR,
 					'scheme' => [
 						'type' => Scheme_Color::get_type(),
@@ -151,7 +151,7 @@ class Widget_SplitText extends Widget_Base {
 				Group_Control_Border::get_type(),
 				[
 					'name' => 'split_text_border',
-					'label' => __( 'Box Border', 'elementor' ),
+					'label' => __( 'Box Border', 'wts-eae' ),
 					'selector' => '{{WRAPPER}} .eae-st-split-text',
 				]
 			);
@@ -161,7 +161,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'split_text_box_border_radius',
 				[
-					'label' => __( 'Border Radius', 'elementor' ),
+					'label' => __( 'Border Radius', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -173,7 +173,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'split_text_box_padding',
 				[
-					'label' => __( 'Padding', 'elementor' ),
+					'label' => __( 'Padding', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -184,7 +184,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'split_text_box_margin',
 				[
-					'label' => __( 'Margin', 'elementor' ),
+					'label' => __( 'Margin', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -197,7 +197,7 @@ class Widget_SplitText extends Widget_Base {
 				Group_Control_Background::get_type(),
 				[
 					'name' => 'split_text_section_bg',
-					'label' => __( 'Text Background', 'elementor' ),
+					'label' => __( 'Text Background', 'wts-eae' ),
 					'types' => [ 'none','classic','gradient' ],
 					'selector' => '{{WRAPPER}} .eae-st-split-text',
 				]
@@ -209,7 +209,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->start_controls_section(
 				'section_rest_text_style',
 				[
-					'label' => __( 'Part 2', 'elementor' ),
+					'label' => __( 'Part 2', 'wts-eae' ),
 					'tab' => Controls_Manager::TAB_STYLE,
 				]
 			);
@@ -217,7 +217,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'rest_text_color',
 				[
-					'label' => __( 'Text Color', 'elementor' ),
+					'label' => __( 'Text Color', 'wts-eae' ),
 					'type' => Controls_Manager::COLOR,
 					'scheme' => [
 						'type' => Scheme_Color::get_type(),
@@ -241,7 +241,7 @@ class Widget_SplitText extends Widget_Base {
 				Group_Control_Border::get_type(),
 				[
 					'name' => 'rest_text_border',
-					'label' => __( 'Box Border', 'elementor' ),
+					'label' => __( 'Box Border', 'wts-eae' ),
 					'selector' => '{{WRAPPER}} .eae-st-rest-text',
 				]
 			);
@@ -251,7 +251,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'rest_text_box_border_radius',
 				[
-					'label' => __( 'Border Radius', 'elementor' ),
+					'label' => __( 'Border Radius', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -263,7 +263,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'rest_text_box_padding',
 				[
-					'label' => __( 'Padding', 'elementor' ),
+					'label' => __( 'Padding', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -274,7 +274,7 @@ class Widget_SplitText extends Widget_Base {
 			$this->add_control(
 				'rest_text_box_margin',
 				[
-					'label' => __( 'Margin', 'elementor' ),
+					'label' => __( 'Margin', 'wts-eae' ),
 					'type' => Controls_Manager::DIMENSIONS,
 					'size_units' => [ 'px', '%' ],
 					'selectors' => [
@@ -287,7 +287,7 @@ class Widget_SplitText extends Widget_Base {
 				Group_Control_Background::get_type(),
 				[
 					'name' => 'rest_text_section_bg',
-					'label' => __( 'Text Background', 'elementor' ),
+					'label' => __( 'Text Background', 'wts-eae' ),
 					'types' => [ 'none','classic','gradient' ],
 					'selector' => '{{WRAPPER}} .eae-st-rest-text',
 				]

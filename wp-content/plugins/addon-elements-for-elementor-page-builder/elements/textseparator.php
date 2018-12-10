@@ -10,7 +10,7 @@ class Widget_TextSeparator extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - Text Separator', 'elementor' );
+		return __( 'EAE - Text Separator', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -29,39 +29,39 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->start_controls_section(
 			'section_title',
 			[
-				'label' => __( 'Title', 'elementor' )
+				'label' => __( 'Title', 'wts-eae' )
 			]
 		);
 
 		$this->add_control(
 			'title',
 			[
-				'label' => __( 'Title', 'elementor' ),
+				'label' => __( 'Title', 'wts-eae' ),
 				'type' => Controls_Manager::TEXTAREA,
 				'dynamic' => [
 					'active' => true,
                 ],
                 'label_block' => true,
-				'placeholder' => __( 'Enter text', 'elementor' ),
-				'default' => __( 'This is text separator', 'elementor' )
+				'placeholder' => __( 'Enter text', 'wts-eae' ),
+				'default' => __( 'This is text separator', 'wts-eae' )
 			]
 		);
 
 		$this->add_control(
 			'html_tag',
 			[
-				'label' => __( 'HTML Tag', 'elementor' ),
+				'label' => __( 'HTML Tag', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'h1' => __( 'H1', 'elementor' ),
-					'h2' => __( 'H2', 'elementor' ),
-					'h3' => __( 'H3', 'elementor' ),
-					'h4' => __( 'H4', 'elementor' ),
-					'h5' => __( 'H5', 'elementor' ),
-					'h6' => __( 'H6', 'elementor' ),
-					'div' => __( 'div', 'elementor' ),
-					'span' => __( 'span', 'elementor' ),
-					'p' => __( 'p', 'elementor' ),
+					'h1' => __( 'H1', 'wts-eae' ),
+					'h2' => __( 'H2', 'wts-eae' ),
+					'h3' => __( 'H3', 'wts-eae' ),
+					'h4' => __( 'H4', 'wts-eae' ),
+					'h5' => __( 'H5', 'wts-eae' ),
+					'h6' => __( 'H6', 'wts-eae' ),
+					'div' => __( 'div', 'wts-eae' ),
+					'span' => __( 'span', 'wts-eae' ),
+					'p' => __( 'p', 'wts-eae' ),
 				],
 				'default' => 'h2',
 			]
@@ -70,19 +70,19 @@ class Widget_TextSeparator extends Widget_Base {
         $this->add_responsive_control(
 			'align',
 			[
-				'label' => __( 'Alignment', 'elementor' ),
+				'label' => __( 'Alignment', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					]
 				],
@@ -95,7 +95,7 @@ class Widget_TextSeparator extends Widget_Base {
         $this->start_controls_section(
 			'section_icon',
 			[
-				'label' => __( 'Icon', 'elementor' ),
+				'label' => __( 'Icon', 'wts-eae' ),
 				'type' => Controls_Manager::SECTION,
 			]
 		);
@@ -104,7 +104,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'icon',
 			[
-				'label' => __( 'Icon', 'elementor' ),
+				'label' => __( 'Icon', 'wts-eae' ),
 				'type' => Controls_Manager::ICON,
 				'label_block' => true,
 				'default' => 'fa fa-star'
@@ -114,12 +114,12 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'view',
 			[
-				'label' => __( 'View', 'elementor' ),
+				'label' => __( 'View', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'default' => __( 'Default', 'elementor' ),
-					'stacked' => __( 'Stacked', 'elementor' ),
-					'framed' => __( 'Framed', 'elementor' ),
+					'default' => __( 'Default', 'wts-eae' ),
+					'stacked' => __( 'Stacked', 'wts-eae' ),
+					'framed' => __( 'Framed', 'wts-eae' ),
 				],
 				'default' => 'default',
 				'prefix_class' => 'eae-icon-view-',
@@ -129,11 +129,11 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'shape',
 			[
-				'label' => __( 'Shape', 'elementor' ),
+				'label' => __( 'Shape', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'circle' => __( 'Circle', 'elementor' ),
-					'square' => __( 'Square', 'elementor' ),
+					'circle' => __( 'Circle', 'wts-eae' ),
+					'square' => __( 'Square', 'wts-eae' ),
 				],
 				'default' => 'circle',
 				'condition' => [
@@ -149,8 +149,8 @@ class Widget_TextSeparator extends Widget_Base {
 		        'label' => __('Icon Position','wts_eae'),
 		        'type'  => Controls_Manager::SELECT,
 		        'options' => [
-					'before' => __( 'Before Text', 'elementor' ),
-					'after' => __( 'After Text', 'elementor' )
+					'before' => __( 'Before Text', 'wts-eae' ),
+					'after' => __( 'After Text', 'wts-eae' )
                 ],
                 'default' => 'before',
             ]
@@ -161,7 +161,7 @@ class Widget_TextSeparator extends Widget_Base {
         $this->start_controls_section(
 			'section_divider',
 			[
-				'label' => __( 'Divider', 'elementor' ),
+				'label' => __( 'Divider', 'wts-eae' ),
 				'type' => Controls_Manager::SECTION,
 			]
 		);
@@ -169,13 +169,13 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'style',
 			[
-				'label' => __( 'Style', 'elementor' ),
+				'label' => __( 'Style', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'solid' => __( 'Solid', 'elementor' ),
-					'double' => __( 'Double', 'elementor' ),
-					'dotted' => __( 'Dotted', 'elementor' ),
-					'dashed' => __( 'Dashed', 'elementor' ),
+					'solid' => __( 'Solid', 'wts-eae' ),
+					'double' => __( 'Double', 'wts-eae' ),
+					'dotted' => __( 'Dotted', 'wts-eae' ),
+					'dashed' => __( 'Dashed', 'wts-eae' ),
 				],
 				'default' => 'solid',
 				'selectors' => [
@@ -187,7 +187,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'weight',
 			[
-				'label' => __( 'Weight', 'elementor' ),
+				'label' => __( 'Weight', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 1,
@@ -212,7 +212,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->start_controls_section(
 			'section_title_style',
 			[
-				'label' => __( 'Title', 'elementor' ),
+				'label' => __( 'Title', 'wts-eae' ),
 				'tab' => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -220,7 +220,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'title_color',
 			[
-				'label' => __( 'Text Color', 'elementor' ),
+				'label' => __( 'Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -245,7 +245,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->start_controls_section(
 			'section_divider_style',
 			[
-				'label' => __( 'Divider', 'elementor' ),
+				'label' => __( 'Divider', 'wts-eae' ),
 				'tab' => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -253,7 +253,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'divider_color',
 			[
-				'label' => __( 'Divider Color', 'elementor' ),
+				'label' => __( 'Divider Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -268,7 +268,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_responsive_control(
 			'divider_width',
 			[
-				'label' => __( 'Width', 'elementor' ),
+				'label' => __( 'Width', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'size_units' => [ '%' ],
 				'default' => [
@@ -290,19 +290,19 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_responsive_control(
 			'divider_align',
 			[
-				'label' => __( 'Alignment', 'elementor' ),
+				'label' => __( 'Alignment', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					]
 				],
@@ -317,7 +317,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->start_controls_section(
 			'section_icon_style',
 			[
-				'label' => __( 'Icon', 'elementor' ),
+				'label' => __( 'Icon', 'wts-eae' ),
 				'tab' => Controls_Manager::TAB_STYLE,
 			]
 		);
@@ -325,7 +325,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'icon_primary_color',
 			[
-				'label' => __( 'Primary Color', 'elementor' ),
+				'label' => __( 'Primary Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -340,7 +340,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'icon_secondary_color',
 			[
-				'label' => __( 'Secondary Color', 'elementor' ),
+				'label' => __( 'Secondary Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -357,7 +357,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'size',
 			[
-				'label' => __( 'Icon Size', 'elementor' ),
+				'label' => __( 'Icon Size', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'range' => [
 					'px' => [
@@ -374,7 +374,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'icon_padding',
 			[
-				'label' => __( 'Icon Padding', 'elementor' ),
+				'label' => __( 'Icon Padding', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 
 				'selectors' => [
@@ -398,7 +398,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'rotate',
 			[
-				'label' => __( 'Icon Rotate', 'elementor' ),
+				'label' => __( 'Icon Rotate', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 0,
@@ -414,7 +414,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'border_width',
 			[
-				'label' => __( 'Border Width', 'elementor' ),
+				'label' => __( 'Border Width', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'selectors' => [
 					'{{WRAPPER}} .eae-separator-icon-inner' => 'border-width: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
@@ -428,7 +428,7 @@ class Widget_TextSeparator extends Widget_Base {
 		$this->add_control(
 			'border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [

@@ -10,7 +10,7 @@ class Widget_Compare_Image extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - After/Before Image', 'elementor' );
+		return __( 'EAE - After/Before Image', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -27,18 +27,18 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->start_controls_section(
 			'image',
 			[
-				'label' => __( 'Image', 'elementor' )
+				'label' => __( 'Image', 'wts-eae' )
 			]
 		);
 
 		$this->add_control(
 			'compare_style',
 			[
-				'label' => __( 'Compare Style', 'elementor' ),
+				'label' => __( 'Compare Style', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'horizontal' => __( 'Horizontal', 'elementor' ),
-					'vertical' => __( 'Vertical', 'elementor' ),
+					'horizontal' => __( 'Horizontal', 'wts-eae' ),
+					'vertical' => __( 'Vertical', 'wts-eae' ),
 				],
 				'default' => 'horizontal',
 			]
@@ -47,7 +47,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'slider_position',
 			[
-				'label' => __( 'Slider Position', 'elementor' ),
+				'label' => __( 'Slider Position', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 50,
@@ -65,7 +65,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'slider_icon',
 			[
-				'label' => __( 'Icon', 'elementor' ),
+				'label' => __( 'Icon', 'wts-eae' ),
 				'type' => Controls_Manager::ICON,
 				'default' => 'fa fa-star',
 			]
@@ -74,7 +74,7 @@ class Widget_Compare_Image extends Widget_Base {
 		/*$this->add_responsive_control(
 			'img_height',
 			[
-				'label' => __( 'Image Height', 'elementor' ),
+				'label' => __( 'Image Height', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 300,
@@ -93,7 +93,7 @@ class Widget_Compare_Image extends Widget_Base {
 
 		$this->add_control('before_image',
 			[
-				'label' => __( 'Before Image', 'elementor' ),
+				'label' => __( 'Before Image', 'wts-eae' ),
 				'type' => Controls_Manager::MEDIA,
 				'default' => [
 					'url' => Utils::get_placeholder_image_src(),
@@ -113,7 +113,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'image_head',
 			[
-				'label'     => __('', 'elementor'),
+				'label'     => __('', 'wts-eae'),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -121,7 +121,7 @@ class Widget_Compare_Image extends Widget_Base {
 
 		$this->add_control('after_image',
 			[
-				'label' => __( 'After Image', 'elementor' ),
+				'label' => __( 'After Image', 'wts-eae' ),
 				'type' => Controls_Manager::MEDIA,
 				'default' => [
 					'url' => Utils::get_placeholder_image_src(),
@@ -144,7 +144,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'separator_text',
 			[
-				'label'     => __('', 'elementor'),
+				'label'     => __('', 'wts-eae'),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -152,20 +152,20 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'text_before',
 			[
-				'label' => __( 'Before Text', 'elementor' ),
+				'label' => __( 'Before Text', 'wts-eae' ),
 				'type' => Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter text', 'elementor' ),
-				'default' => __( 'BEFORE', 'elementor' ),
+				'placeholder' => __( 'Enter text', 'wts-eae' ),
+				'default' => __( 'BEFORE', 'wts-eae' ),
 			]
 		);
 
 		$this->add_control(
 			'text_after',
 			[
-				'label' => __( 'After Text', 'elementor' ),
+				'label' => __( 'After Text', 'wts-eae' ),
 				'type' => Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter text', 'elementor' ),
-				'default' => __( 'AFTER', 'elementor' ),
+				'placeholder' => __( 'Enter text', 'wts-eae' ),
+				'default' => __( 'AFTER', 'wts-eae' ),
 			]
 		);
 
@@ -175,7 +175,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->start_controls_section(
 			'image_style',
 			[
-				'label' => __( 'General', 'elementor' ),
+				'label' => __( 'General', 'wts-eae' ),
 				'tab'   => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -183,7 +183,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'slider_icon_color',
 			[
-				'label'     => __('Icon Color', 'elementor'),
+				'label'     => __('Icon Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'type'  => Scheme_Color::get_type(),
 				'selectors'    => [
@@ -195,7 +195,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'slider_bg_color',
 			[
-				'label'     => __('Slider Color', 'elementor'),
+				'label'     => __('Slider Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'type'  => Scheme_Color::get_type(),
 				'selectors'    => [
@@ -208,7 +208,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'separator_alignment',
 			[
-				'label' => __( 'Separator Alignment', 'elementor' ),
+				'label' => __( 'Separator Alignment', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 50,
@@ -230,7 +230,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'slider_separator_width',
 			[
-				'label' => __( 'Separator Width', 'elementor' ),
+				'label' => __( 'Separator Width', 'wts-eae' ),
 				'type' => Controls_Manager::NUMBER,
 				'default' => 1,
 				'min' => 0,
@@ -248,7 +248,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->start_controls_section(
 		        'label_style',
 			[
-				'label'    =>  __('Label', 'elementor'),
+				'label'    =>  __('Label', 'wts-eae'),
 				'tab'      => Controls_Manager::TAB_STYLE
 			]
         );
@@ -256,11 +256,11 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_position_horizontal',
 			[
-				'label' => __( 'Position', 'elementor' ),
+				'label' => __( 'Position', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'top' => __( 'Top', 'elementor' ),
-					'bottom' => __( 'Bottom', 'elementor' ),
+					'top' => __( 'Top', 'wts-eae' ),
+					'bottom' => __( 'Bottom', 'wts-eae' ),
 				],
 				'condition' => [
 					'compare_style' => 'horizontal',
@@ -279,11 +279,11 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_position_vertical',
 			[
-				'label' => __( 'Position', 'elementor' ),
+				'label' => __( 'Position', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'left' => __( 'Left', 'elementor' ),
-					'right' => __( 'Right', 'elementor' ),
+					'left' => __( 'Left', 'wts-eae' ),
+					'right' => __( 'Right', 'wts-eae' ),
 				],
 				'condition' => [
 					'compare_style' => 'vertical',
@@ -311,7 +311,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_color',
 			[
-				'label'     => __('Color', 'elementor'),
+				'label'     => __('Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
 					'type'  => Scheme_Color::get_type(),
@@ -326,7 +326,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_background_color',
 			[
-				'label'     => __('BackgroundColor', 'elementor'),
+				'label'     => __('BackgroundColor', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'type'  => Scheme_Color::get_type(),
 				'selectors'    => [
@@ -340,7 +340,7 @@ class Widget_Compare_Image extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'label_border',
-				'label' => __( 'Box Border', 'elementor' ),
+				'label' => __( 'Box Border', 'wts-eae' ),
 				'selector' =>
 				        '{{WRAPPER}} .eae-text-after, {{WRAPPER}} .eae-text-before',
 			]
@@ -351,7 +351,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px','%' ],
 				'selectors' => [
@@ -364,7 +364,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_padding',
 			[
-				'label' => __( 'Padding', 'elementor' ),
+				'label' => __( 'Padding', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px'],
 				'selectors' => [
@@ -376,7 +376,7 @@ class Widget_Compare_Image extends Widget_Base {
 		$this->add_control(
 			'label_margin',
 			[
-				'label' => __( 'Margin', 'elementor' ),
+				'label' => __( 'Margin', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'selectors' => [
 					'{{WRAPPER}} .eae-text-after' => 'margin: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',

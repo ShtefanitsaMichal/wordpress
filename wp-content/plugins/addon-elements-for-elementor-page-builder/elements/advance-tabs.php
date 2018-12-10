@@ -10,7 +10,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - Advance Tabs', 'elementor' );
+		return __( 'EAE - Advance Tabs', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -31,17 +31,17 @@ class Widget_Advance_Tabs extends Widget_Base {
 	    $this->start_controls_section(
 			'section_tabs',
 			[
-				'label' => __( 'Tabs', 'elementor' )
+				'label' => __( 'Tabs', 'wts-eae' )
 			]
 		);
 		$this->add_control(
 			'tab_position',
 			[
-				'label' => __( 'Tab Position', 'elementor' ),
+				'label' => __( 'Tab Position', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'top' => __( 'Top', 'elementor' ),
-					'left' => __( 'Left', 'elementor' ),
+					'top' => __( 'Top', 'wts-eae' ),
+					'left' => __( 'Left', 'wts-eae' ),
 				],
 				'default' => 'top',
 				'prefix_class' => 'eae-nav-pos-',
@@ -51,11 +51,11 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'tab_Sticky',
 			[
-				'label' => __( 'Sticky Tab', 'elementor' ),
+				'label' => __( 'Sticky Tab', 'wts-eae' ),
 				'type' => Controls_Manager::SWITCHER,
 				'options' => [
-					'yes' => __( 'Yes', 'elementor' ),
-					'no' => __( 'No', 'elementor' ),
+					'yes' => __( 'Yes', 'wts-eae' ),
+					'no' => __( 'No', 'wts-eae' ),
 				],
 				'default' => 'no',
 				//'prefix_class' => 'eae-nav-sticky-',
@@ -66,7 +66,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'scroll_offset',
 			[
-				'label' => __( 'Scroll Offset', 'elementor' ),
+				'label' => __( 'Scroll Offset', 'wts-eae' ),
 				'type' => Controls_Manager::TEXT,
                 'default' => 20,
 				'condition' => [
@@ -79,10 +79,10 @@ class Widget_Advance_Tabs extends Widget_Base {
 
 		$repeater->add_control('tab_title',
 				[
-					'label' => __( 'Tab Title', 'elementor' ),
+					'label' => __( 'Tab Title', 'wts-eae' ),
 					'type' => Controls_Manager::TEXT,
-					'default' => __( 'Tab Title', 'elementor' ),
-					'placeholder' => __( 'Tab Title', 'elementor' ),
+					'default' => __( 'Tab Title', 'wts-eae' ),
+					'placeholder' => __( 'Tab Title', 'wts-eae' ),
 					'label_block' => true,
 				]
 		);
@@ -90,19 +90,19 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$repeater->add_control(
 			'tab_element',
 			[
-				'label' => __( 'Tab Element', 'elementor' ),
+				'label' => __( 'Tab Element', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'none' => [
-						'title' => __( 'None', 'elementor' ),
+						'title' => __( 'None', 'wts-eae' ),
 						'icon' => 'fa fa-ban',
 					],
 					'image' => [
-						'title' => __( 'Image', 'elementor' ),
+						'title' => __( 'Image', 'wts-eae' ),
 						'icon' => 'fa fa-picture-o',
 					],
 					'icon' => [
-						'title' => __( 'Icon', 'elementor' ),
+						'title' => __( 'Icon', 'wts-eae' ),
 						'icon' => 'fa fa-star',
 
 					],
@@ -113,7 +113,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 
 		$repeater->add_control('tab_image',
 			[
-				'label' => __( 'Choose Image', 'elementor' ),
+				'label' => __( 'Choose Image', 'wts-eae' ),
 				'type' => Controls_Manager::MEDIA,
 				'default' => [
 					'url' => Utils::get_placeholder_image_src(),
@@ -140,7 +140,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$repeater->add_control(
 			'tab_icon',
 			[
-				'label' => __( 'Icon', 'elementor' ),
+				'label' => __( 'Icon', 'wts-eae' ),
 				'type' => Controls_Manager::ICON,
 				'default' => 'fa fa-star',
 				'condition' => [
@@ -151,9 +151,9 @@ class Widget_Advance_Tabs extends Widget_Base {
 
 		$repeater->add_control('tab_content',
 			[
-				'label' => __( 'Content', 'elementor' ),
-				'default' => __( 'Tab Content', 'elementor' ),
-				'placeholder' => __( 'Tab Content', 'elementor' ),
+				'label' => __( 'Content', 'wts-eae' ),
+				'default' => __( 'Tab Content', 'wts-eae' ),
+				'placeholder' => __( 'Tab Content', 'wts-eae' ),
 				'type' => Controls_Manager::WYSIWYG,
 				'show_label' => true,
 			]
@@ -162,16 +162,16 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'eae_tabs',
 			[
-				'label' => __( 'Tabs Items', 'elementor' ),
+				'label' => __( 'Tabs Items', 'wts-eae' ),
 				'type' => Controls_Manager::REPEATER,
 				'default' => [
 					[
-						'tab_title' => __( 'Adv Tab 1', 'elementor' ),
-						'tab_content' => __( 'Advance responsive tab', 'elementor' ),
+						'tab_title' => __( 'Adv Tab 1', 'wts-eae' ),
+						'tab_content' => __( 'Advance responsive tab', 'wts-eae' ),
 					],
 					[
-						'tab_title' => __( 'Adv Tab 2', 'elementor' ),
-						'tab_content' => __( 'Advance responsive tab', 'elementor' ),
+						'tab_title' => __( 'Adv Tab 2', 'wts-eae' ),
+						'tab_content' => __( 'Advance responsive tab', 'wts-eae' ),
 					],
 				],
 				'show_label'	=> true,
@@ -185,7 +185,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->start_controls_section(
             'tab_style',
             [
-                 'label'    =>  __('General', 'elementor'),
+                 'label'    =>  __('General', 'wts-eae'),
                  'tab'      => Controls_Manager::TAB_STYLE
             ]
 		);
@@ -202,7 +202,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'bord_separator',
 			[
-				'label'     => __('', 'elementor'),
+				'label'     => __('', 'wts-eae'),
 				'type'      => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -214,7 +214,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->start_controls_tab(
 			'tab_menu_item_normal',
 			[
-				'label' => __( 'Normal', 'elementor' ),
+				'label' => __( 'Normal', 'wts-eae' ),
 			]
 		);
 
@@ -222,7 +222,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
             'tab_color',
             [
-                'label'     => __('Color', 'elementor'),
+                'label'     => __('Color', 'wts-eae'),
                 'type'      => Controls_Manager::COLOR,
                 'scheme'    => [
                                 'type'  => Scheme_Color::get_type(),
@@ -237,7 +237,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
             'icon_color',
             [
-                'label'     => __('Icon Color', 'elementor'),
+                'label'     => __('Icon Color', 'wts-eae'),
                 'type'      => Controls_Manager::COLOR,
                 'scheme'    => [
                                 'type'  => Scheme_Color::get_type(),
@@ -252,7 +252,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
             'tab_background_color',
             [
-                'label'     => __('Background Color', 'elementor'),
+                'label'     => __('Background Color', 'wts-eae'),
                 'type'      => Controls_Manager::COLOR,
                  'selectors'    => [
                                 '{{WRAPPER}} .eae-tab-nav li' => 'background-color: {{VALUE}}'
@@ -262,7 +262,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'tab_border_color',
 			[
-				'label'     => __('Border Color', 'elementor'),
+				'label'     => __('Border Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors'    => [
 					'{{WRAPPER}} .eae-tab-nav li' => 'border-color: {{VALUE}}'
@@ -273,7 +273,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'tab_title_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -287,7 +287,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->start_controls_tab(
 			'tab_menu_item_hover',
 			[
-				'label' => __( 'hover/active', 'elementor' ),
+				'label' => __( 'hover/active', 'wts-eae' ),
 			]
 		);
 
@@ -295,7 +295,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'tab_color_hover',
 			[
-				'label'     => __('Color', 'elementor'),
+				'label'     => __('Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
 					'type'  => Scheme_Color::get_type(),
@@ -310,7 +310,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'icon_color_hover',
 			[
-				'label'     => __('Icon Color', 'elementor'),
+				'label'     => __('Icon Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
 					'type'  => Scheme_Color::get_type(),
@@ -325,7 +325,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'tab_background_color_hover',
 			[
-				'label'     => __('Background Color', 'elementor'),
+				'label'     => __('Background Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors'    => [
 					'{{WRAPPER}} .eae-tab-nav li:hover, {{WRAPPER}} .eae-tabs nav li.tab-current' => 'background-color: {{VALUE}}'
@@ -335,7 +335,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'tab_border_color_hover',
 			[
-				'label'     => __('Border Color', 'elementor'),
+				'label'     => __('Border Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors'    => [
 					'{{WRAPPER}} .eae-tab-nav li:hover' => 'border-color: {{VALUE}}'
@@ -347,7 +347,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'tab_title_border_radius_hover',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -363,7 +363,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'tab_head',
 			[
-				'label'     => __('', 'elementor'),
+				'label'     => __('', 'wts-eae'),
 				'type'      => Controls_Manager::HEADING,
                 'separator' => 'before',
             ]
@@ -372,7 +372,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'separator_color',
 			[
-				'label'     => __('Separator Color', 'elementor'),
+				'label'     => __('Separator Color', 'wts-eae'),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
 					'type'  => Scheme_Color::get_type(),
@@ -388,7 +388,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'separator_height',
 			[
-				'label' => __( 'Separator Height', 'elementor' ),
+				'label' => __( 'Separator Height', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 1,
@@ -409,7 +409,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'nav_width',
 			[
-				'label' => __( 'Tab Width', 'elementor' ),
+				'label' => __( 'Tab Width', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 20,
@@ -431,11 +431,11 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'show_text_mobile',
 			[
-				'label' => __( 'Title on Mobile', 'elementor' ),
+				'label' => __( 'Title on Mobile', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-					'yes' => __( 'Yes', 'elementor' ),
-					'no' => __( 'No', 'elementor' ),
+					'yes' => __( 'Yes', 'wts-eae' ),
+					'no' => __( 'No', 'wts-eae' ),
 				],
 				'default' => 'no',
 			]
@@ -455,19 +455,19 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'tab_title_align',
 			[
-				'label' => __( 'Alignment', 'elementor' ),
+				'label' => __( 'Alignment', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					],
 				],
@@ -480,7 +480,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'icon_size',
 			[
-				'label' => __( 'Icon Size', 'elementor' ),
+				'label' => __( 'Icon Size', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
 					'size' => 20,
@@ -504,7 +504,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->start_controls_section(
             'tab_content_style',
             [
-                 'label'    =>  __('Content', 'elementor'),
+                 'label'    =>  __('Content', 'wts-eae'),
                  'tab'      => Controls_Manager::TAB_STYLE
             ]
 		);
@@ -512,23 +512,23 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'tab_text_align',
 			[
-				'label' => __( 'Alignment', 'elementor' ),
+				'label' => __( 'Alignment', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					],
 					'justify' => [
-						'title' => __( 'Justified', 'elementor' ),
+						'title' => __( 'Justified', 'wts-eae' ),
 						'icon' => 'fa fa-align-justify',
 					],
 				],
@@ -541,7 +541,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_control(
 			'text_color',
 			[
-				'label' => __( 'Text Color', 'elementor' ),
+				'label' => __( 'Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'default' => '',
 				'selectors' => [
@@ -575,7 +575,7 @@ class Widget_Advance_Tabs extends Widget_Base {
 		$this->add_responsive_control(
 			'tab_content_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [

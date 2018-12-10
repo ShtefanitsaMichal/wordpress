@@ -128,10 +128,10 @@ background: linear-gradient(to bottom,#0000 0, #0006 50%, #000000b3 100%);
 .wtpswcolumn, .wtpswcolumns{float:left; width:100%; position: relative;}
 
 @media only screen {
-	.wtpswcolumn,  .wtpswcolumns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em; float: left; }
+	.wtpswcolumn,  .wtpswcolumns {position: relative;padding-left:  2px;padding-right: 2px;float: left; }
 }
 @media only screen and (min-width: 40.0625em) {
-	.wtpswcolumn, .wtpswcolumns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em;float: left; }
+	.wtpswcolumn, .wtpswcolumns {position: relative;padding-left: 2px;padding-right: 2px;float: left; }
 
 	.wtpsw-medium-1 {    width: 8.33333%; }
 	.wtpsw-medium-2 {    width: 16.66667%; }

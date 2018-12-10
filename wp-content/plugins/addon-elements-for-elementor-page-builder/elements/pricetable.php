@@ -10,7 +10,7 @@ class Widget_PriceTable extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - Price Table', 'elementor' );
+		return __( 'EAE - Price Table', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -26,32 +26,32 @@ class Widget_PriceTable extends Widget_Base {
 		$this->start_controls_section(
 			'section_title',
 			[
-				'label' => __( 'Plan Heading', 'elementor' )
+				'label' => __( 'Plan Heading', 'wts-eae' )
 			]
 		);
 
 		$this->add_control(
 			'heading',
 			[
-				'label' => __( 'Heading', 'elementor' ),
+				'label' => __( 'Heading', 'wts-eae' ),
 				'type' => Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter plan name', 'elementor' ),
-				'default' => __( 'Plan 1', 'elementor' ),
+				'placeholder' => __( 'Enter plan name', 'wts-eae' ),
+				'default' => __( 'Plan 1', 'wts-eae' ),
 			]
 		);
 
         $this->add_control(
             'heading_tag',
             [
-                'label' => __( 'Heading HTML Tag', 'elementor' ),
+                'label' => __( 'Heading HTML Tag', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'h1' => __( 'H1', 'elementor' ),
-                    'h2' => __( 'H2', 'elementor' ),
-                    'h3' => __( 'H3', 'elementor' ),
-                    'h4' => __( 'H4', 'elementor' ),
-                    'h5' => __( 'H5', 'elementor' ),
-                    'h6' => __( 'H6', 'elementor' )
+                    'h1' => __( 'H1', 'wts-eae' ),
+                    'h2' => __( 'H2', 'wts-eae' ),
+                    'h3' => __( 'H3', 'wts-eae' ),
+                    'h4' => __( 'H4', 'wts-eae' ),
+                    'h5' => __( 'H5', 'wts-eae' ),
+                    'h6' => __( 'H6', 'wts-eae' )
                 ],
                 'default' => 'h2',
             ]
@@ -61,26 +61,26 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'sub-heading',
 			[
-				'label' => __( 'Sub Heading', 'elementor' ),
+				'label' => __( 'Sub Heading', 'wts-eae' ),
 				'type' => Controls_Manager::TEXT,
-				'placeholder' => __( 'Enter plan name', 'elementor' ),
-				'default' => __( 'Plan 1', 'elementor' ),
+				'placeholder' => __( 'Enter plan name', 'wts-eae' ),
+				'default' => __( 'Plan 1', 'wts-eae' ),
 			]
 		);
 
         $this->add_control(
             'sub_heading_tag',
             [
-                'label' => __( 'Sub Heading HTML Tag', 'elementor' ),
+                'label' => __( 'Sub Heading HTML Tag', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'h1' => __( 'H1', 'elementor' ),
-                    'h2' => __( 'H2', 'elementor' ),
-                    'h3' => __( 'H3', 'elementor' ),
-                    'h4' => __( 'H4', 'elementor' ),
-                    'h5' => __( 'H5', 'elementor' ),
-                    'h6' => __( 'H6', 'elementor' ),
-                    'p' => __( 'P', 'elementor' )
+                    'h1' => __( 'H1', 'wts-eae' ),
+                    'h2' => __( 'H2', 'wts-eae' ),
+                    'h3' => __( 'H3', 'wts-eae' ),
+                    'h4' => __( 'H4', 'wts-eae' ),
+                    'h5' => __( 'H5', 'wts-eae' ),
+                    'h6' => __( 'H6', 'wts-eae' ),
+                    'p' => __( 'P', 'wts-eae' )
                 ],
                 'default' => 'h3',
             ]
@@ -91,7 +91,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section_price_box',
             [
-                'label' => __( 'Price Box', 'elementor' )
+                'label' => __( 'Price Box', 'wts-eae' )
             ]
         );
 
@@ -99,10 +99,10 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
             'price-box-text',
             [
-                'label' => __( 'Price Box Text', 'elementor' ),
+                'label' => __( 'Price Box Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
-                'placeholder' => __( '$100', 'elementor' ),
-                'default' => __( '$100', 'elementor' ),
+                'placeholder' => __( '$100', 'wts-eae' ),
+                'default' => __( '$100', 'wts-eae' ),
             ]
         );
 
@@ -110,22 +110,22 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
             'price-box-subtext',
             [
-                'label' => __( 'Price Box Sub Text', 'elementor' ),
+                'label' => __( 'Price Box Sub Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
-                'placeholder' => __( 'per month', 'elementor' ),
-                'default' => __( 'per month', 'elementor' ),
+                'placeholder' => __( 'per month', 'wts-eae' ),
+                'default' => __( 'per month', 'wts-eae' ),
             ]
         );
 
         $this->add_control(
 			'shape',
 			[
-				'label' => __( 'Shape', 'elementor' ),
+				'label' => __( 'Shape', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'options' => [
-				    'none' => __( 'None', 'elementor' ),
-					'circle' => __( 'Circle', 'elementor' ),
-					'square' => __( 'Square', 'elementor' ),
+				    'none' => __( 'None', 'wts-eae' ),
+					'circle' => __( 'Circle', 'wts-eae' ),
+					'square' => __( 'Square', 'wts-eae' ),
 				],
 				'default' => 'circle',
 				'prefix_class' => 'eae-pt-price-box-shape-',
@@ -137,41 +137,41 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section_features',
             [
-                'label' => __( 'Features', 'elementor' )
+                'label' => __( 'Features', 'wts-eae' )
             ]
         );
 
         $this->add_control(
             'feature-list',
             [
-                'label' => __( 'Plan Features', 'elementor' ),
+                'label' => __( 'Plan Features', 'wts-eae' ),
                 'type' => Controls_Manager::REPEATER,
                 'default' => [
                     [
-                        'text' => __( 'List Item #1', 'elementor' ),
+                        'text' => __( 'List Item #1', 'wts-eae' ),
                         'available' => 'yes'
                     ],
                     [
-                        'text' => __( 'List Item #2', 'elementor' ),
+                        'text' => __( 'List Item #2', 'wts-eae' ),
                         'available' => 'yes'
                     ],
                     [
-                        'text' => __( 'List Item #3', 'elementor' ),
+                        'text' => __( 'List Item #3', 'wts-eae' ),
                         'available' => 'yes'
                     ],
                 ],
                 'fields' => [
                     [
                         'name' => 'text',
-                        'label' => __( 'Text', 'elementor' ),
+                        'label' => __( 'Text', 'wts-eae' ),
                         'type' => Controls_Manager::TEXT,
                         'label_block' => true,
-                        'placeholder' => __( 'Plan Features', 'elementor' ),
-                        'default' => __( 'Feature 1', 'elementor' ),
+                        'placeholder' => __( 'Plan Features', 'wts-eae' ),
+                        'default' => __( 'Feature 1', 'wts-eae' ),
                     ],
                     [
                         'name' => 'available',
-                        'label' => __( 'Included', 'elementor' ),
+                        'label' => __( 'Included', 'wts-eae' ),
                         'type' => Controls_Manager::SWITCHER,
                         'label_block' => true,
                         'default' => 'yes'
@@ -186,26 +186,26 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section_action_button',
             [
-                'label' => __( 'Action Button', 'elementor' )
+                'label' => __( 'Action Button', 'wts-eae' )
             ]
         );
 
         $this->add_control(
             'action_text',
             [
-                'label' => __( 'Button Text', 'elementor' ),
+                'label' => __( 'Button Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
-                'placeholder' => __( 'Buy', 'elementor' ),
-                'default' => __( 'Buy Now', 'elementor' ),
+                'placeholder' => __( 'Buy', 'wts-eae' ),
+                'default' => __( 'Buy Now', 'wts-eae' ),
             ]
         );
 
         $this->add_control(
             'link',
             [
-                'label' => __( 'Link to', 'elementor' ),
+                'label' => __( 'Link to', 'wts-eae' ),
                 'type' => Controls_Manager::URL,
-                'placeholder' => __( 'http://your-link.com', 'elementor' ),
+                'placeholder' => __( 'http://your-link.com', 'wts-eae' ),
                 'separator' => 'before',
             ]
         );
@@ -213,7 +213,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'icon',
 			[
-				'label' => __( 'Icon', 'elementor' ),
+				'label' => __( 'Icon', 'wts-eae' ),
 				'type' => Controls_Manager::ICON,
 				'label_block' => true,
 				'default' => 'fa fa-shopping-cart',
@@ -223,12 +223,12 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'icon_align',
 			[
-				'label' => __( 'Icon Position', 'elementor' ),
+				'label' => __( 'Icon Position', 'wts-eae' ),
 				'type' => Controls_Manager::SELECT,
 				'default' => 'left',
 				'options' => [
-					'left' => __( 'Before', 'elementor' ),
-					'right' => __( 'After', 'elementor' ),
+					'left' => __( 'Before', 'wts-eae' ),
+					'right' => __( 'After', 'wts-eae' ),
 				],
 				'condition' => [
 					'icon!' => '',
@@ -239,7 +239,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'icon_indent',
 			[
-				'label' => __( 'Icon Spacing', 'elementor' ),
+				'label' => __( 'Icon Spacing', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'range' => [
 					'px' => [
@@ -266,7 +266,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section-box-style',
             [
-                'label' => __( 'Box Style', 'elementor' ),
+                'label' => __( 'Box Style', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -274,7 +274,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
             'box-color',
             [
-                'label' => __( 'Box Color', 'elementor' ),
+                'label' => __( 'Box Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -291,7 +291,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'box_border',
-				'label' => __( 'Box Border', 'elementor' ),
+				'label' => __( 'Box Border', 'wts-eae' ),
 				'placeholder' => '1px',
 				'default' => '1px',
 				'selector' => '{{WRAPPER}} .wts-price-box-wrapper',
@@ -302,7 +302,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
             'box-border-radius',
             [
-                'label' => __( 'Border Radius', 'elementor' ),
+                'label' => __( 'Border Radius', 'wts-eae' ),
                 'type' => Controls_Manager::DIMENSIONS,
                 'size_units' => [ 'px', '%' ],
                 'selectors' => [
@@ -328,7 +328,7 @@ class Widget_PriceTable extends Widget_Base {
        $this->start_controls_section(
             'section-plan-heading-style',
             [
-                'label' => __( 'Plan Heading', 'elementor' ),
+                'label' => __( 'Plan Heading', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
        );
@@ -336,7 +336,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'plan_heading_color',
 			[
-				'label' => __( 'Heading Color', 'elementor' ),
+				'label' => __( 'Heading Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -361,7 +361,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'plan_sub_heading_color',
 			[
-				'label' => __( 'Sub Heading Color', 'elementor' ),
+				'label' => __( 'Sub Heading Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -388,7 +388,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Background::get_type(),
 			[
 				'name' => 'heading_section_bg',
-				'label' => __( 'Section Background', 'elementor' ),
+				'label' => __( 'Section Background', 'wts-eae' ),
 				'types' => [ 'classic','gradient' ],
 				'selector' => '{{WRAPPER}} .heading-wrapper',
 			]
@@ -399,7 +399,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section-price-box',
             [
-                'label' => __( 'Price Box', 'elementor' ),
+                'label' => __( 'Price Box', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -407,7 +407,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'pb_content_settings',
 			[
-				'label' => __( 'Content Settings', 'elementor' ),
+				'label' => __( 'Content Settings', 'wts-eae' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -416,7 +416,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'price_text_color',
 			[
-				'label' => __( 'Price Text Color', 'elementor' ),
+				'label' => __( 'Price Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -442,7 +442,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'price_sub_text_color',
 			[
-				'label' => __( 'Sub Text Color', 'elementor' ),
+				'label' => __( 'Sub Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -467,7 +467,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'pb_box_settings',
 			[
-				'label' => __( 'Box Settings', 'elementor' ),
+				'label' => __( 'Box Settings', 'wts-eae' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -477,7 +477,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'price_box_border',
-				'label' => __( 'Price Box Border', 'elementor' ),
+				'label' => __( 'Price Box Border', 'wts-eae' ),
 				'selector' => '{{WRAPPER}} .plan-price-shape',
 			]
 		);
@@ -485,7 +485,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'price_box_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -497,7 +497,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_responsive_control(
 			'price_box_padding',
 			[
-				'label' => __( 'Price Box Padding', 'elementor' ),
+				'label' => __( 'Price Box Padding', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -511,7 +511,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Background::get_type(),
 			[
 				'name' => 'price_box_section_bg',
-				'label' => __( 'Section Background', 'elementor' ),
+				'label' => __( 'Section Background', 'wts-eae' ),
 				'types' => [ 'classic' ,'gradient'],
 				'selector' => '{{WRAPPER}} .plan-price-block',
 			]
@@ -523,7 +523,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section-features-style',
             [
-                'label' => __( 'Feature List', 'elementor' ),
+                'label' => __( 'Feature List', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -531,7 +531,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'features_text_color',
 			[
-				'label' => __( 'Features Color', 'elementor' ),
+				'label' => __( 'Features Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 				    'type' => Scheme_Color::get_type(),
@@ -558,7 +558,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Background::get_type(),
 			[
 				'name' => 'feature_section_bg',
-				'label' => __( 'Section Background', 'elementor' ),
+				'label' => __( 'Section Background', 'wts-eae' ),
 				'types' => [ 'classic','gradient' ],
 				'selector' => '{{WRAPPER}} .plan-features-wrapper',
 			]
@@ -567,19 +567,19 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_responsive_control(
             'feature_align',
             [
-                'label' => __( 'Alignment', 'elementor' ),
+                'label' => __( 'Alignment', 'wts-eae' ),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [
-                        'title' => __( 'Left', 'elementor' ),
+                        'title' => __( 'Left', 'wts-eae' ),
                         'icon' => 'fa fa-align-left',
                     ],
                     'center' => [
-                        'title' => __( 'Center', 'elementor' ),
+                        'title' => __( 'Center', 'wts-eae' ),
                         'icon' => 'fa fa-align-center',
                     ],
                     'right' => [
-                        'title' => __( 'Right', 'elementor' ),
+                        'title' => __( 'Right', 'wts-eae' ),
                         'icon' => 'fa fa-align-right',
                     ]
                 ],
@@ -595,7 +595,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->start_controls_section(
             'section-action-button',
             [
-                'label' => __( 'Action Button', 'elementor' ),
+                'label' => __( 'Action Button', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -603,7 +603,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
             'button-section-bg',
             [
-                'label' => __( 'Section Background', 'elementor' ),
+                'label' => __( 'Section Background', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -619,7 +619,7 @@ class Widget_PriceTable extends Widget_Base {
         $this->add_control(
 			'button_text_color',
 			[
-				'label' => __( 'Text Color', 'elementor' ),
+				'label' => __( 'Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'default' => '#fff',
 				'selectors' => [
@@ -632,7 +632,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'typography',
-				'label' => __( 'Typography', 'elementor' ),
+				'label' => __( 'Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .eae-pt-action-button',
 			]
@@ -641,7 +641,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'background_color',
 			[
-				'label' => __( 'Background Color', 'elementor' ),
+				'label' => __( 'Background Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 					'type' => Scheme_Color::get_type(),
@@ -658,7 +658,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Background::get_type(),
 			[
 				'name' => 'action_section_bg',
-				'label' => __( 'Section Background', 'elementor' ),
+				'label' => __( 'Section Background', 'wts-eae' ),
 				'types' => [ 'classic','gradient' ],
 				'selector' => '{{WRAPPER}} .eae-pt-button-wrapper',
 				'default' => [
@@ -672,7 +672,7 @@ class Widget_PriceTable extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'border',
-				'label' => __( 'Border', 'elementor' ),
+				'label' => __( 'Border', 'wts-eae' ),
 				'placeholder' => '1px',
 				'default' => '1px',
 				'selector' => '{{WRAPPER}} .eae-pt-action-button',
@@ -682,7 +682,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -694,7 +694,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'text_padding',
 			[
-				'label' => __( 'Text Padding', 'elementor' ),
+				'label' => __( 'Text Padding', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -708,7 +708,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->start_controls_section(
 			'section_hover',
 			[
-				'label' => __( 'Button Hover', 'elementor' ),
+				'label' => __( 'Button Hover', 'wts-eae' ),
 				'type' => Controls_Manager::SECTION,
 				'tab' => Controls_Manager::TAB_STYLE,
 			]
@@ -717,7 +717,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'hover_color',
 			[
-				'label' => __( 'Text Color', 'elementor' ),
+				'label' => __( 'Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eae-pt-action-button:hover' => 'color: {{VALUE}};',
@@ -728,7 +728,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'button_background_hover_color',
 			[
-				'label' => __( 'Background Color', 'elementor' ),
+				'label' => __( 'Background Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eae-pt-action-button:hover' => 'background-color: {{VALUE}};',
@@ -739,7 +739,7 @@ class Widget_PriceTable extends Widget_Base {
 		$this->add_control(
 			'button_hover_border_color',
 			[
-				'label' => __( 'Border Color', 'elementor' ),
+				'label' => __( 'Border Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'condition' => [
 					'border_border!' => '',

@@ -10,7 +10,7 @@ class Widget_FlipBox extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - Flip Box', 'elementor' );
+		return __( 'EAE - Flip Box', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -26,14 +26,14 @@ class Widget_FlipBox extends Widget_Base {
         $this->start_controls_section(
             'section_front_box',
             [
-                'label' => __( 'Front Box', 'elementor' )
+                'label' => __( 'Front Box', 'wts-eae' )
             ]
         );
 
         $this->add_control(
             'front_icon',
             [
-                'label' => __( 'Icon', 'elementor' ),
+                'label' => __( 'Icon', 'wts-eae' ),
                 'type' => Controls_Manager::ICON,
                 'label_block' => true,
                 'default' => 'fa fa-star',
@@ -43,12 +43,12 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_icon_view',
             [
-                'label' => __( 'View', 'elementor' ),
+                'label' => __( 'View', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'default' => __( 'Default', 'elementor' ),
-                    'stacked' => __( 'Stacked', 'elementor' ),
-                    'framed' => __( 'Framed', 'elementor' ),
+                    'default' => __( 'Default', 'wts-eae' ),
+                    'stacked' => __( 'Stacked', 'wts-eae' ),
+                    'framed' => __( 'Framed', 'wts-eae' ),
                 ],
                 'default' => 'default',
 
@@ -58,11 +58,11 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_icon_shape',
             [
-                'label' => __( 'Shape', 'elementor' ),
+                'label' => __( 'Shape', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'circle' => __( 'Circle', 'elementor' ),
-                    'square' => __( 'Square', 'elementor' ),
+                    'circle' => __( 'Circle', 'wts-eae' ),
+                    'square' => __( 'Square', 'wts-eae' ),
                 ],
                 'default' => 'circle',
                 'condition' => [
@@ -75,28 +75,28 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_title',
             [
-                'label' => __( 'Title', 'elementor' ),
+                'label' => __( 'Title', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
                 'dynamic' => [
 					'active' => true,
                 ],
-                'placeholder' => __( 'Enter text', 'elementor' ),
-                'default' => __( 'Text Title', 'elementor' ),
+                'placeholder' => __( 'Enter text', 'wts-eae' ),
+                'default' => __( 'Text Title', 'wts-eae' ),
             ]
         );
 
         $this->add_control(
             'front_title_html_tag',
             [
-                'label' => __( 'HTML Tag', 'elementor' ),
+                'label' => __( 'HTML Tag', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'h1' => __( 'H1', 'elementor' ),
-                    'h2' => __( 'H2', 'elementor' ),
-                    'h3' => __( 'H3', 'elementor' ),
-                    'h4' => __( 'H4', 'elementor' ),
-                    'h5' => __( 'H5', 'elementor' ),
-                    'h6' => __( 'H6', 'elementor' )
+                    'h1' => __( 'H1', 'wts-eae' ),
+                    'h2' => __( 'H2', 'wts-eae' ),
+                    'h3' => __( 'H3', 'wts-eae' ),
+                    'h4' => __( 'H4', 'wts-eae' ),
+                    'h5' => __( 'H5', 'wts-eae' ),
+                    'h6' => __( 'H6', 'wts-eae' )
                 ],
                 'default' => 'h3',
             ]
@@ -105,13 +105,13 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front-text',
             [
-                'label' => __( 'Text', 'elementor' ),
+                'label' => __( 'Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXTAREA,
                 'dynamic' => [
 					'active' => true,
                 ],
-                'placeholder' => __( 'Enter text', 'elementor' ),
-                'default' => __( 'Add some nice text here.', 'elementor' ),
+                'placeholder' => __( 'Enter text', 'wts-eae' ),
+                'default' => __( 'Add some nice text here.', 'wts-eae' ),
             ]
         );
 
@@ -120,14 +120,14 @@ class Widget_FlipBox extends Widget_Base {
         $this->start_controls_section(
             'section_back_box',
             [
-                'label' => __( 'Back Box', 'elementor' )
+                'label' => __( 'Back Box', 'wts-eae' )
             ]
         );
 
         $this->add_control(
             'back_icon',
             [
-                'label' => __( 'Icon', 'elementor' ),
+                'label' => __( 'Icon', 'wts-eae' ),
                 'type' => Controls_Manager::ICON,
                 'label_block' => true,
                 'default' => 'fa fa-star',
@@ -137,12 +137,12 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_icon_view',
             [
-                'label' => __( 'View', 'elementor' ),
+                'label' => __( 'View', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'default' => __( 'Default', 'elementor' ),
-                    'stacked' => __( 'Stacked', 'elementor' ),
-                    'framed' => __( 'Framed', 'elementor' ),
+                    'default' => __( 'Default', 'wts-eae' ),
+                    'stacked' => __( 'Stacked', 'wts-eae' ),
+                    'framed' => __( 'Framed', 'wts-eae' ),
                 ],
                 'default' => 'default',
 
@@ -152,11 +152,11 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_icon_shape',
             [
-                'label' => __( 'Shape', 'elementor' ),
+                'label' => __( 'Shape', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'circle' => __( 'Circle', 'elementor' ),
-                    'square' => __( 'Square', 'elementor' ),
+                    'circle' => __( 'Circle', 'wts-eae' ),
+                    'square' => __( 'Square', 'wts-eae' ),
                 ],
                 'default' => 'circle',
                 'condition' => [
@@ -169,28 +169,28 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_title',
             [
-                'label' => __( 'Title', 'elementor' ),
+                'label' => __( 'Title', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
                 'dynamic' => [
 					'active' => true,
                 ],
-                'placeholder' => __( 'Enter text', 'elementor' ),
-                'default' => __( 'Text Title', 'elementor' ),
+                'placeholder' => __( 'Enter text', 'wts-eae' ),
+                'default' => __( 'Text Title', 'wts-eae' ),
             ]
         );
 
         $this->add_control(
             'back_title_html_tag',
             [
-                'label' => __( 'HTML Tag', 'elementor' ),
+                'label' => __( 'HTML Tag', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'h1' => __( 'H1', 'elementor' ),
-                    'h2' => __( 'H2', 'elementor' ),
-                    'h3' => __( 'H3', 'elementor' ),
-                    'h4' => __( 'H4', 'elementor' ),
-                    'h5' => __( 'H5', 'elementor' ),
-                    'h6' => __( 'H6', 'elementor' )
+                    'h1' => __( 'H1', 'wts-eae' ),
+                    'h2' => __( 'H2', 'wts-eae' ),
+                    'h3' => __( 'H3', 'wts-eae' ),
+                    'h4' => __( 'H4', 'wts-eae' ),
+                    'h5' => __( 'H5', 'wts-eae' ),
+                    'h6' => __( 'H6', 'wts-eae' )
                 ],
                 'default' => 'h3',
             ]
@@ -199,13 +199,13 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_text',
             [
-                'label' => __( 'Text', 'elementor' ),
+                'label' => __( 'Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXTAREA,
                 'dynamic' => [
 					'active' => true,
                 ],
-                'placeholder' => __( 'Enter text', 'elementor' ),
-                'default' => __( 'Add some nice text here.', 'elementor' ),
+                'placeholder' => __( 'Enter text', 'wts-eae' ),
+                'default' => __( 'Add some nice text here.', 'wts-eae' ),
             ]
         );
 
@@ -215,29 +215,29 @@ class Widget_FlipBox extends Widget_Base {
         $this->start_controls_section(
             'section-action-button',
             [
-                'label' => __( 'Action Button', 'elementor' ),
+                'label' => __( 'Action Button', 'wts-eae' ),
             ]
         );
 
         $this->add_control(
             'action_text',
             [
-                'label' => __( 'Button Text', 'elementor' ),
+                'label' => __( 'Button Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
-                'placeholder' => __( 'Buy', 'elementor' ),
-                'default' => __( 'Buy Now', 'elementor' ),
+                'placeholder' => __( 'Buy', 'wts-eae' ),
+                'default' => __( 'Buy Now', 'wts-eae' ),
             ]
         );
 
         $this->add_control(
             'link',
             [
-                'label' => __( 'Link to', 'elementor' ),
+                'label' => __( 'Link to', 'wts-eae' ),
                 'type' => Controls_Manager::URL,
                 'dynamic' => [
 					'active' => true,
                 ],
-                'placeholder' => __( 'http://your-link.com', 'elementor' ),
+                'placeholder' => __( 'http://your-link.com', 'wts-eae' ),
                 'separator' => 'before',
             ]
         );
@@ -247,7 +247,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->start_controls_section(
             'section-general-style',
             [
-                'label' => __( 'General', 'elementor' ),
+                'label' => __( 'General', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
             ]
         );
@@ -255,12 +255,23 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'animation_style',
             [
-                'label' => __( 'Animation Style', 'elementor' ),
+                'label' => __( 'Animation Style', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
-                    'horizontal' => __( 'Flip Horizontal', 'elementor' ),
-                    'vertical' => __( 'Flip Vertical', 'elementor' ),
-                    'fade'  =>__('Fade','elementor'),
+                    'horizontal'                            => __( 'Flip Horizontal', 'wts-eae' ),
+                    'vertical'                              => __( 'Flip Vertical', 'wts-eae' ),
+                    'fade'                                  => __( 'Fade','wts-eae'),
+                    'flipcard flipcard-rotate-top-down'     => __( 'Cube - Top Down', 'wts-eae' ),
+                    'flipcard flipcard-rotate-down-top'     => __( 'Cube - Down Top', 'wts-eae' ),
+                    //'flipcard flipcard-rotate-left-right'   => __( 'Cube - Left Right', 'wts-eae' ),
+                    //'flipcard flipcard-rotate-right-left'   => __( 'Cube - Right Left', 'wts-eae' ),
+                    'flip box'                              => __( 'Flip Box','wts-eae'),
+                    'flip box fade'                         => __( 'Flip Box Fade','wts-eae'),
+                    'flip box fade up'                      => __( 'Fade Up','wts-eae'),
+                    'flip box fade hideback'                => __( 'Fade Hideback','wts-eae'),
+                    'flip box fade up hideback'             => __( 'Fade Up Hideback','wts-eae'),
+                    'nananana'                              => __( 'Nananana','wts-eae'),
+                    ''                                      => __( 'Rollover','wts-eae'),
                 ],
                 'default' => 'vertical',
                 'prefix_class' => 'eae-fb-animate-'
@@ -272,7 +283,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'flip_box_border',
-				'label' => __( 'Box Border', 'elementor' ),
+				'label' => __( 'Box Border', 'wts-eae' ),
 				'selector' => '{{WRAPPER}} .eae-flip-box-inner > div',
 			]
 		);
@@ -282,7 +293,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
 			'box_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -296,12 +307,13 @@ class Widget_FlipBox extends Widget_Base {
 			'box_height',
 			[
 			    'type' => Controls_Manager::TEXT,
-			    'label' => __( 'Box Height', 'elementor' ),
-                'placeholder' => __( '250', 'elementor' ),
-                'default' => __( '250', 'elementor' ),
+			    'label' => __( 'Box Height', 'wts-eae' ),
+                'placeholder' => __( '250', 'wts-eae' ),
+                'default' => __( '250', 'wts-eae' ),
                 'selectors' => [
 					'{{WRAPPER}} .eae-flip-box-inner' => 'height: {{VALUE}}px;',
-					'{{WRAPPER}} .eae-flip-box-inner' => 'height: {{VALUE}}px;'
+					'{{WRAPPER}}.eae-fb-animate-flipcard .eae-flip-box-front' => 'transform-origin: center center calc(-{{VALUE}}px/2);-webkit-transform-origin:center center calc(-{{VALUE}}px/2);',
+                    '{{WRAPPER}}.eae-fb-animate-flipcard .eae-flip-box-back' => 'transform-origin: center center calc(-{{VALUE }}px/2);-webkit-transform-origin:center center calc(-{{VALUE}}px/2);'
 				],
             ]
 		);
@@ -311,7 +323,7 @@ class Widget_FlipBox extends Widget_Base {
 	    $this->start_controls_section(
 			'section-front-box-style',
 			[
-				'label' => __( 'Front Box', 'elementor' ),
+				'label' => __( 'Front Box', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -320,7 +332,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Background::get_type(),
 			[
 				'name' => 'front_box_background',
-				'label' => __( 'Front Box Background', 'elementor' ),
+				'label' => __( 'Front Box Background', 'wts-eae' ),
 				'types' => [ 'classic','gradient' ],
 				'selector' => '{{WRAPPER}} .eae-flip-box-front',
 			]
@@ -330,7 +342,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_box_title_color',
             [
-                'label' => __( 'Title', 'elementor' ),
+                'label' => __( 'Title', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -350,7 +362,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'front_box_title_typography',
-				'label' => __( 'Title Typography', 'elementor' ),
+				'label' => __( 'Title Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .front-icon-title',
 			]
@@ -359,7 +371,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_box_text_color',
             [
-                'label' => __( 'Description Color', 'elementor' ),
+                'label' => __( 'Description Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -377,7 +389,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'front_box_text_typography',
-				'label' => __( 'Description Typography', 'elementor' ),
+				'label' => __( 'Description Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .eae-flip-box-front p',
 			]
@@ -390,7 +402,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_box_icon_color',
             [
-                'label' => __( 'Icon Color', 'elementor' ),
+                'label' => __( 'Icon Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -409,7 +421,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'front_box_icon_fill_color',
             [
-                'label' => __( 'Icon Fill Color', 'elementor' ),
+                'label' => __( 'Icon Fill Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -429,7 +441,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'front_box_icon_border',
-				'label' => __( 'Box Border', 'elementor' ),
+				'label' => __( 'Box Border', 'wts-eae' ),
 				'placeholder' => '1px',
 				'default' => '1px',
 				'selector' => '{{WRAPPER}} .eae-flip-box-front .eae-fb-icon-view-framed, {{WRAPPER}} .eae-flip-box-front .eae-fb-icon-view-stacked',
@@ -443,7 +455,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'front_icon_size',
 			[
-				'label' => __( 'Icon Size', 'elementor' ),
+				'label' => __( 'Icon Size', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'range' => [
 					'px' => [
@@ -460,7 +472,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'front_icon_padding',
 			[
-				'label' => __( 'Icon Padding', 'elementor' ),
+				'label' => __( 'Icon Padding', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'selectors' => [
 					'{{WRAPPER}} .eae-flip-box-front .icon-wrapper' => 'padding: {{SIZE}}{{UNIT}};',
@@ -491,7 +503,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->start_controls_section(
             'section-back-box-style',
             [
-                'label' => __( 'Back Box', 'elementor' ),
+                'label' => __( 'Back Box', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
             ]
         );
@@ -501,7 +513,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Background::get_type(),
 			[
 				'name' => 'back_box_background',
-				'label' => __( 'Back Box Background', 'elementor' ),
+				'label' => __( 'Back Box Background', 'wts-eae' ),
 				'types' => [ 'classic','gradient' ],
 				'selector' => '{{WRAPPER}} .eae-flip-box-back',
 			]
@@ -510,7 +522,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_box_title_color',
             [
-                'label' => __( 'Title', 'elementor' ),
+                'label' => __( 'Title', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -528,7 +540,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'back_box_title_typography',
-				'label' => __( 'Title Typography', 'elementor' ),
+				'label' => __( 'Title Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .back-icon-title',
 			]
@@ -537,7 +549,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_box_text_color',
             [
-                'label' => __( 'Description Color', 'elementor' ),
+                'label' => __( 'Description Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -555,7 +567,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'back_box_text_typography',
-				'label' => __( 'Description Typography', 'elementor' ),
+				'label' => __( 'Description Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .eae-flip-box-back p',
 			]
@@ -568,7 +580,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_box_icon_color',
             [
-                'label' => __( 'Icon Color', 'elementor' ),
+                'label' => __( 'Icon Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -587,7 +599,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
             'back_box_icon_fill_color',
             [
-                'label' => __( 'Icon Fill Color', 'elementor' ),
+                'label' => __( 'Icon Fill Color', 'wts-eae' ),
                 'type' => Controls_Manager::COLOR,
                 'scheme' => [
                     'type' => Scheme_Color::get_type(),
@@ -607,7 +619,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'back_box_icon_border',
-				'label' => __( 'Box Border', 'elementor' ),
+				'label' => __( 'Box Border', 'wts-eae' ),
 				'placeholder' => '1px',
 				'default' => '1px',
 				'selector' => '{{WRAPPER}} .eae-flip-box-back .eae-fb-icon-view-framed, {{WRAPPER}} .eae-flip-box-back .eae-fb-icon-view-stacked',
@@ -621,7 +633,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'back_icon_size',
 			[
-				'label' => __( 'Icon Size', 'elementor' ),
+				'label' => __( 'Icon Size', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'range' => [
 					'px' => [
@@ -638,7 +650,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'back_icon_padding',
 			[
-				'label' => __( 'Icon Padding', 'elementor' ),
+				'label' => __( 'Icon Padding', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'selectors' => [
 					'{{WRAPPER}} .eae-flip-box-back .icon-wrapper' => 'padding: {{SIZE}}{{UNIT}};',
@@ -665,7 +677,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->start_controls_section(
             'section-action-button-style',
             [
-                'label' => __( 'Action Button', 'elementor' ),
+                'label' => __( 'Action Button', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -673,7 +685,7 @@ class Widget_FlipBox extends Widget_Base {
         $this->add_control(
 			'button_text_color',
 			[
-				'label' => __( 'Text Color', 'elementor' ),
+				'label' => __( 'Text Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'default' => '#fff',
 				'selectors' => [
@@ -686,7 +698,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'typography',
-				'label' => __( 'Typography', 'elementor' ),
+				'label' => __( 'Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .eae-fb-button',
 			]
@@ -695,7 +707,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'background_color',
 			[
-				'label' => __( 'Background Color', 'elementor' ),
+				'label' => __( 'Background Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 					'type' => Scheme_Color::get_type(),
@@ -712,7 +724,7 @@ class Widget_FlipBox extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'border',
-				'label' => __( 'Border', 'elementor' ),
+				'label' => __( 'Border', 'wts-eae' ),
 				'placeholder' => '1px',
 				'default' => '1px',
 				'selector' => '{{WRAPPER}} .eae-fb-button',
@@ -722,7 +734,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -734,7 +746,7 @@ class Widget_FlipBox extends Widget_Base {
 		$this->add_control(
 			'text_padding',
 			[
-				'label' => __( 'Text Padding', 'elementor' ),
+				'label' => __( 'Text Padding', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [

@@ -41,7 +41,7 @@ class Widget_FlipBoxSet extends Widget_Base {
 				'min'               => 1,
 				'max'               => 6,
 				'selectors'         => [
-					'{{WRAPPER}} .eae-flip-box-wrapper' => 'width: calc(100%/{{ value }} - 1%) ',
+					'{{WRAPPER}} .eae-flip-box-wrapper' => 'width: calc(100%/{{VALUE}} - 1%) ',
 				]
 			]
 		);

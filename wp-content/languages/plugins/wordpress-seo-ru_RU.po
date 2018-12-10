@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-30 15:45:30+0000\n"
+"PO-Revision-Date: 2018-12-05 22:57:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -636,7 +636,7 @@ msgstr "оптимизируйте отдельную запись по сино
 #. translators: %s: argument name
 #: admin/views/class-yoast-feature-toggle.php:60
 msgid "%s is a required feature toggle argument."
-msgstr "%s - требуемый агрумент для включения или выключения возможности."
+msgstr "%s - требуемый аргумент для включения или выключения возможности."
 
 #: admin/taxonomy/class-taxonomy-metabox.php:283
 msgid "Optimize a single post for synonyms and related keyphrases."
@@ -849,7 +849,7 @@ msgstr "Добавить вопрос"
 
 #: languages/wordpress-seojs.php:127
 msgid "Frequently Asked Questions"
-msgstr "Частозадаваемые вопросы"
+msgstr "Часто задаваемые вопросы"
 
 #: languages/wordpress-seojs.php:81
 msgid "Great news: you can, with %s!"

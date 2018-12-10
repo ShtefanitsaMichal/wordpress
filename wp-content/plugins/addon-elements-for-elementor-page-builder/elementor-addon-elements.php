@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Elementor Addon Elements
  * Description: Add new elements to Elementor page builder plugin.
- * Plugin URI: http://www.elementoraddons.com/
+ * Plugin URI: http://www.webtechstreet.com/
  * Author: WebTechStreet
- * Version: 1.1
+ * Version: 1.2
  * Author URI: http://www.webtchstreet.com/
  *
  * Text Domain: wts-eae
@@ -44,6 +44,7 @@ function add_new_elements(){
    require_once ELEMENTOR_ADDON_PATH.'elements/gmap.php';
 
    require_once ELEMENTOR_ADDON_PATH.'elements/image-compare.php';
+   require_once ELEMENTOR_ADDON_PATH.'elements/modal-popup.php';
 
 
 }
@@ -59,9 +60,14 @@ function eae_scripts(){
    /* animated text css and js file*/
    wp_enqueue_script('animated-main',ELEMENTOR_ADDON_URL.'assets/js/animated-main.js', array('jquery'),'1.0', true);
 
-   wp_enqueue_script('eae-main',ELEMENTOR_ADDON_URL.'assets/js/eae.js', array('jquery'),'1.0', true);
+   wp_enqueue_script('eae-main',ELEMENTOR_ADDON_URL.'assets/js/eae.js', array('jquery', 'wts-magnific'),'1.0', true);
 
-   wp_enqueue_script('eae-partices',ELEMENTOR_ADDON_URL.'assets/js/particles.js', array('jquery'),'1.0', true);
+   wp_enqueue_script('eae-particles',ELEMENTOR_ADDON_URL.'assets/js/particles.js', array('jquery'),'1.0', true);
+
+	wp_enqueue_style('vegas-css',ELEMENTOR_ADDON_URL.'assets/lib/vegas/vegas.css' );
+	wp_enqueue_script('vegas',ELEMENTOR_ADDON_URL.'assets/lib/vegas/vegas.js',array('jquery'),'2.4.0', true);
+	wp_enqueue_script('wts-magnific',ELEMENTOR_ADDON_URL.'assets/lib/magnific.js',array('jquery'),'1.9', true);
+
 
 
 
@@ -75,13 +81,16 @@ function eae_scripts(){
    
    wp_register_script('eae-stickyanything',ELEMENTOR_ADDON_URL.'assets/js/stickyanything.js',array('jquery'),'1.1.2',true);
 
+	$localize_data = array(
+		'plugin_url' => plugins_url('elementor-addon-elements')
+	);
+	wp_localize_script( 'eae-main', 'eae_editor', $localize_data );
+
 }
 add_action( 'wp_enqueue_scripts', 'eae_scripts' );
 
-
-
 function eae_editor_enqueue_scripts(){
-    wp_enqueue_script('eae-partices',ELEMENTOR_ADDON_URL.'assets/js/particles.js', array('jquery'),'1.0', true);
+    wp_enqueue_script('eae-particles',ELEMENTOR_ADDON_URL.'assets/js/particles.js', array('jquery'),'1.0', true);
 }
 add_action('elementor/editor/wp_head',  'eae_editor_enqueue_scripts');
 

@@ -1,15 +1,14 @@
 <?php
 /**
  * Plugin Name: Trending/Popular Post Slider and Widget
- * Plugin URI: https://www.wponlinesupport.com/plugins/
- * Description: Show Trending/Popular post in page and sidebar with slider/Grid block with different designs. Also work with Gutenberg shortcode block. 
- * Author: WP OnlineSupport
- * Version: 1.3
+ * Plugin URI: http://www.wponlinesupport.com/
+ * Description: Show Trending/Popular post in page and sidebar with slider/Grid block with different designs. 
+ * Author: WP Online Support 
+ * Version: 1.2.4
  * Author URI: http://www.wponlinesupport.com/
- * Text Domain: wtpsw
  *
  * @package WordPress
- * @author WP OnlineSupport
+ * @author SP Technolab
  */
 
 // Exit if accessed directly
@@ -22,7 +21,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
  * @since 1.0.0
  */
 if( !defined( 'WTPSW_VERSION' ) ) {
-	define( 'WTPSW_VERSION', '1.3' ); // Version of plugin
+	define( 'WTPSW_VERSION', '1.2.4' ); // Version of plugin
 }
 if( !defined( 'WTPSW_DIR' ) ) {
 	define( 'WTPSW_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -183,40 +182,3 @@ require_once( WTPSW_DIR . '/includes/widgets/class-wtpsw-post-list-widget.php' )
 if ( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
 	require_once( WTPSW_DIR . '/includes/admin/wtpsw-how-it-works.php' );
 }
-
-
-/* Plugin Analytics Data */
-function wpos_analytics_anl60_load() {
-
-    require_once dirname( __FILE__ ) . '/wpos-analytics/wpos-analytics.php';
-
-    $wpos_analytics =  wpos_anylc_init_module( array(
-                            'id'            => 60,
-                            'file'          => plugin_basename( __FILE__ ),
-                            'name'          => 'Trending/Popular Post Slider and Widget',
-                            'slug'          => 'wp-trending-post-slider-and-widget',
-                            'type'          => 'plugin',
-                            'menu'          => 'wtpsw-settings',
-                            'text_domain'   => 'wtpsw',
-                            'promotion'     => array(
-													'bundle' => array(
-														'name'  => 'Download FREE 50 Plugins, 10+ Themes and Dashboard Plugin',
-														'desc'  => 'Download FREE 50 Plugins, 10+ Themes and Dashboard Plugin',
-														'file'  => 'https://www.wponlinesupport.com/latest/wpos-free-50-plugins-plus-12-themes.zip'
-													)
-												),
-							'offers'        => array(
-													'trial_premium' => array(
-															1 => array(
-																'image' => 'http://analytics.wponlinesupport.com/?anylc_img=61',
-															),
-													),
-												),
-                        ));
-
-    return $wpos_analytics;
-}
-
-// Init Analytics
-wpos_analytics_anl60_load();
-/* Plugin Analytics Data Ends */

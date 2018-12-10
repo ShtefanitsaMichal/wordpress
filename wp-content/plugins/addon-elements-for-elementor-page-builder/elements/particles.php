@@ -13,10 +13,10 @@ class Particles{
         add_action( 'elementor/element/after_section_end', [ $this, 'register_controls' ], 10, 3 );
 
         // Add print template for editor preview
-        add_action( 'elementor/section/print_template', [ $this, '_print_template'],10,2);
-        //add_action( 'elementor/column/print_template', [ $this, '_print_template'],10,2);
+        add_action( 'elementor/section/print_template', [ $this, '_print_template'],9,2);
+        add_action( 'elementor/column/print_template', [ $this, '_print_template'],10,2);
 
-        //add_action( 'elementor/frontend/column/before_render', [ $this, '_before_render'],10,1);
+        add_action( 'elementor/frontend/column/before_render', [ $this, '_before_render'],10,1);
         add_action( 'elementor/frontend/section/before_render', [ $this, '_before_render'],10,1);
 
     }
@@ -29,7 +29,7 @@ class Particles{
                 'eae_particles',
                 [
                     'tab' => Controls_Manager::TAB_STYLE,
-                    'label' => __( 'Particles', 'eae' )
+                    'label' => __( 'EAE - Particles', 'eae' )
                 ]
             );
 

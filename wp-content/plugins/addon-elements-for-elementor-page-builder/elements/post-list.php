@@ -10,7 +10,7 @@ class Widget_PostList extends Widget_Base {
 	}
 
 	public function get_title() {
-		return __( 'EAE - Post List', 'elementor' );
+		return __( 'EAE - Post List', 'wts-eae' );
 	}
 
 	public function get_icon() {
@@ -25,14 +25,14 @@ class Widget_PostList extends Widget_Base {
 		$this->start_controls_section(
 			'section_post_filters',
 			[
-				'label' => __( 'Post Filters', 'elementor' )
+				'label' => __( 'Post Filters', 'wts-eae' )
 			]
 		);
 
 		$this->add_control(
 			'refer_wp_org',
 			[
-				'raw' => __( 'For more detail about following filters please refer <a href="https://codex.wordpress.org/Template_Tags/get_posts" target="_blank">here</a>', 'elementor' ),
+				'raw' => __( 'For more detail about following filters please refer <a href="https://codex.wordpress.org/Template_Tags/get_posts" target="_blank">here</a>', 'wts-eae' ),
 				'type' => Controls_Manager::RAW_HTML,
 				'classes' => 'elementor-descriptor',
 			]
@@ -41,7 +41,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
             'post_type',
             [
-                'label' => __( 'Post Type', 'elementor' ),
+                'label' => __( 'Post Type', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => eae_get_post_types(),
                 'default' => 'post',
@@ -52,8 +52,8 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'category',
             [
-                'label' => __( 'Category ID', 'elementor' ),
-                'description' => __('Comma separated list of category ids','elementor'),
+                'label' => __( 'Category ID', 'wts-eae' ),
+                'description' => __('Comma separated list of category ids','wts-eae'),
                 'type' => Controls_Manager::TEXT,
                 'default' => '',
                 'condition' => [
@@ -65,7 +65,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'num_posts',
             [
-                'label' => __( 'Number of Posts', 'elementor' ),
+                'label' => __( 'Number of Posts', 'wts-eae' ),
                 'type' => Controls_Manager::NUMBER,
                 'default' => '5'
             ]
@@ -74,7 +74,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'post_offset',
             [
-                'label' => __( 'Post Offset', 'elementor' ),
+                'label' => __( 'Post Offset', 'wts-eae' ),
                 'type' => Controls_Manager::NUMBER,
                 'default' => '0'
             ]
@@ -83,7 +83,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'orderby',
             [
-                'label' => __( 'Order By', 'elementor' ),
+                'label' => __( 'Order By', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => eae_get_post_orderby_options(),
                 'default' => 'date',
@@ -94,7 +94,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'order',
             [
-                'label' => __( 'Order', 'elementor' ),
+                'label' => __( 'Order', 'wts-eae' ),
                 'type' => Controls_Manager::SELECT,
                 'options' => [
                     'asc' => 'Ascending',
@@ -110,7 +110,7 @@ class Widget_PostList extends Widget_Base {
         $this->start_controls_section(
 			'section_layout_settings',
 			[
-				'label' => __( 'Layout Settings', 'elementor' )
+				'label' => __( 'Layout Settings', 'wts-eae' )
 			]
 		);
 
@@ -118,15 +118,15 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'show_image',
             [
-                'label' => __( 'Show Image', 'elementor' ),
+                'label' => __( 'Show Image', 'wts-eae' ),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
 					'1' => [
-						'title' => __( 'Yes', 'elementor' ),
+						'title' => __( 'Yes', 'wts-eae' ),
 						'icon' => 'fa fa-check',
 					],
 					'0' => [
-						'title' => __( 'No', 'elementor' ),
+						'title' => __( 'No', 'wts-eae' ),
 						'icon' => 'fa fa-ban',
 					]
 				],
@@ -147,19 +147,19 @@ class Widget_PostList extends Widget_Base {
 		$this->add_responsive_control(
 			'image_align',
 			[
-				'label' => __( 'Image Alignment', 'elementor' ),
+				'label' => __( 'Image Alignment', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'none' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					]
 				],
@@ -177,7 +177,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_responsive_control(
 			'image_indent',
 			[
-				'label' => __( 'Image Indent', 'elementor' ),
+				'label' => __( 'Image Indent', 'wts-eae' ),
 				'type' => Controls_Manager::SLIDER,
 				'range' => [
 					'px' => [
@@ -202,15 +202,15 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
             'show_title',
             [
-                'label' => __( 'Show Title', 'elementor' ),
+                'label' => __( 'Show Title', 'wts-eae' ),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
 					'1' => [
-						'title' => __( 'Yes', 'elementor' ),
+						'title' => __( 'Yes', 'wts-eae' ),
 						'icon' => 'fa fa-check',
 					],
 					'0' => [
-						'title' => __( 'No', 'elementor' ),
+						'title' => __( 'No', 'wts-eae' ),
 						'icon' => 'fa fa-ban',
 					]
 				],
@@ -221,15 +221,15 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'title_on_top',
             [
-                'label' => __( 'Title on top', 'elementor' ),
+                'label' => __( 'Title on top', 'wts-eae' ),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
 					'top' => [
-						'title' => __( 'Yes', 'elementor' ),
+						'title' => __( 'Yes', 'wts-eae' ),
 						'icon' => 'fa fa-check',
 					],
 					'0' => [
-						'title' => __( 'No', 'elementor' ),
+						'title' => __( 'No', 'wts-eae' ),
 						'icon' => 'fa fa-ban',
 					]
 				],
@@ -243,15 +243,15 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
             'show_excrept',
             [
-                'label' => __( 'Show Excrept', 'elementor' ),
+                'label' => __( 'Show Excrept', 'wts-eae' ),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
 					'1' => [
-						'title' => __( 'Yes', 'elementor' ),
+						'title' => __( 'Yes', 'wts-eae' ),
 						'icon' => 'fa fa-check',
 					],
 					'0' => [
-						'title' => __( 'No', 'elementor' ),
+						'title' => __( 'No', 'wts-eae' ),
 						'icon' => 'fa fa-ban',
 					]
 				],
@@ -262,7 +262,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'excrept_size',
             [
-                'label' => __( 'Excrept Size', 'elementor' ),
+                'label' => __( 'Excrept Size', 'wts-eae' ),
                 'type' => Controls_Manager::NUMBER,
                 'default' => '10',
                 'condition' => [
@@ -275,15 +275,15 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'show_read_more',
             [
-                'label' => __( 'Show Read More', 'elementor' ),
+                'label' => __( 'Show Read More', 'wts-eae' ),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
 					'1' => [
-						'title' => __( 'Yes', 'elementor' ),
+						'title' => __( 'Yes', 'wts-eae' ),
 						'icon' => 'fa fa-check',
 					],
 					'0' => [
-						'title' => __( 'No', 'elementor' ),
+						'title' => __( 'No', 'wts-eae' ),
 						'icon' => 'fa fa-ban',
 					]
 				],
@@ -294,10 +294,10 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
             'read_more_text',
             [
-                'label' => __( 'Read More Text', 'elementor' ),
+                'label' => __( 'Read More Text', 'wts-eae' ),
                 'type' => Controls_Manager::TEXT,
-                'placeholder' => __( 'Read More', 'elementor' ),
-                'default' => __( 'Read More', 'elementor' ),
+                'placeholder' => __( 'Read More', 'wts-eae' ),
+                'default' => __( 'Read More', 'wts-eae' ),
                 'condition' => [
                     'show_read_more' => '1',
                 ]
@@ -310,7 +310,7 @@ class Widget_PostList extends Widget_Base {
         $this->start_controls_section(
             'section-general-style',
             [
-                'label' => __( 'General', 'elementor' ),
+                'label' => __( 'General', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
             ]
         );
@@ -318,7 +318,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
 			'heading_image_border',
 			[
-				'label' => __( 'Image Border', 'elementor' ),
+				'label' => __( 'Image Border', 'wts-eae' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -328,7 +328,7 @@ class Widget_PostList extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'image_border',
-				'label' => __( 'Image Border', 'elementor' ),
+				'label' => __( 'Image Border', 'wts-eae' ),
 				'selector' => '{{WRAPPER}} .eae-pl-image-wrapper a img',
 			]
 		);
@@ -336,7 +336,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'image_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -351,7 +351,7 @@ class Widget_PostList extends Widget_Base {
         $this->start_controls_section(
             'section-item-typography',
             [
-                'label' => __( 'Typography', 'elementor' ),
+                'label' => __( 'Typography', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
             ]
         );
@@ -359,7 +359,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'heading_title_typography',
 			[
-				'label' => __( 'Title Typography', 'elementor' ),
+				'label' => __( 'Title Typography', 'wts-eae' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -368,7 +368,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
 			'title_color',
 			[
-				'label' => __( 'Title Color', 'elementor' ),
+				'label' => __( 'Title Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 					'type' => Scheme_Color::get_type(),
@@ -384,19 +384,19 @@ class Widget_PostList extends Widget_Base {
 		$this->add_responsive_control(
 			'title_align',
 			[
-				'label' => __( 'Title Align', 'elementor' ),
+				'label' => __( 'Title Align', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					]
 				],
@@ -410,7 +410,7 @@ class Widget_PostList extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'title_typography',
-				'label' => __( 'Title Typography', 'elementor' ),
+				'label' => __( 'Title Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .eae-pl-title a',
 			]
@@ -419,7 +419,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'heading_excrept_typography',
 			[
-				'label' => __( 'Excrept Typography', 'elementor' ),
+				'label' => __( 'Excrept Typography', 'wts-eae' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -428,7 +428,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
 			'excrept_color',
 			[
-				'label' => __( 'Excrept Color', 'elementor' ),
+				'label' => __( 'Excrept Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 					'type' => Scheme_Color::get_type(),
@@ -443,23 +443,23 @@ class Widget_PostList extends Widget_Base {
         $this->add_responsive_control(
 			'excrept_align',
 			[
-				'label' => __( 'Excrept Align', 'elementor' ),
+				'label' => __( 'Excrept Align', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					],
 					'justify' => [
-						'title' => __( 'Justified', 'elementor' ),
+						'title' => __( 'Justified', 'wts-eae' ),
 						'icon' => 'fa fa-align-justify',
 					],
 				],
@@ -473,7 +473,7 @@ class Widget_PostList extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'excrept_typography',
-				'label' => __( 'Excrept Typography', 'elementor' ),
+				'label' => __( 'Excrept Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .eae-pl-content-box',
 			]
@@ -482,7 +482,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'heading_readmore_typography',
 			[
-				'label' => __( 'Readmore Typography', 'elementor' ),
+				'label' => __( 'Readmore Typography', 'wts-eae' ),
 				'type' => Controls_Manager::HEADING,
 				'separator' => 'before',
 			]
@@ -491,7 +491,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'readmore_color',
 			[
-				'label' => __( 'Readmore Color', 'elementor' ),
+				'label' => __( 'Readmore Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 					'type' => Scheme_Color::get_type(),
@@ -506,19 +506,19 @@ class Widget_PostList extends Widget_Base {
         $this->add_responsive_control(
 			'readmore_align',
 			[
-				'label' => __( 'Readmore Align', 'elementor' ),
+				'label' => __( 'Readmore Align', 'wts-eae' ),
 				'type' => Controls_Manager::CHOOSE,
 				'options' => [
 					'left' => [
-						'title' => __( 'Left', 'elementor' ),
+						'title' => __( 'Left', 'wts-eae' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => __( 'Center', 'elementor' ),
+						'title' => __( 'Center', 'wts-eae' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => __( 'Right', 'elementor' ),
+						'title' => __( 'Right', 'wts-eae' ),
 						'icon' => 'fa fa-align-right',
 					]
 				],
@@ -533,7 +533,7 @@ class Widget_PostList extends Widget_Base {
 			Group_Control_Typography::get_type(),
 			[
 				'name' => 'readmore_typography',
-				'label' => __( 'Readmore Typography', 'elementor' ),
+				'label' => __( 'Readmore Typography', 'wts-eae' ),
 				'scheme' => Scheme_Typography::TYPOGRAPHY_3,
 				'selector' => '{{WRAPPER}} .eae-pl-readmore a',
 			]
@@ -546,7 +546,7 @@ class Widget_PostList extends Widget_Base {
 		$this->start_controls_section(
             'section-list-item-style',
             [
-                'label' => __( 'List Item Style', 'elementor' ),
+                'label' => __( 'List Item Style', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
             ]
         );
@@ -554,7 +554,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_responsive_control(
 			'list_item_padding',
 			[
-				'label' => __( 'List Item Padding', 'elementor' ),
+				'label' => __( 'List Item Padding', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -566,7 +566,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_responsive_control(
 			'list_item_margin',
 			[
-				'label' => __( 'List Item Margin', 'elementor' ),
+				'label' => __( 'List Item Margin', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -579,7 +579,7 @@ class Widget_PostList extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'list_item_border',
-				'label' => __( 'Image Border', 'elementor' ),
+				'label' => __( 'Image Border', 'wts-eae' ),
 				'selector' => '{{WRAPPER}} .wts-eae-pl-wrapper > ul > li',
 			]
 		);
@@ -587,7 +587,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'list_item_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -601,7 +601,7 @@ class Widget_PostList extends Widget_Base {
         $this->start_controls_section(
             'section-readmore_button',
             [
-                'label' => __( 'Read More Button', 'elementor' ),
+                'label' => __( 'Read More Button', 'wts-eae' ),
                 'tab' => Controls_Manager::TAB_STYLE
             ]
         );
@@ -609,7 +609,7 @@ class Widget_PostList extends Widget_Base {
         $this->add_control(
 			'readmore_bg',
 			[
-				'label' => __( 'Background Color', 'elementor' ),
+				'label' => __( 'Background Color', 'wts-eae' ),
 				'type' => Controls_Manager::COLOR,
 				'scheme' => [
 					'type' => Scheme_Color::get_type(),
@@ -625,7 +625,7 @@ class Widget_PostList extends Widget_Base {
 			Group_Control_Border::get_type(),
 			[
 				'name' => 'readmore_border',
-				'label' => __( 'Border', 'elementor' ),
+				'label' => __( 'Border', 'wts-eae' ),
 				'default' => '1px',
 				'selector' => '{{WRAPPER}} .eae-pl-readmore a',
 			]
@@ -634,7 +634,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'readmore_border_radius',
 			[
-				'label' => __( 'Border Radius', 'elementor' ),
+				'label' => __( 'Border Radius', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', '%' ],
 				'selectors' => [
@@ -646,7 +646,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'readmore_text_padding',
 			[
-				'label' => __( 'Text Padding', 'elementor' ),
+				'label' => __( 'Text Padding', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -658,7 +658,7 @@ class Widget_PostList extends Widget_Base {
 		$this->add_control(
 			'readmore_text_margin',
 			[
-				'label' => __( 'Read More Margin', 'elementor' ),
+				'label' => __( 'Read More Margin', 'wts-eae' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -691,14 +691,12 @@ class Widget_PostList extends Widget_Base {
                                 <li>
                                     <?php if($settings['show_title'] && ($settings['title_on_top'] == 'top')){ ?>
                                         <h3 class="eae-pl-title"><a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-									
                                     <?php } ?>
                                     <?php if($settings['show_image'] == 1){ ?>
                                     <div class="eae-pl-image-wrapper">
                                         <a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
                                             <?php the_post_thumbnail($settings['image_size']); ?>
                                         </a>
-										 
                                     </div>
                                     <?php } ?>
                                     <div class="eae-pl-content-box-wrapper">
@@ -707,20 +705,10 @@ class Widget_PostList extends Widget_Base {
                                                 <h3 class="eae-pl-title"><a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
                                             <?php } ?>
 
-										
-										<!-- Podlinkowanie w treśći m.sztefanica -->
-                                        <?php if($settings['show_excrept']){ ?>
-                                        <div class="eae-pl-content-box">
-										<i><a href="<?php echo get_permalink(); ?>" 
-										   style="	color: #825e24;
-												  	text-align: left;
-													font-size: 20px;" >
-											<?php echo eae_get_excerpt_by_id(get_the_ID(),$settings['excrept_size']);?></a></i>  
-                                        </div>
-										<!--Koniec Podlinkowanie w treśći m.sztefanica -->
-										
-										
-										
+                                           <?php if($settings['show_excrept']){ ?>
+                                               <div class="eae-pl-content-box">
+                                                    <?php echo  eae_get_excerpt_by_id(get_the_ID(),$settings['excrept_size']);?>
+                                               </div>
                                            <?php } ?>
 
                                            <?php if($settings['show_read_more']){ ?>
@@ -729,24 +717,6 @@ class Widget_PostList extends Widget_Base {
                                                </div>
                                            <?php } ?>
                                     </div>
-									
-								<!-- Show data and author of a post by m.sztefanica-->
-								
-									<div style="margin-top: 100px;">
-										<hr style="display: block;
-    												margin-top: 0.5em;
-    												margin-bottom: 0.5em;
-													margin-left: auto;
-													margin-right: auto;
-													border-style: inset;
-													border-width: 1px;" >
-										<?php $auth_name = get_the_author_meta( 'display_name' ); ?>
-										<span class="entry-date"><?php echo get_the_date(); ?></span>
-										<br>
-										<span>Przez: <i><b><?php echo $auth_name ?></b></i></span>		
-									</div>	
-								<!-- //END Show date and author of a post -->	
-									
                                 </li>
                                 <?php
                                 }
@@ -757,7 +727,6 @@ class Widget_PostList extends Widget_Base {
                     }
                 ?>
             </div>
-	
         <?php
 	}
 

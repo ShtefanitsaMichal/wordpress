@@ -155,6 +155,18 @@ class Widget_TextSeparator extends Widget_Base {
 			]
 		);
 
+		$this->add_control(
+		        'animate',
+                [
+                        'label' =>  __('Animate Marker' , 'wts-eae'),
+                        'type'  =>  Controls_Manager::SWITCHER,
+                        'default'      => '',
+                        'label_on'     => __( 'Yes', 'wts-eae' ),
+                        'label_off'    => __( 'No', 'wts-eae' ),
+                        'return_value' => 'yes',
+                ]
+        );
+
 
 
 		$this->add_control(
@@ -178,6 +190,8 @@ class Widget_TextSeparator extends Widget_Base {
         $this->add_render_attribute('wrapper', 'data-zoom', $settings['zoom']['size']);
 
         $this->add_render_attribute('wrapper', 'data-style', $settings['snazzy_style']);
+
+        $this->add_render_attribute('wrapper' , 'data-animate' , 'animate-'.$settings['animate']);
 
         if(count($markers)){
         	?>
